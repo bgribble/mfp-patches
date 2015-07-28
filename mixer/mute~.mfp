@@ -1,0 +1,222 @@
+{
+    "gui_params": {
+        "display_type": "patch",
+        "dsp_outlets": [
+            0
+        ],
+        "layers": [
+            [
+                "Layer 0",
+                "__patch__"
+            ]
+        ],
+        "name": "mute~",
+        "num_inlets": 1,
+        "num_outlets": 1,
+        "obj_id": 125,
+        "top_level": true
+    },
+    "hot_inlets": [
+        0
+    ],
+    "objects": {
+        "126": {
+            "connections": [
+                [
+                    [
+                        127,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 147.8404541015625,
+                "position_y": 99.45016479492188,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 56.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_036",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "127": {
+            "connections": [
+                [
+                    [
+                        132,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        133,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 148.3437957763672,
+                "position_y": 145.5754165649414,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 76.0
+            },
+            "initargs": "True",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_037",
+            "osc_methods": [],
+            "properties": {},
+            "type": "case"
+        },
+        "128": {
+            "connections": [
+                [
+                    [
+                        129,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 184.556884765625,
+                "position_y": 242.28924560546875,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 45.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_038",
+            "osc_methods": [],
+            "properties": {},
+            "type": "line~"
+        },
+        "129": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 184.40003967285156,
+                "position_y": 290.6822204589844,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_039",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet~"
+        },
+        "132": {
+            "connections": [
+                [
+                    [
+                        128,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 149.28482055664062,
+                "position_y": 189.45974731445312,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 65.0
+            },
+            "initargs": "[0, 20]",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "133": {
+            "connections": [
+                [
+                    [
+                        128,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 213.66134643554688,
+                "position_y": 189.58197021484375,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 65.0
+            },
+            "initargs": "[1, 20]",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        }
+    },
+    "scopes": {
+        "__patch__": {
+            "message_005": 132,
+            "message_006": 133,
+            "patch": 125,
+            "processor_036": 126,
+            "processor_037": 127,
+            "processor_038": 128,
+            "processor_039": 129,
+            "self": 125
+        }
+    },
+    "type": "mute~"
+}

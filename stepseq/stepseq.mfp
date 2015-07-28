@@ -1,0 +1,186 @@
+{
+    "gui_params": {
+        "display_type": "patch",
+        "layers": [
+            [
+                "Layer 0",
+                "__patch__"
+            ]
+        ],
+        "name": "stepseq",
+        "num_inlets": 1,
+        "num_outlets": 1
+    },
+    "hot_inlets": [
+        0
+    ],
+    "objects": {
+        "2": {
+            "connections": [
+                [
+                    [
+                        3,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 124.98089599609375,
+                "position_y": 62.557861328125,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 43.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "3": {
+            "connections": [
+                [
+                    [
+                        4,
+                        0
+                    ],
+                    [
+                        6,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 124.98091125488281,
+                "position_y": 132.55587005615234,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 46.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": 0
+        },
+        "4": {
+            "connections": [
+                [
+                    [
+                        5,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 209.7895050048828,
+                "position_y": 136.51661682128906,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 37.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "+"
+        },
+        "5": {
+            "connections": [
+                [
+                    [
+                        3,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 209.7895050048828,
+                "position_y": 184.51661682128906,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 114.0
+            },
+            "initargs": "patch.args(0)",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "%"
+        },
+        "6": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 124.98091125488281,
+                "position_y": 237.40572357177734,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 54.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet"
+        }
+    },
+    "scopes": {
+        "__patch__": {
+            "patch": 1,
+            "processor_001": 2,
+            "processor_002": 3,
+            "processor_003": 4,
+            "processor_004": 5,
+            "processor_005": 6,
+            "self": 1
+        }
+    },
+    "type": "stepseq"
+}

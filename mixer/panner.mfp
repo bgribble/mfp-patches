@@ -1,0 +1,405 @@
+{
+    "gui_params": {
+        "display_type": "patch",
+        "layers": [
+            [
+                "Layer 0",
+                "__patch__"
+            ]
+        ],
+        "name": "panner"
+    },
+    "hot_inlets": [
+        0
+    ],
+    "objects": {
+        "337": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 272.70423889160156,
+                "position_y": 375.93768310546875,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "stereo_left",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet~"
+        },
+        "338": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 353.52215576171875,
+                "position_y": 374.7470703125,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "stereo_right",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet~"
+        },
+        "339": {
+            "connections": [
+                [
+                    [
+                        337,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 272.5731964111328,
+                "position_y": 323.63372802734375,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "0.708",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "*~"
+        },
+        "340": {
+            "connections": [
+                [
+                    [
+                        338,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 353.33409881591797,
+                "position_y": 323.6914978027344,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "0.708",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "*~"
+        },
+        "341": {
+            "connections": [
+                [
+                    [
+                        345,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 46.76034232143511,
+                "position_y": 210.50831394833955,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 239.0
+            },
+            "initargs": "x: math.cos(math.pi * x / 2.0)",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_009",
+            "osc_methods": [],
+            "properties": {},
+            "type": "func"
+        },
+        "342": {
+            "connections": [
+                [
+                    [
+                        350,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 68.86763000488281,
+                "position_y": 170.07482147216797,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 235.0
+            },
+            "initargs": "x: math.sin(math.pi * x / 2.0)",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_010",
+            "osc_methods": [],
+            "properties": {},
+            "type": "func"
+        },
+        "343": {
+            "connections": [
+                [
+                    [
+                        339,
+                        0
+                    ],
+                    [
+                        340,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 355.10911560058594,
+                "position_y": 55.630271911621094,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 64.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "mono_signal",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet~"
+        },
+        "344": {
+            "connections": [
+                [
+                    [
+                        342,
+                        0
+                    ],
+                    [
+                        341,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 47.04339599609375,
+                "position_y": 115.75273132324219,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 56.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "pan_control",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "345": {
+            "connections": [
+                [
+                    [
+                        339,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 46.760342321435104,
+                "position_y": 258.50831394833955,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 84.0
+            },
+            "initargs": "100",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slew~"
+        },
+        "347": {
+            "connections": [
+                [
+                    [
+                        348,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 152.8135986328125,
+                "position_y": 32.988826751708984,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 72.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_020",
+            "osc_methods": [],
+            "properties": {},
+            "type": "loadbang"
+        },
+        "348": {
+            "connections": [
+                [
+                    [
+                        344,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 152.8135986328125,
+                "position_y": 80.98882293701172,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 167.0
+            },
+            "initargs": "patch.args(0) or 0.708",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "350": {
+            "connections": [
+                [
+                    [
+                        340,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Layer 0",
+                "no_export": false,
+                "position_x": 146.7725830078125,
+                "position_y": 259.10626220703125,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 84.0
+            },
+            "initargs": "100",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slew~"
+        }
+    },
+    "scopes": {
+        "__patch__": {
+            "message_003": 348,
+            "mono_signal": 343,
+            "pan_control": 344,
+            "patch": 336,
+            "processor_002": 345,
+            "processor_003": 350,
+            "processor_005": 339,
+            "processor_006": 340,
+            "processor_009": 341,
+            "processor_010": 342,
+            "processor_020": 347,
+            "self": 336,
+            "stereo_left": 337,
+            "stereo_right": 338
+        }
+    },
+    "type": "panner"
+}
