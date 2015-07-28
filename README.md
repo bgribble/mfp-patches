@@ -1,4 +1,4 @@
-### grib's MFP patch repo
+### bgribble's MFP patch repo
 
 MFP is https://github.com/bgribble/mfp ... see the README there
 for an overview. 
