@@ -2,8 +2,8 @@
     "gui_params": {
         "display_type": "patch",
         "export_h": 515.8088340759277,
-        "export_w": 395.5562057495117,
-        "export_x": 49.94664764404297,
+        "export_w": 396.6308364868164,
+        "export_x": 48.87201690673828,
         "export_y": 38.946651458740234,
         "layers": [
             [
@@ -47,7 +47,7 @@
                 "__patch__"
             ]
         ],
-        "name": "mix8bus"
+        "name": "mix8bus-1"
     },
     "hot_inlets": [
         0
@@ -105,25 +105,25 @@
                 ],
                 [
                     [
-                        260,
+                        239,
                         0
                     ]
                 ],
                 [
                     [
-                        262,
+                        240,
                         0
                     ]
                 ],
                 [
                     [
-                        264,
+                        241,
                         0
                     ]
                 ],
                 [
                     [
-                        266,
+                        242,
                         0
                     ]
                 ]
@@ -131,7 +131,7 @@
             "do_onload": true,
             "gui_params": {
                 "display_type": "processor",
-                "height": 270.59002685546875,
+                "height": 283.0039978027344,
                 "is_export": false,
                 "layername": "Interface",
                 "no_export": false,
@@ -150,11 +150,11 @@
             "properties": {},
             "type": "pmix_channel"
         },
-        "125": {
+        "129": {
             "connections": [
                 [
                     [
-                        158,
+                        162,
                         0
                     ]
                 ]
@@ -188,7 +188,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "126": {
+        "130": {
             "connections": [
                 []
             ],
@@ -222,11 +222,11 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "127": {
+        "131": {
             "connections": [
                 [
                     [
-                        166,
+                        170,
                         0
                     ]
                 ]
@@ -234,17 +234,18 @@
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "MUTE",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 52.00186538696289,
-                "position_y": 267.4604797363281,
+                "position_x": 48.87686538696289,
+                "position_y": 264.4604797363281,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52.0
             },
             "initargs": "False",
             "midi_filters": null,
@@ -255,11 +256,11 @@
             "type": "var",
             "value": false
         },
-        "128": {
+        "132": {
             "connections": [
                 [
                     [
-                        165,
+                        169,
                         0
                     ]
                 ]
@@ -267,17 +268,18 @@
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "L-R",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 50.99701690673828,
-                "position_y": 292.58819580078125,
+                "position_x": 48.87201690673828,
+                "position_y": 294.15069580078125,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52 
             },
             "initargs": "False",
             "midi_filters": null,
@@ -288,11 +290,11 @@
             "type": "var",
             "value": false
         },
-        "129": {
+        "133": {
             "connections": [
                 [
                     [
-                        187,
+                        191,
                         0
                     ]
                 ]
@@ -326,7 +328,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "130": {
+        "134": {
             "connections": [
                 []
             ],
@@ -360,11 +362,11 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "131": {
+        "135": {
             "connections": [
                 [
                     [
-                        188,
+                        192,
                         0
                     ]
                 ]
@@ -372,17 +374,18 @@
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "MUTE",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 110.37686538696289,
-                "position_y": 267.4604797363281,
+                "position_x": 108.81436538696289,
+                "position_y": 264.3354797363281,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52.0
             },
             "initargs": "False",
             "midi_filters": null,
@@ -393,11 +396,11 @@
             "type": "var",
             "value": false
         },
-        "132": {
+        "136": {
             "connections": [
                 [
                     [
-                        189,
+                        193,
                         0
                     ]
                 ]
@@ -405,17 +408,18 @@
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "L-R",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 110.37201690673828,
-                "position_y": 292.58819580078125,
+                "position_x": 108.80951690673828,
+                "position_y": 294.15069580078125,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52.0
             },
             "initargs": "False",
             "midi_filters": null,
@@ -426,7 +430,7 @@
             "type": "var",
             "value": false
         },
-        "133": {
+        "137": {
             "connections": [
                 []
             ],
@@ -459,7 +463,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "134": {
+        "138": {
             "connections": [
                 []
             ],
@@ -492,24 +496,25 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "135": {
+        "139": {
             "connections": [
                 []
             ],
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "MUTE",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 169.7518653869629,
-                "position_y": 267.4604797363281,
+                "position_x": 168.1893653869629,
+                "position_y": 264.3354797363281,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52.0
             },
             "initargs": "False",
             "midi_filters": null,
@@ -520,24 +525,25 @@
             "type": "var",
             "value": false
         },
-        "136": {
+        "140": {
             "connections": [
                 []
             ],
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "L-R",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 169.74701690673828,
-                "position_y": 292.58819580078125,
+                "position_x": 168.18451690673828,
+                "position_y": 294.15069580078125,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52.0
             },
             "initargs": "False",
             "midi_filters": null,
@@ -548,7 +554,7 @@
             "type": "var",
             "value": false
         },
-        "137": {
+        "141": {
             "connections": [
                 []
             ],
@@ -581,7 +587,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "138": {
+        "142": {
             "connections": [
                 []
             ],
@@ -614,24 +620,25 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "139": {
+        "143": {
             "connections": [
                 []
             ],
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "MUTE",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 229.1268653869629,
-                "position_y": 267.4604797363281,
+                "position_x": 227.5643653869629,
+                "position_y": 264.3354797363281,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52.0
             },
             "initargs": "False",
             "midi_filters": null,
@@ -642,24 +649,25 @@
             "type": "var",
             "value": false
         },
-        "140": {
+        "144": {
             "connections": [
                 []
             ],
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
-                "height": 20,
+                "height": 27.0,
                 "is_export": false,
+                "label_text": "L-R",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 229.12201690673828,
-                "position_y": 292.58819580078125,
+                "position_x": 227.55951690673828,
+                "position_y": 294.15069580078125,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 45
+                "width": 52
             },
             "initargs": "False",
             "midi_filters": null,
@@ -670,11 +678,11 @@
             "type": "var",
             "value": false
         },
-        "141": {
+        "145": {
             "connections": [
                 [
                     [
-                        148,
+                        152,
                         0
                     ]
                 ]
@@ -708,7 +716,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "142": {
+        "146": {
             "connections": [
                 []
             ],
@@ -742,7 +750,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "143": {
+        "147": {
             "connections": [
                 []
             ],
@@ -776,11 +784,11 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "144": {
+        "148": {
             "connections": [
                 [
                     [
-                        350,
+                        305,
                         0
                     ]
                 ]
@@ -815,11 +823,11 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "145": {
+        "149": {
             "connections": [
                 [
                     [
-                        352,
+                        306,
                         0
                     ]
                 ]
@@ -854,11 +862,11 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "146": {
+        "150": {
             "connections": [
                 [
                     [
-                        354,
+                        307,
                         0
                     ]
                 ]
@@ -893,11 +901,11 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "147": {
+        "151": {
             "connections": [
                 [
                     [
-                        356,
+                        308,
                         0
                     ]
                 ]
@@ -932,7 +940,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "148": {
+        "152": {
             "connections": [
                 []
             ],
@@ -944,8 +952,8 @@
                 "label_text": "gain_master",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 50.40265655517578,
-                "position_y": 575.755485534668,
+                "position_x": 0,
+                "position_y": 542.755485534668,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -958,11 +966,11 @@
             "properties": {},
             "type": "send"
         },
-        "149": {
+        "153": {
             "connections": [
                 [
                     [
-                        152,
+                        156,
                         0
                     ]
                 ]
@@ -989,11 +997,11 @@
             "properties": {},
             "type": "recv"
         },
-        "150": {
+        "154": {
             "connections": [
                 [
                     [
-                        154,
+                        158,
                         0
                     ]
                 ]
@@ -1020,11 +1028,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "151": {
+        "155": {
             "connections": [
                 [
                     [
-                        155,
+                        159,
                         0
                     ]
                 ]
@@ -1051,11 +1059,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "152": {
+        "156": {
             "connections": [
                 [
                     [
-                        153,
+                        157,
                         0
                     ]
                 ]
@@ -1082,15 +1090,15 @@
             "properties": {},
             "type": "db2a"
         },
-        "153": {
+        "157": {
             "connections": [
                 [
                     [
-                        154,
+                        158,
                         1
                     ],
                     [
-                        155,
+                        159,
                         1
                     ]
                 ]
@@ -1117,15 +1125,15 @@
             "properties": {},
             "type": "slew~"
         },
-        "154": {
+        "158": {
             "connections": [
                 [
                     [
-                        156,
+                        160,
                         0
                     ],
                     [
-                        185,
+                        189,
                         0
                     ]
                 ]
@@ -1152,15 +1160,15 @@
             "properties": {},
             "type": "*~"
         },
-        "155": {
+        "159": {
             "connections": [
                 [
                     [
-                        157,
+                        161,
                         0
                     ],
                     [
-                        186,
+                        190,
                         0
                     ]
                 ]
@@ -1187,11 +1195,11 @@
             "properties": {},
             "type": "*~"
         },
-        "156": {
+        "160": {
             "connections": [
                 [
                     [
-                        181,
+                        185,
                         0
                     ]
                 ],
@@ -1219,11 +1227,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "157": {
+        "161": {
             "connections": [
                 [
                     [
-                        183,
+                        187,
                         0
                     ]
                 ],
@@ -1251,7 +1259,7 @@
             "properties": {},
             "type": "ampl~"
         },
-        "158": {
+        "162": {
             "connections": [
                 []
             ],
@@ -1263,8 +1271,8 @@
                 "label_text": "gain_bus12",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 52.93707275390625,
-                "position_y": 316.6041564941406,
+                "position_x": 0,
+                "position_y": 250.6363525390625,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -1277,11 +1285,11 @@
             "properties": {},
             "type": "send"
         },
-        "159": {
+        "163": {
             "connections": [
                 [
                     [
-                        168,
+                        172,
                         0
                     ]
                 ]
@@ -1308,11 +1316,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "160": {
+        "164": {
             "connections": [
                 [
                     [
-                        169,
+                        173,
                         0
                     ]
                 ]
@@ -1339,11 +1347,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "161": {
+        "165": {
             "connections": [
                 [
                     [
-                        162,
+                        166,
                         0
                     ]
                 ]
@@ -1370,11 +1378,11 @@
             "properties": {},
             "type": "recv"
         },
-        "162": {
+        "166": {
             "connections": [
                 [
                     [
-                        163,
+                        167,
                         0
                     ]
                 ]
@@ -1401,15 +1409,15 @@
             "properties": {},
             "type": "db2a"
         },
-        "163": {
+        "167": {
             "connections": [
                 [
                     [
-                        169,
+                        173,
                         1
                     ],
                     [
-                        168,
+                        172,
                         1
                     ]
                 ]
@@ -1436,11 +1444,11 @@
             "properties": {},
             "type": "slew~"
         },
-        "164": {
+        "168": {
             "connections": [
                 [
                     [
-                        219,
+                        221,
                         0
                     ]
                 ]
@@ -1467,7 +1475,7 @@
             "properties": {},
             "type": "recv"
         },
-        "165": {
+        "169": {
             "connections": [
                 []
             ],
@@ -1479,8 +1487,8 @@
                 "label_text": "assign_bus12",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 67.9274673461914,
-                "position_y": 316.6078796386719,
+                "position_x": 0,
+                "position_y": 312.64007568359375,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -1493,7 +1501,7 @@
             "properties": {},
             "type": "send"
         },
-        "166": {
+        "170": {
             "connections": [
                 []
             ],
@@ -1505,8 +1513,8 @@
                 "label_text": "mute_bus12",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 82.91252899169922,
-                "position_y": 316.6078796386719,
+                "position_x": 0,
+                "position_y": 282.64007568359375,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -1519,11 +1527,11 @@
             "properties": {},
             "type": "send"
         },
-        "167": {
+        "171": {
             "connections": [
                 [
                     [
-                        210,
+                        214,
                         0
                     ]
                 ]
@@ -1550,11 +1558,11 @@
             "properties": {},
             "type": "recv"
         },
-        "168": {
+        "172": {
             "connections": [
                 [
                     [
-                        170,
+                        174,
                         0
                     ]
                 ]
@@ -1581,11 +1589,11 @@
             "properties": {},
             "type": "*~"
         },
-        "169": {
+        "173": {
             "connections": [
                 [
                     [
-                        171,
+                        175,
                         0
                     ]
                 ]
@@ -1612,19 +1620,19 @@
             "properties": {},
             "type": "*~"
         },
-        "170": {
+        "174": {
             "connections": [
                 [
-                    [
-                        172,
-                        0
-                    ],
                     [
                         176,
                         0
                     ],
                     [
-                        179,
+                        180,
+                        0
+                    ],
+                    [
+                        183,
                         0
                     ]
                 ]
@@ -1651,19 +1659,19 @@
             "properties": {},
             "type": "*~"
         },
-        "171": {
+        "175": {
             "connections": [
                 [
                     [
-                        173,
-                        0
-                    ],
-                    [
-                        176,
+                        177,
                         0
                     ],
                     [
                         180,
+                        0
+                    ],
+                    [
+                        184,
                         0
                     ]
                 ]
@@ -1690,11 +1698,11 @@
             "properties": {},
             "type": "*~"
         },
-        "172": {
+        "176": {
             "connections": [
                 [
                     [
-                        174,
+                        178,
                         0
                     ]
                 ]
@@ -1721,11 +1729,11 @@
             "properties": {},
             "type": "*~"
         },
-        "173": {
+        "177": {
             "connections": [
                 [
                     [
-                        175,
+                        179,
                         0
                     ]
                 ]
@@ -1752,7 +1760,7 @@
             "properties": {},
             "type": "*~"
         },
-        "174": {
+        "178": {
             "connections": [
                 []
             ],
@@ -1778,7 +1786,7 @@
             "properties": {},
             "type": "send~"
         },
-        "175": {
+        "179": {
             "connections": [
                 []
             ],
@@ -1804,11 +1812,11 @@
             "properties": {},
             "type": "send~"
         },
-        "176": {
+        "180": {
             "connections": [
                 [
                     [
-                        177,
+                        181,
                         0
                     ]
                 ],
@@ -1836,11 +1844,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "177": {
+        "181": {
             "connections": [
                 [
                     [
-                        178,
+                        182,
                         0
                     ]
                 ]
@@ -1867,7 +1875,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "178": {
+        "182": {
             "connections": [
                 []
             ],
@@ -1893,7 +1901,7 @@
             "properties": {},
             "type": "send"
         },
-        "179": {
+        "183": {
             "connections": [
                 []
             ],
@@ -1919,7 +1927,7 @@
             "properties": {},
             "type": "send~"
         },
-        "180": {
+        "184": {
             "connections": [
                 []
             ],
@@ -1945,11 +1953,11 @@
             "properties": {},
             "type": "send~"
         },
-        "181": {
+        "185": {
             "connections": [
                 [
                     [
-                        182,
+                        186,
                         0
                     ]
                 ]
@@ -1976,7 +1984,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "182": {
+        "186": {
             "connections": [
                 []
             ],
@@ -2002,11 +2010,11 @@
             "properties": {},
             "type": "send"
         },
-        "183": {
+        "187": {
             "connections": [
                 [
                     [
-                        184,
+                        188,
                         0
                     ]
                 ]
@@ -2033,7 +2041,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "184": {
+        "188": {
             "connections": [
                 []
             ],
@@ -2059,7 +2067,7 @@
             "properties": {},
             "type": "send"
         },
-        "185": {
+        "189": {
             "connections": [
                 []
             ],
@@ -2085,7 +2093,7 @@
             "properties": {},
             "type": "send~"
         },
-        "186": {
+        "190": {
             "connections": [
                 []
             ],
@@ -2111,7 +2119,7 @@
             "properties": {},
             "type": "send~"
         },
-        "187": {
+        "191": {
             "connections": [
                 []
             ],
@@ -2123,8 +2131,8 @@
                 "label_text": "gain_bus34",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 111.87834167480469,
-                "position_y": 317.6016845703125,
+                "position_x": 0,
+                "position_y": 250.5391845703125,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -2137,7 +2145,7 @@
             "properties": {},
             "type": "send"
         },
-        "188": {
+        "192": {
             "connections": [
                 []
             ],
@@ -2149,8 +2157,8 @@
                 "label_text": "mute_bus34",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 141.81752014160156,
-                "position_y": 317.59552001953125,
+                "position_x": 0,
+                "position_y": 282.53302001953125,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -2163,7 +2171,7 @@
             "properties": {},
             "type": "send"
         },
-        "189": {
+        "193": {
             "connections": [
                 []
             ],
@@ -2175,8 +2183,8 @@
                 "label_text": "assign_bus34",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 126.8559341430664,
-                "position_y": 317.6028747558594,
+                "position_x": 0,
+                "position_y": 312.54779052734375,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -2189,11 +2197,11 @@
             "properties": {},
             "type": "send"
         },
-        "190": {
+        "194": {
             "connections": [
                 [
                     [
-                        191,
+                        195,
                         0
                     ]
                 ]
@@ -2220,7 +2228,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "191": {
+        "195": {
             "connections": [
                 []
             ],
@@ -2246,11 +2254,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "192": {
+        "196": {
             "connections": [
                 [
                     [
-                        193,
+                        197,
                         0
                     ]
                 ]
@@ -2277,7 +2285,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "193": {
+        "197": {
             "connections": [
                 []
             ],
@@ -2303,11 +2311,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "194": {
+        "198": {
             "connections": [
                 [
                     [
-                        195,
+                        199,
                         0
                     ]
                 ]
@@ -2334,7 +2342,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "195": {
+        "199": {
             "connections": [
                 []
             ],
@@ -2360,11 +2368,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "196": {
+        "200": {
             "connections": [
                 [
                     [
-                        197,
+                        201,
                         0
                     ]
                 ]
@@ -2391,7 +2399,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "197": {
+        "201": {
             "connections": [
                 []
             ],
@@ -2417,11 +2425,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "198": {
+        "202": {
             "connections": [
                 [
                     [
-                        199,
+                        203,
                         0
                     ]
                 ]
@@ -2448,7 +2456,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "199": {
+        "203": {
             "connections": [
                 []
             ],
@@ -2474,11 +2482,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "200": {
+        "204": {
             "connections": [
                 [
                     [
-                        201,
+                        205,
                         0
                     ]
                 ]
@@ -2505,7 +2513,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "201": {
+        "205": {
             "connections": [
                 []
             ],
@@ -2531,11 +2539,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "202": {
+        "206": {
             "connections": [
                 [
                     [
-                        203,
+                        207,
                         0
                     ]
                 ]
@@ -2562,7 +2570,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "203": {
+        "207": {
             "connections": [
                 []
             ],
@@ -2588,11 +2596,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "204": {
+        "208": {
             "connections": [
                 [
                     [
-                        205,
+                        209,
                         0
                     ]
                 ]
@@ -2619,7 +2627,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "205": {
+        "209": {
             "connections": [
                 []
             ],
@@ -2645,11 +2653,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "206": {
+        "210": {
             "connections": [
                 [
                     [
-                        207,
+                        211,
                         0
                     ]
                 ]
@@ -2676,7 +2684,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "207": {
+        "211": {
             "connections": [
                 []
             ],
@@ -2702,11 +2710,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "208": {
+        "212": {
             "connections": [
                 [
                     [
-                        209,
+                        213,
                         0
                     ]
                 ]
@@ -2733,7 +2741,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "209": {
+        "213": {
             "connections": [
                 []
             ],
@@ -2759,15 +2767,15 @@
             "properties": {},
             "type": "outlet~"
         },
-        "210": {
+        "214": {
             "connections": [
                 [
                     [
-                        170,
+                        174,
                         1
                     ],
                     [
-                        171,
+                        175,
                         1
                     ]
                 ]
@@ -2794,15 +2802,15 @@
             "properties": {},
             "type": "mute~"
         },
-        "219": {
+        "221": {
             "connections": [
                 [
                     [
-                        172,
+                        176,
                         1
                     ],
                     [
-                        173,
+                        177,
                         1
                     ]
                 ]
@@ -2833,7 +2841,7 @@
             "connections": [
                 [
                     [
-                        307,
+                        268,
                         0
                     ]
                 ]
@@ -3125,7 +3133,7 @@
             "properties": {},
             "type": "send~"
         },
-        "260": {
+        "239": {
             "connections": [
                 []
             ],
@@ -3151,7 +3159,7 @@
             "properties": {},
             "type": "send~"
         },
-        "262": {
+        "240": {
             "connections": [
                 []
             ],
@@ -3177,7 +3185,7 @@
             "properties": {},
             "type": "send~"
         },
-        "264": {
+        "241": {
             "connections": [
                 []
             ],
@@ -3203,7 +3211,7 @@
             "properties": {},
             "type": "send~"
         },
-        "266": {
+        "242": {
             "connections": [
                 []
             ],
@@ -3229,11 +3237,11 @@
             "properties": {},
             "type": "send~"
         },
-        "268": {
+        "243": {
             "connections": [
                 [
                     [
-                        269,
+                        244,
                         0
                     ]
                 ]
@@ -3260,7 +3268,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "269": {
+        "244": {
             "connections": [
                 []
             ],
@@ -3286,11 +3294,11 @@
             "properties": {},
             "type": "send~"
         },
-        "271": {
+        "245": {
             "connections": [
                 [
                     [
-                        272,
+                        246,
                         0
                     ]
                 ]
@@ -3317,7 +3325,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "272": {
+        "246": {
             "connections": [
                 []
             ],
@@ -3343,11 +3351,11 @@
             "properties": {},
             "type": "send~"
         },
-        "274": {
+        "247": {
             "connections": [
                 [
                     [
-                        275,
+                        248,
                         0
                     ]
                 ]
@@ -3374,7 +3382,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "275": {
+        "248": {
             "connections": [
                 []
             ],
@@ -3400,11 +3408,11 @@
             "properties": {},
             "type": "send~"
         },
-        "277": {
+        "249": {
             "connections": [
                 [
                     [
-                        278,
+                        250,
                         0
                     ]
                 ]
@@ -3431,7 +3439,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "278": {
+        "250": {
             "connections": [
                 []
             ],
@@ -3457,11 +3465,11 @@
             "properties": {},
             "type": "send~"
         },
-        "280": {
+        "251": {
             "connections": [
                 [
                     [
-                        281,
+                        252,
                         0
                     ]
                 ]
@@ -3488,7 +3496,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "281": {
+        "252": {
             "connections": [
                 []
             ],
@@ -3514,11 +3522,11 @@
             "properties": {},
             "type": "send~"
         },
-        "283": {
+        "253": {
             "connections": [
                 [
                     [
-                        284,
+                        254,
                         0
                     ]
                 ]
@@ -3545,7 +3553,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "284": {
+        "254": {
             "connections": [
                 []
             ],
@@ -3571,11 +3579,11 @@
             "properties": {},
             "type": "send~"
         },
-        "286": {
+        "255": {
             "connections": [
                 [
                     [
-                        287,
+                        256,
                         0
                     ]
                 ]
@@ -3602,7 +3610,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "287": {
+        "256": {
             "connections": [
                 []
             ],
@@ -3628,11 +3636,11 @@
             "properties": {},
             "type": "send~"
         },
-        "289": {
+        "257": {
             "connections": [
                 [
                     [
-                        290,
+                        258,
                         0
                     ]
                 ]
@@ -3659,7 +3667,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "290": {
+        "258": {
             "connections": [
                 []
             ],
@@ -3685,11 +3693,11 @@
             "properties": {},
             "type": "send~"
         },
-        "292": {
+        "259": {
             "connections": [
                 [
                     [
-                        293,
+                        260,
                         0
                     ]
                 ]
@@ -3716,7 +3724,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "293": {
+        "260": {
             "connections": [
                 []
             ],
@@ -3742,11 +3750,11 @@
             "properties": {},
             "type": "send~"
         },
-        "295": {
+        "261": {
             "connections": [
                 [
                     [
-                        296,
+                        262,
                         0
                     ]
                 ]
@@ -3773,7 +3781,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "296": {
+        "262": {
             "connections": [
                 []
             ],
@@ -3799,11 +3807,11 @@
             "properties": {},
             "type": "send~"
         },
-        "298": {
+        "263": {
             "connections": [
                 [
                     [
-                        299,
+                        264,
                         0
                     ]
                 ]
@@ -3830,7 +3838,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "299": {
+        "264": {
             "connections": [
                 []
             ],
@@ -3856,11 +3864,11 @@
             "properties": {},
             "type": "send~"
         },
-        "301": {
+        "265": {
             "connections": [
                 [
                     [
-                        302,
+                        266,
                         0
                     ]
                 ]
@@ -3887,14 +3895,9 @@
             "properties": {},
             "type": "recv~"
         },
-        "302": {
+        "266": {
             "connections": [
-                [
-                    [
-                        303,
-                        0
-                    ]
-                ]
+                []
             ],
             "do_onload": true,
             "gui_params": {
@@ -3918,7 +3921,7 @@
             "properties": {},
             "type": "send~"
         },
-        "306": {
+        "267": {
             "connections": [
                 []
             ],
@@ -3944,11 +3947,11 @@
             "properties": {},
             "type": "send"
         },
-        "307": {
+        "268": {
             "connections": [
                 [
                     [
-                        306,
+                        267,
                         0
                     ]
                 ]
@@ -3974,11 +3977,11 @@
             "properties": {},
             "type": "message"
         },
-        "308": {
+        "269": {
             "connections": [
                 [
                     [
-                        315,
+                        276,
                         0
                     ]
                 ]
@@ -4005,11 +4008,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "309": {
+        "270": {
             "connections": [
                 [
                     [
-                        316,
+                        277,
                         0
                     ]
                 ]
@@ -4036,11 +4039,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "310": {
+        "271": {
             "connections": [
                 [
                     [
-                        311,
+                        272,
                         0
                     ]
                 ]
@@ -4067,11 +4070,11 @@
             "properties": {},
             "type": "recv"
         },
-        "311": {
+        "272": {
             "connections": [
                 [
                     [
-                        312,
+                        273,
                         0
                     ]
                 ]
@@ -4098,15 +4101,15 @@
             "properties": {},
             "type": "db2a"
         },
-        "312": {
+        "273": {
             "connections": [
                 [
                     [
-                        316,
+                        277,
                         1
                     ],
                     [
-                        315,
+                        276,
                         1
                     ]
                 ]
@@ -4133,11 +4136,11 @@
             "properties": {},
             "type": "slew~"
         },
-        "313": {
+        "274": {
             "connections": [
                 [
                     [
-                        337,
+                        296,
                         0
                     ]
                 ]
@@ -4164,11 +4167,11 @@
             "properties": {},
             "type": "recv"
         },
-        "314": {
+        "275": {
             "connections": [
                 [
                     [
-                        328,
+                        289,
                         0
                     ]
                 ]
@@ -4195,11 +4198,11 @@
             "properties": {},
             "type": "recv"
         },
-        "315": {
+        "276": {
             "connections": [
                 [
                     [
-                        317,
+                        278,
                         0
                     ]
                 ]
@@ -4226,11 +4229,11 @@
             "properties": {},
             "type": "*~"
         },
-        "316": {
+        "277": {
             "connections": [
                 [
                     [
-                        318,
+                        279,
                         0
                     ]
                 ]
@@ -4257,19 +4260,19 @@
             "properties": {},
             "type": "*~"
         },
-        "317": {
+        "278": {
             "connections": [
                 [
                     [
-                        319,
+                        280,
                         0
                     ],
                     [
-                        323,
+                        284,
                         0
                     ],
                     [
-                        326,
+                        287,
                         0
                     ]
                 ]
@@ -4296,19 +4299,19 @@
             "properties": {},
             "type": "*~"
         },
-        "318": {
+        "279": {
             "connections": [
                 [
                     [
-                        320,
+                        281,
                         0
                     ],
                     [
-                        323,
+                        284,
                         0
                     ],
                     [
-                        327,
+                        288,
                         0
                     ]
                 ]
@@ -4335,11 +4338,11 @@
             "properties": {},
             "type": "*~"
         },
-        "319": {
+        "280": {
             "connections": [
                 [
                     [
-                        321,
+                        282,
                         0
                     ]
                 ]
@@ -4366,11 +4369,11 @@
             "properties": {},
             "type": "*~"
         },
-        "320": {
+        "281": {
             "connections": [
                 [
                     [
-                        322,
+                        283,
                         0
                     ]
                 ]
@@ -4397,7 +4400,7 @@
             "properties": {},
             "type": "*~"
         },
-        "321": {
+        "282": {
             "connections": [
                 []
             ],
@@ -4423,7 +4426,7 @@
             "properties": {},
             "type": "send~"
         },
-        "322": {
+        "283": {
             "connections": [
                 []
             ],
@@ -4449,11 +4452,11 @@
             "properties": {},
             "type": "send~"
         },
-        "323": {
+        "284": {
             "connections": [
                 [
                     [
-                        324,
+                        285,
                         0
                     ]
                 ],
@@ -4481,11 +4484,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "324": {
+        "285": {
             "connections": [
                 [
                     [
-                        325,
+                        286,
                         0
                     ]
                 ]
@@ -4512,7 +4515,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "325": {
+        "286": {
             "connections": [
                 []
             ],
@@ -4538,7 +4541,7 @@
             "properties": {},
             "type": "send"
         },
-        "326": {
+        "287": {
             "connections": [
                 []
             ],
@@ -4564,7 +4567,7 @@
             "properties": {},
             "type": "send~"
         },
-        "327": {
+        "288": {
             "connections": [
                 []
             ],
@@ -4590,15 +4593,15 @@
             "properties": {},
             "type": "send~"
         },
-        "328": {
+        "289": {
             "connections": [
                 [
                     [
-                        317,
+                        278,
                         1
                     ],
                     [
-                        318,
+                        279,
                         1
                     ]
                 ]
@@ -4625,15 +4628,15 @@
             "properties": {},
             "type": "mute~"
         },
-        "337": {
+        "296": {
             "connections": [
                 [
                     [
-                        319,
+                        280,
                         1
                     ],
                     [
-                        320,
+                        281,
                         1
                     ]
                 ]
@@ -4660,11 +4663,11 @@
             "properties": {},
             "type": "mute~"
         },
-        "348": {
+        "303": {
             "connections": [
                 [
                     [
-                        349,
+                        304,
                         0
                     ]
                 ]
@@ -4691,11 +4694,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "349": {
+        "304": {
             "connections": [
                 [
                     [
-                        363,
+                        312,
                         0
                     ]
                 ]
@@ -4722,7 +4725,7 @@
             "properties": {},
             "type": "*~"
         },
-        "350": {
+        "305": {
             "connections": [
                 []
             ],
@@ -4748,7 +4751,7 @@
             "properties": {},
             "type": "send"
         },
-        "352": {
+        "306": {
             "connections": [
                 []
             ],
@@ -4774,7 +4777,7 @@
             "properties": {},
             "type": "send"
         },
-        "354": {
+        "307": {
             "connections": [
                 []
             ],
@@ -4800,7 +4803,7 @@
             "properties": {},
             "type": "send"
         },
-        "356": {
+        "308": {
             "connections": [
                 []
             ],
@@ -4826,11 +4829,11 @@
             "properties": {},
             "type": "send"
         },
-        "358": {
+        "309": {
             "connections": [
                 [
                     [
-                        359,
+                        310,
                         0
                     ]
                 ]
@@ -4857,11 +4860,11 @@
             "properties": {},
             "type": "recv"
         },
-        "359": {
+        "310": {
             "connections": [
                 [
                     [
-                        360,
+                        311,
                         0
                     ]
                 ]
@@ -4888,11 +4891,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "360": {
+        "311": {
             "connections": [
                 [
                     [
-                        349,
+                        304,
                         1
                     ]
                 ]
@@ -4919,7 +4922,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "363": {
+        "312": {
             "connections": [
                 []
             ],
@@ -4945,11 +4948,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "364": {
+        "313": {
             "connections": [
                 [
                     [
-                        365,
+                        314,
                         0
                     ]
                 ]
@@ -4976,11 +4979,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "365": {
+        "314": {
             "connections": [
                 [
                     [
-                        370,
+                        318,
                         0
                     ]
                 ]
@@ -5007,11 +5010,11 @@
             "properties": {},
             "type": "*~"
         },
-        "366": {
+        "315": {
             "connections": [
                 [
                     [
-                        367,
+                        316,
                         0
                     ]
                 ]
@@ -5038,11 +5041,11 @@
             "properties": {},
             "type": "recv"
         },
-        "367": {
+        "316": {
             "connections": [
                 [
                     [
-                        368,
+                        317,
                         0
                     ]
                 ]
@@ -5069,11 +5072,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "368": {
+        "317": {
             "connections": [
                 [
                     [
-                        365,
+                        314,
                         1
                     ]
                 ]
@@ -5100,7 +5103,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "370": {
+        "318": {
             "connections": [
                 []
             ],
@@ -5126,11 +5129,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "371": {
+        "319": {
             "connections": [
                 [
                     [
-                        372,
+                        320,
                         0
                     ]
                 ]
@@ -5157,11 +5160,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "372": {
+        "320": {
             "connections": [
                 [
                     [
-                        377,
+                        324,
                         0
                     ]
                 ]
@@ -5188,11 +5191,11 @@
             "properties": {},
             "type": "*~"
         },
-        "373": {
+        "321": {
             "connections": [
                 [
                     [
-                        374,
+                        322,
                         0
                     ]
                 ]
@@ -5219,11 +5222,11 @@
             "properties": {},
             "type": "recv"
         },
-        "374": {
+        "322": {
             "connections": [
                 [
                     [
-                        375,
+                        323,
                         0
                     ]
                 ]
@@ -5250,11 +5253,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "375": {
+        "323": {
             "connections": [
                 [
                     [
-                        372,
+                        320,
                         1
                     ]
                 ]
@@ -5281,7 +5284,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "377": {
+        "324": {
             "connections": [
                 []
             ],
@@ -5307,11 +5310,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "378": {
+        "325": {
             "connections": [
                 [
                     [
-                        379,
+                        326,
                         0
                     ]
                 ]
@@ -5338,11 +5341,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "379": {
+        "326": {
             "connections": [
                 [
                     [
-                        384,
+                        330,
                         0
                     ]
                 ]
@@ -5369,11 +5372,11 @@
             "properties": {},
             "type": "*~"
         },
-        "380": {
+        "327": {
             "connections": [
                 [
                     [
-                        381,
+                        328,
                         0
                     ]
                 ]
@@ -5400,11 +5403,11 @@
             "properties": {},
             "type": "recv"
         },
-        "381": {
+        "328": {
             "connections": [
                 [
                     [
-                        382,
+                        329,
                         0
                     ]
                 ]
@@ -5431,11 +5434,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "382": {
+        "329": {
             "connections": [
                 [
                     [
-                        379,
+                        326,
                         1
                     ]
                 ]
@@ -5462,7 +5465,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "384": {
+        "330": {
             "connections": [
                 []
             ],
@@ -5487,168 +5490,288 @@
             "osc_methods": [],
             "properties": {},
             "type": "outlet~"
+        },
+        "374": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 26.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 57.03076934814453,
+                "position_y": 323.21624755859375,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "1-2",
+                "width": 34.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "1-2"
+        },
+        "375": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 26.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 117.0303955078125,
+                "position_y": 323.21624755859375,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "3-4",
+                "width": 34.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "3-4"
+        },
+        "376": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 26.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 175.03001403808594,
+                "position_y": 323.2162170410156,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "5-6",
+                "width": 34.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "5-6"
+        },
+        "377": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 26.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 237.02964782714844,
+                "position_y": 323.21551513671875,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "7-8",
+                "width": 34.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "7-8"
         }
     },
     "scopes": {
         "__patch__": {
-            "assign_bus12_toggle": 128,
-            "assign_bus34_toggle": 132,
-            "assign_bus56_toggle": 136,
-            "assign_bus78_toggle": 140,
-            "fade_aux1": 144,
-            "fade_aux2": 145,
-            "fade_aux3": 146,
-            "fade_aux4": 147,
-            "fade_bus12": 125,
-            "fade_bus34": 129,
-            "fade_bus56": 133,
-            "fade_bus78": 137,
-            "fade_master": 141,
-            "level_bus12": 126,
-            "level_bus34": 130,
-            "level_bus56": 134,
-            "level_bus78": 138,
-            "level_master_l": 142,
-            "level_master_r": 143,
-            "message_002": 307,
-            "mute_bus12_toggle": 127,
-            "mute_bus34_toggle": 131,
-            "mute_bus56_toggle": 135,
-            "mute_bus78_toggle": 139,
+            "assign_bus12_toggle": 132,
+            "assign_bus34_toggle": 136,
+            "assign_bus56_toggle": 140,
+            "assign_bus78_toggle": 144,
+            "fade_aux1": 148,
+            "fade_aux2": 149,
+            "fade_aux3": 150,
+            "fade_aux4": 151,
+            "fade_bus12": 129,
+            "fade_bus34": 133,
+            "fade_bus56": 137,
+            "fade_bus78": 141,
+            "fade_master": 145,
+            "level_bus12": 130,
+            "level_bus34": 134,
+            "level_bus56": 138,
+            "level_bus78": 142,
+            "level_master_l": 146,
+            "level_master_r": 147,
+            "message_002": 268,
+            "mute_bus12_toggle": 131,
+            "mute_bus34_toggle": 135,
+            "mute_bus56_toggle": 139,
+            "mute_bus78_toggle": 143,
             "patch": 0,
-            "processor_002": 152,
-            "processor_003": 153,
-            "processor_004": 154,
-            "processor_005": 155,
-            "processor_006": 156,
-            "processor_007": 157,
-            "processor_008": 162,
-            "processor_009": 163,
-            "processor_010": 168,
-            "processor_011": 169,
+            "processor_002": 156,
+            "processor_003": 157,
+            "processor_004": 158,
+            "processor_005": 159,
+            "processor_006": 160,
+            "processor_007": 161,
+            "processor_008": 166,
+            "processor_009": 167,
+            "processor_010": 172,
+            "processor_011": 173,
             "processor_012": 228,
-            "processor_013": 311,
-            "processor_014": 170,
-            "processor_015": 171,
-            "processor_016": 312,
-            "processor_017": 172,
-            "processor_018": 173,
-            "processor_019": 176,
-            "processor_020": 177,
-            "processor_021": 181,
-            "processor_022": 183,
-            "processor_023": 315,
-            "processor_024": 191,
-            "processor_025": 193,
-            "processor_026": 195,
-            "processor_027": 197,
-            "processor_028": 199,
-            "processor_029": 201,
-            "processor_030": 203,
-            "processor_031": 205,
-            "processor_032": 207,
-            "processor_033": 209,
-            "processor_034": 316,
-            "processor_035": 317,
-            "processor_036": 318,
-            "processor_037": 319,
-            "processor_038": 320,
-            "processor_039": 323,
-            "processor_040": 324,
-            "processor_041": 328,
-            "processor_042": 337,
-            "processor_043": 359,
-            "processor_044": 360,
-            "processor_045": 365,
-            "processor_046": 349,
-            "processor_047": 210,
-            "processor_048": 219,
-            "processor_049": 363,
-            "processor_050": 367,
-            "processor_051": 368,
-            "processor_052": 370,
-            "processor_053": 372,
-            "processor_054": 374,
-            "processor_055": 375,
-            "processor_056": 377,
-            "processor_057": 379,
-            "processor_058": 381,
-            "processor_059": 382,
-            "processor_060": 384,
-            "recvsignalvia_001": 150,
-            "recvsignalvia_002": 151,
-            "recvsignalvia_003": 159,
-            "recvsignalvia_004": 160,
-            "recvsignalvia_005": 190,
-            "recvsignalvia_006": 192,
-            "recvsignalvia_007": 194,
-            "recvsignalvia_008": 196,
-            "recvsignalvia_009": 198,
-            "recvsignalvia_010": 200,
-            "recvsignalvia_011": 202,
-            "recvsignalvia_012": 204,
-            "recvsignalvia_013": 206,
-            "recvsignalvia_014": 208,
-            "recvsignalvia_015": 308,
-            "recvsignalvia_016": 309,
-            "recvsignalvia_017": 364,
-            "recvsignalvia_018": 371,
-            "recvsignalvia_019": 378,
-            "recvsignalvia_029": 348,
-            "recvvia_001": 149,
-            "recvvia_002": 161,
-            "recvvia_003": 164,
-            "recvvia_004": 167,
-            "recvvia_005": 310,
-            "recvvia_006": 313,
-            "recvvia_007": 314,
-            "recvvia_008": 358,
-            "recvvia_009": 366,
-            "recvvia_010": 373,
-            "recvvia_011": 380,
+            "processor_013": 272,
+            "processor_014": 174,
+            "processor_015": 175,
+            "processor_016": 273,
+            "processor_017": 176,
+            "processor_018": 177,
+            "processor_019": 180,
+            "processor_020": 181,
+            "processor_021": 185,
+            "processor_022": 187,
+            "processor_023": 276,
+            "processor_024": 195,
+            "processor_025": 197,
+            "processor_026": 199,
+            "processor_027": 201,
+            "processor_028": 203,
+            "processor_029": 205,
+            "processor_030": 207,
+            "processor_031": 209,
+            "processor_032": 211,
+            "processor_033": 213,
+            "processor_034": 277,
+            "processor_035": 278,
+            "processor_036": 279,
+            "processor_037": 280,
+            "processor_038": 281,
+            "processor_039": 284,
+            "processor_040": 285,
+            "processor_041": 289,
+            "processor_042": 296,
+            "processor_043": 310,
+            "processor_044": 311,
+            "processor_045": 314,
+            "processor_046": 304,
+            "processor_047": 214,
+            "processor_048": 221,
+            "processor_049": 312,
+            "processor_050": 316,
+            "processor_051": 317,
+            "processor_052": 318,
+            "processor_053": 320,
+            "processor_054": 322,
+            "processor_055": 323,
+            "processor_056": 324,
+            "processor_057": 326,
+            "processor_058": 328,
+            "processor_059": 329,
+            "processor_060": 330,
+            "recvsignalvia_001": 154,
+            "recvsignalvia_002": 155,
+            "recvsignalvia_003": 163,
+            "recvsignalvia_004": 164,
+            "recvsignalvia_005": 194,
+            "recvsignalvia_006": 196,
+            "recvsignalvia_007": 198,
+            "recvsignalvia_008": 200,
+            "recvsignalvia_009": 202,
+            "recvsignalvia_010": 204,
+            "recvsignalvia_011": 206,
+            "recvsignalvia_012": 208,
+            "recvsignalvia_013": 210,
+            "recvsignalvia_014": 212,
+            "recvsignalvia_015": 269,
+            "recvsignalvia_016": 270,
+            "recvsignalvia_017": 313,
+            "recvsignalvia_018": 319,
+            "recvsignalvia_019": 325,
+            "recvsignalvia_029": 303,
+            "recvvia_001": 153,
+            "recvvia_002": 165,
+            "recvvia_003": 168,
+            "recvvia_004": 171,
+            "recvvia_005": 271,
+            "recvvia_006": 274,
+            "recvvia_007": 275,
+            "recvvia_008": 309,
+            "recvvia_009": 315,
+            "recvvia_010": 321,
+            "recvvia_011": 327,
             "self": 0,
-            "sendsignalvia_001": 174,
-            "sendsignalvia_002": 175,
-            "sendsignalvia_003": 179,
-            "sendsignalvia_004": 180,
-            "sendsignalvia_005": 185,
-            "sendsignalvia_006": 186,
-            "sendsignalvia_007": 321,
-            "sendsignalvia_008": 322,
-            "sendsignalvia_009": 326,
-            "sendsignalvia_010": 327,
-            "sendvia_001": 148,
-            "sendvia_002": 158,
-            "sendvia_003": 165,
-            "sendvia_004": 187,
-            "sendvia_005": 166,
-            "sendvia_006": 178,
-            "sendvia_007": 188,
-            "sendvia_008": 182,
-            "sendvia_009": 184,
-            "sendvia_010": 189,
-            "sendvia_011": 306,
-            "sendvia_012": 325,
-            "sendvia_013": 350,
-            "sendvia_014": 352,
-            "sendvia_015": 354,
-            "sendvia_016": 356
+            "sendsignalvia_001": 178,
+            "sendsignalvia_002": 179,
+            "sendsignalvia_003": 183,
+            "sendsignalvia_004": 184,
+            "sendsignalvia_005": 189,
+            "sendsignalvia_006": 190,
+            "sendsignalvia_007": 282,
+            "sendsignalvia_008": 283,
+            "sendsignalvia_009": 287,
+            "sendsignalvia_010": 288,
+            "sendvia_001": 152,
+            "sendvia_002": 162,
+            "sendvia_003": 169,
+            "sendvia_004": 191,
+            "sendvia_005": 170,
+            "sendvia_006": 182,
+            "sendvia_007": 192,
+            "sendvia_008": 186,
+            "sendvia_009": 188,
+            "sendvia_010": 193,
+            "sendvia_011": 267,
+            "sendvia_012": 286,
+            "sendvia_013": 305,
+            "sendvia_014": 306,
+            "sendvia_015": 307,
+            "sendvia_016": 308,
+            "text_002": 374,
+            "text_003": 375,
+            "text_004": 376,
+            "text_005": 377
         },
         "chan_001": {
             "channel_strip": 1,
             "processor_033": 229,
-            "recvsignalvia_015": 268,
-            "recvsignalvia_016": 271,
-            "recvsignalvia_017": 274,
-            "recvsignalvia_018": 277,
-            "recvsignalvia_019": 280,
-            "recvsignalvia_020": 283,
-            "recvsignalvia_021": 286,
-            "recvsignalvia_022": 289,
-            "recvsignalvia_023": 292,
-            "recvsignalvia_024": 295,
-            "recvsignalvia_025": 298,
-            "recvsignalvia_026": 301,
+            "recvsignalvia_015": 243,
+            "recvsignalvia_016": 245,
+            "recvsignalvia_017": 247,
+            "recvsignalvia_018": 249,
+            "recvsignalvia_019": 251,
+            "recvsignalvia_020": 253,
+            "recvsignalvia_021": 255,
+            "recvsignalvia_022": 257,
+            "recvsignalvia_023": 259,
+            "recvsignalvia_024": 261,
+            "recvsignalvia_025": 263,
+            "recvsignalvia_026": 265,
             "sendsignalvia_007": 230,
             "sendsignalvia_008": 231,
             "sendsignalvia_009": 232,
@@ -5658,23 +5781,23 @@
             "sendsignalvia_013": 236,
             "sendsignalvia_014": 237,
             "sendsignalvia_015": 238,
-            "sendsignalvia_016": 260,
-            "sendsignalvia_017": 262,
-            "sendsignalvia_018": 264,
-            "sendsignalvia_019": 266,
-            "sendsignalvia_020": 269,
-            "sendsignalvia_021": 272,
-            "sendsignalvia_022": 275,
-            "sendsignalvia_023": 278,
-            "sendsignalvia_024": 281,
-            "sendsignalvia_025": 284,
-            "sendsignalvia_026": 287,
-            "sendsignalvia_027": 290,
-            "sendsignalvia_028": 293,
-            "sendsignalvia_029": 296,
-            "sendsignalvia_030": 299,
-            "sendsignalvia_031": 302
+            "sendsignalvia_016": 239,
+            "sendsignalvia_017": 240,
+            "sendsignalvia_018": 241,
+            "sendsignalvia_019": 242,
+            "sendsignalvia_020": 244,
+            "sendsignalvia_021": 246,
+            "sendsignalvia_022": 248,
+            "sendsignalvia_023": 250,
+            "sendsignalvia_024": 252,
+            "sendsignalvia_025": 254,
+            "sendsignalvia_026": 256,
+            "sendsignalvia_027": 258,
+            "sendsignalvia_028": 260,
+            "sendsignalvia_029": 262,
+            "sendsignalvia_030": 264,
+            "sendsignalvia_031": 266
         }
     },
-    "type": "mix8bus"
+    "type": "mix8bus-1"
 }
