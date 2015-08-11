@@ -18,10 +18,10 @@
             10,
             11
         ],
-        "export_h": 263.0039978027344,
+        "export_h": 273.5900192260742,
         "export_w": 108.21929168701172,
         "export_x": 96.09232330322266,
-        "export_y": 92.7166519165039,
+        "export_y": 84.7166519165039,
         "layers": [
             [
                 "Interface",
@@ -65,14 +65,14 @@
                 "height": 140.0,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 3.0,
-                "min_value": -20.0,
+                "max_value": 10.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 96.09232330322266,
-                "position_y": 92.99041748046875,
+                "position_y": 111.99041748046875,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": true,
                 "update_required": true,
@@ -86,7 +86,7 @@
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
-            "value": 0.0
+            "value": -5
         },
         "10": {
             "connections": [
@@ -109,9 +109,9 @@
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 165.9640655517578,
-                "position_y": 92.7166519165039,
+                "position_y": 84.7166519165039,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -201,7 +201,7 @@
                 "layername": "Audio",
                 "no_export": false,
                 "position_x": 264.80169677734375,
-                "position_y": 94.8380355834961,
+                "position_y": 86.8380355834961,
                 "scope": "__patch__",
                 "show_label": true,
                 "update_required": false,
@@ -267,9 +267,9 @@
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 165.9640655517578,
-                "position_y": 129.2555923461914,
+                "position_y": 123.2555923461914,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -394,8 +394,8 @@
                 "is_export": false,
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 198.79539489746094,
-                "position_y": 235.59915924072266,
+                "position_x": 227.79539489746094,
+                "position_y": 228.59915924072266,
                 "scope": "__patch__",
                 "show_label": true,
                 "update_required": false,
@@ -430,9 +430,9 @@
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 165.9640655517578,
-                "position_y": 165.72176361083984,
+                "position_y": 161.72176361083984,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -448,15 +448,76 @@
             "type": "slidemeter",
             "value": 0.0
         },
+        "128": {
+            "connections": [
+                [
+                    [
+                        129,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "dial_radius": 12,
+                "display_type": "dial",
+                "height": 27,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 20.0,
+                "min_value": -20.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 123.69002532958984,
+                "position_y": 84.90352630615234,
+                "scale": "linear",
+                "scale_position": 0,
+                "scope": "__patch__",
+                "show_scale": false,
+                "update_required": true,
+                "width": 27,
+                "zeropoint": 0.0
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "dial_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slidemeter",
+            "value": 0.0
+        },
+        "129": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "height": 35,
+                "is_export": false,
+                "label_text": "trim",
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 29.760719299316406,
+                "position_y": 102.85677337646484,
+                "scope": "__patch__",
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"trim\"",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_013",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
         "13": {
             "connections": [
                 [
                     [
                         29,
-                        0
-                    ],
-                    [
-                        54,
                         0
                     ]
                 ]
@@ -483,6 +544,165 @@
             "properties": {},
             "type": "inlet~"
         },
+        "131": {
+            "connections": [
+                [
+                    [
+                        133,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "recvvia",
+                "height": 37.5,
+                "is_export": false,
+                "label_text": "trim",
+                "layername": "Audio",
+                "no_export": false,
+                "position_x": 54.96125793457031,
+                "position_y": 54.971893310546875,
+                "scope": "__patch__",
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"trim\"",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "recvvia_008",
+            "osc_methods": [],
+            "properties": {},
+            "type": "recv"
+        },
+        "132": {
+            "connections": [
+                [
+                    [
+                        113,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Audio",
+                "no_export": false,
+                "position_x": 227.77114868164062,
+                "position_y": 184.61425018310547,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 46.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_031",
+            "osc_methods": [],
+            "properties": {},
+            "type": "db2a"
+        },
+        "133": {
+            "connections": [
+                [
+                    [
+                        134,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Audio",
+                "no_export": false,
+                "position_x": 57.46125793457031,
+                "position_y": 104.97189331054688,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 46.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_032",
+            "osc_methods": [],
+            "properties": {},
+            "type": "db2a"
+        },
+        "134": {
+            "connections": [
+                [
+                    [
+                        135,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Audio",
+                "no_export": false,
+                "position_x": 57.46125793457031,
+                "position_y": 149.97189331054688,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "50",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_033",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slew~"
+        },
+        "135": {
+            "connections": [
+                [
+                    [
+                        54,
+                        0
+                    ],
+                    [
+                        26,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25,
+                "is_export": false,
+                "layername": "Audio",
+                "no_export": false,
+                "position_x": 140.4189910888672,
+                "position_y": 193.97189331054688,
+                "scope": "__patch__",
+                "show_label": true,
+                "update_required": false,
+                "width": 35
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_034",
+            "osc_methods": [],
+            "properties": {},
+            "type": "*~"
+        },
         "14": {
             "connections": [
                 []
@@ -496,7 +716,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 31.828353881835938,
-                "position_y": 223.7886199951172,
+                "position_y": 242.7886199951172,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -522,7 +742,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 31.793018341064453,
-                "position_y": 275.7230224609375,
+                "position_y": 287.7230224609375,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -548,7 +768,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 30.828353881835938,
-                "position_y": 317.5782470703125,
+                "position_y": 319.5782470703125,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -575,7 +795,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 114.42448425292969,
-                "position_y": 315.3066711425781,
+                "position_y": 330.3066711425781,
                 "scope": "__patch__",
                 "update_required": true,
                 "value": "[____]",
@@ -603,7 +823,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 218.9297332763672,
-                "position_y": 118.73228454589844,
+                "position_y": 110.73228454589844,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -629,7 +849,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 218.14781188964844,
-                "position_y": 154.63795471191406,
+                "position_y": 148.63795471191406,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -659,18 +879,18 @@
                 "is_export": false,
                 "layername": "Interface",
                 "max_value": 1.0,
-                "min_value": 0.0,
+                "min_value": -1.0,
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 114.95714569091797,
-                "position_y": 237.751220703125,
+                "position_y": 256.751220703125,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
                 "width": 40,
-                "zeropoint": null
+                "zeropoint": 0.0
             },
             "initargs": "0.0",
             "midi_filters": null,
@@ -694,7 +914,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 218.14002990722656,
-                "position_y": 191.54360961914062,
+                "position_y": 187.54360961914062,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -720,7 +940,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 217.17893981933594,
-                "position_y": 228.4602508544922,
+                "position_y": 226.4602508544922,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -857,7 +1077,7 @@
                 "is_export": false,
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 165.48194885253906,
+                "position_x": 140.48143005371094,
                 "position_y": 276.76426696777344,
                 "scope": "__patch__",
                 "show_label": true,
@@ -876,7 +1096,7 @@
             "connections": [
                 [
                     [
-                        113,
+                        132,
                         0
                     ]
                 ]
@@ -889,8 +1109,8 @@
                 "label_text": "gain",
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 196.29539489746094,
-                "position_y": 193.59915924072266,
+                "position_x": 225.27114868164062,
+                "position_y": 132.61425018310547,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -920,8 +1140,8 @@
                 "label_text": "mute",
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 262.30169677734375,
-                "position_y": 44.838035583496094,
+                "position_x": 262.2999267578125,
+                "position_y": 39.8398323059082,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -938,8 +1158,8 @@
             "connections": [
                 [
                     [
-                        26,
-                        0
+                        135,
+                        1
                     ]
                 ]
             ],
@@ -951,7 +1171,7 @@
                 "layername": "Audio",
                 "no_export": false,
                 "position_x": 165.95189666748047,
-                "position_y": 162.6136474609375,
+                "position_y": 126.6136474609375,
                 "scope": "__patch__",
                 "show_label": true,
                 "update_required": false,
@@ -980,9 +1200,9 @@
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 154.02880859375,
-                "position_y": 92.72163391113281,
+                "position_y": 111.72163391113281,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -1016,7 +1236,7 @@
                 "label_text": "pan",
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 113.86983489990234,
+                "position_x": 88.86983489990234,
                 "position_y": 274.693359375,
                 "scope": "__patch__",
                 "update_required": false,
@@ -1052,7 +1272,7 @@
                 "is_export": false,
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 117.53562927246094,
+                "position_x": 92.53562927246094,
                 "position_y": 328.75132751464844,
                 "scope": "__patch__",
                 "show_label": true,
@@ -1088,9 +1308,9 @@
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 165.9640655517578,
-                "position_y": 202.59676361083984,
+                "position_y": 200.59676361083984,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -1118,7 +1338,7 @@
                 "label_text": "bus_l",
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 114.03562927246094,
+                "position_x": 89.03562927246094,
                 "position_y": 376.75132751464844,
                 "scope": "__patch__",
                 "update_required": false,
@@ -1144,7 +1364,7 @@
                 "label_text": "bus_r",
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 162.03562927246094,
+                "position_x": 137.03562927246094,
                 "position_y": 377.75132751464844,
                 "scope": "__patch__",
                 "update_required": false,
@@ -1452,8 +1672,8 @@
                 "label_text": "bus_prefade",
                 "layername": "Audio",
                 "no_export": false,
-                "position_x": 82.458740234375,
-                "position_y": 110.82299041748047,
+                "position_x": 74.52199935913086,
+                "position_y": 228.78058624267578,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 22
@@ -2725,7 +2945,7 @@
                 "off_message": false,
                 "on_message": true,
                 "position_x": 109.42640686035156,
-                "position_y": 282.3945007324219,
+                "position_y": 301.3945007324219,
                 "scope": "__patch__",
                 "update_required": true,
                 "width": 52.0
@@ -3018,6 +3238,7 @@
             "dial_003": 10,
             "dial_004": 11,
             "dial_005": 12,
+            "dial_006": 128,
             "message_003": 61,
             "message_004": 62,
             "message_005": 69,
@@ -3057,6 +3278,10 @@
             "processor_028": 65,
             "processor_029": 84,
             "processor_030": 85,
+            "processor_031": 132,
+            "processor_032": 133,
+            "processor_033": 134,
+            "processor_034": 135,
             "processor_041": 86,
             "processor_042": 87,
             "processor_043": 88,
@@ -3082,6 +3307,7 @@
             "recvvia_005": 50,
             "recvvia_006": 52,
             "recvvia_007": 30,
+            "recvvia_008": 131,
             "recvvia_012": 56,
             "recvvia_013": 57,
             "recvvia_014": 58,
@@ -3102,6 +3328,7 @@
             "sendvia_010": 24,
             "sendvia_011": 25,
             "sendvia_012": 101,
+            "sendvia_013": 129,
             "slidemeter_001": 1,
             "slidemeter_003": 3,
             "text_001": 17,

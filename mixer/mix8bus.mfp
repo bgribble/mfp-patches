@@ -1,9 +1,28 @@
 {
     "gui_params": {
         "display_type": "patch",
-        "export_h": 515.8088340759277,
-        "export_w": 396.6308364868164,
-        "export_x": 48.87201690673828,
+        "dsp_inlets": [
+            0
+        ],
+        "dsp_outlets": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "export_h": 481.80883407592773,
+        "export_w": 421.5477180480957,
+        "export_x": 23.955135345458984,
         "export_y": 38.946651458740234,
         "layers": [
             [
@@ -47,7 +66,11 @@
                 "__patch__"
             ]
         ],
-        "name": "mix8bus-1"
+        "name": "mix8bus",
+        "num_inlets": 1,
+        "num_outlets": 14,
+        "obj_id": 0,
+        "top_level": true
     },
     "hot_inlets": [
         0
@@ -55,54 +78,6 @@
     "objects": {
         "1": {
             "connections": [
-                [
-                    [
-                        231,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        232,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        233,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        234,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        235,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        236,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        237,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        238,
-                        0
-                    ]
-                ],
                 [
                     [
                         239,
@@ -126,12 +101,60 @@
                         242,
                         0
                     ]
+                ],
+                [
+                    [
+                        243,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        244,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        245,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        246,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        247,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        248,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        249,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        250,
+                        0
+                    ]
                 ]
             ],
             "do_onload": true,
             "gui_params": {
                 "display_type": "processor",
-                "height": 283.0039978027344,
+                "height": 293.59002685546875,
                 "is_export": false,
                 "layername": "Interface",
                 "no_export": false,
@@ -150,79 +173,7 @@
             "properties": {},
             "type": "pmix_channel"
         },
-        "129": {
-            "connections": [
-                [
-                    [
-                        162,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "slidemeter",
-                "height": 150,
-                "is_export": false,
-                "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
-                "no_export": false,
-                "orientation": 0,
-                "position_x": 54.955135345458984,
-                "position_y": 110.07730102539062,
-                "scale_position": 0,
-                "scale_type": 0,
-                "scope": "__patch__",
-                "show_scale": false,
-                "update_required": true,
-                "width": 25.0,
-                "zeropoint": null
-            },
-            "initargs": "0.0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "fade_bus12",
-            "osc_methods": [],
-            "properties": {},
-            "type": "slidemeter",
-            "value": 0.0
-        },
-        "130": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "slidemeter",
-                "height": 150,
-                "is_export": false,
-                "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
-                "no_export": false,
-                "orientation": 0,
-                "position_x": 84.48246765136719,
-                "position_y": 110.37796020507812,
-                "scale_position": 0,
-                "scale_type": 0,
-                "scope": "__patch__",
-                "show_scale": false,
-                "update_required": true,
-                "value": 0.0,
-                "width": 10,
-                "zeropoint": null
-            },
-            "initargs": "0.0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "level_bus12",
-            "osc_methods": [],
-            "properties": {},
-            "type": "slidemeter",
-            "value": 0.0
-        },
-        "131": {
+        "137": {
             "connections": [
                 [
                     [
@@ -231,233 +182,30 @@
                     ]
                 ]
             ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "toggle",
-                "height": 27.0,
-                "is_export": false,
-                "label_text": "MUTE",
-                "layername": "Interface",
-                "no_export": false,
-                "off_message": false,
-                "on_message": true,
-                "position_x": 48.87686538696289,
-                "position_y": 264.4604797363281,
-                "scope": "__patch__",
-                "update_required": true,
-                "width": 52.0
-            },
-            "initargs": "False",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "mute_bus12_toggle",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": false
-        },
-        "132": {
-            "connections": [
-                [
-                    [
-                        169,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "toggle",
-                "height": 27.0,
-                "is_export": false,
-                "label_text": "L-R",
-                "layername": "Interface",
-                "no_export": false,
-                "off_message": false,
-                "on_message": true,
-                "position_x": 48.87201690673828,
-                "position_y": 294.15069580078125,
-                "scope": "__patch__",
-                "update_required": true,
-                "width": 52 
-            },
-            "initargs": "False",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "assign_bus12_toggle",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": false
-        },
-        "133": {
-            "connections": [
-                [
-                    [
-                        191,
-                        0
-                    ]
-                ]
-            ],
             "do_onload": false,
             "gui_params": {
                 "display_type": "slidemeter",
-                "height": 150,
+                "height": 150.0,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
+                "max_value": 5.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
-                "position_x": 114.33013534545898,
-                "position_y": 110.07730102539062,
+                "position_x": 23.955135345458984,
+                "position_y": 107.07730102539062,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
-                "show_scale": false,
+                "show_scale": true,
                 "update_required": true,
-                "width": 25.0,
+                "width": 55.000003814697266,
                 "zeropoint": null
             },
             "initargs": "0.0",
             "midi_filters": null,
             "midi_mode": null,
-            "name": "fade_bus34",
-            "osc_methods": [],
-            "properties": {},
-            "type": "slidemeter",
-            "value": 0.0
-        },
-        "134": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "slidemeter",
-                "height": 150,
-                "is_export": false,
-                "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
-                "no_export": false,
-                "orientation": 0,
-                "position_x": 143.8574676513672,
-                "position_y": 110.37796020507812,
-                "scale_position": 0,
-                "scale_type": 0,
-                "scope": "__patch__",
-                "show_scale": false,
-                "update_required": true,
-                "value": 0.0,
-                "width": 10,
-                "zeropoint": null
-            },
-            "initargs": "0.0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "level_bus34",
-            "osc_methods": [],
-            "properties": {},
-            "type": "slidemeter",
-            "value": 0.0
-        },
-        "135": {
-            "connections": [
-                [
-                    [
-                        192,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "toggle",
-                "height": 27.0,
-                "is_export": false,
-                "label_text": "MUTE",
-                "layername": "Interface",
-                "no_export": false,
-                "off_message": false,
-                "on_message": true,
-                "position_x": 108.81436538696289,
-                "position_y": 264.3354797363281,
-                "scope": "__patch__",
-                "update_required": true,
-                "width": 52.0
-            },
-            "initargs": "False",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "mute_bus34_toggle",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": false
-        },
-        "136": {
-            "connections": [
-                [
-                    [
-                        193,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "toggle",
-                "height": 27.0,
-                "is_export": false,
-                "label_text": "L-R",
-                "layername": "Interface",
-                "no_export": false,
-                "off_message": false,
-                "on_message": true,
-                "position_x": 108.80951690673828,
-                "position_y": 294.15069580078125,
-                "scope": "__patch__",
-                "update_required": true,
-                "width": 52.0
-            },
-            "initargs": "False",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "assign_bus34_toggle",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": false
-        },
-        "137": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "slidemeter",
-                "height": 150,
-                "is_export": false,
-                "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
-                "no_export": false,
-                "orientation": 0,
-                "position_x": 173.70513534545898,
-                "position_y": 110.07730102539062,
-                "scale_position": 0,
-                "scale_type": 0,
-                "scope": "__patch__",
-                "show_scale": false,
-                "update_required": true,
-                "width": 25.0,
-                "zeropoint": null
-            },
-            "initargs": "0.0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "fade_bus56",
+            "name": "fade_bus12",
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
@@ -477,20 +225,21 @@
                 "min_value": 0.0,
                 "no_export": false,
                 "orientation": 0,
-                "position_x": 203.2324676513672,
-                "position_y": 110.37796020507812,
+                "position_x": 84.48246765136719,
+                "position_y": 107.37796020507812,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
+                "value": 0.0,
                 "width": 10,
                 "zeropoint": null
             },
             "initargs": "0.0",
             "midi_filters": null,
             "midi_mode": null,
-            "name": "level_bus56",
+            "name": "level_bus12",
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
@@ -498,7 +247,12 @@
         },
         "139": {
             "connections": [
-                []
+                [
+                    [
+                        178,
+                        0
+                    ]
+                ]
             ],
             "do_onload": true,
             "gui_params": {
@@ -510,8 +264,8 @@
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 168.1893653869629,
-                "position_y": 264.3354797363281,
+                "position_x": 48.87686538696289,
+                "position_y": 261.4604797363281,
                 "scope": "__patch__",
                 "update_required": true,
                 "width": 52.0
@@ -519,7 +273,7 @@
             "initargs": "False",
             "midi_filters": null,
             "midi_mode": null,
-            "name": "mute_bus56_toggle",
+            "name": "mute_bus12_toggle",
             "osc_methods": [],
             "properties": {},
             "type": "var",
@@ -527,28 +281,33 @@
         },
         "140": {
             "connections": [
-                []
+                [
+                    [
+                        177,
+                        0
+                    ]
+                ]
             ],
             "do_onload": true,
             "gui_params": {
                 "display_type": "toggle",
                 "height": 27.0,
                 "is_export": false,
-                "label_text": "L-R",
+                "label_text": "1-2",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 168.18451690673828,
-                "position_y": 294.15069580078125,
+                "position_x": 149.87198638916016,
+                "position_y": 322.1258544921875,
                 "scope": "__patch__",
                 "update_required": true,
-                "width": 52.0
+                "width": 52
             },
             "initargs": "False",
             "midi_filters": null,
             "midi_mode": null,
-            "name": "assign_bus56_toggle",
+            "name": "assign_bus12_toggle",
             "osc_methods": [],
             "properties": {},
             "type": "var",
@@ -556,7 +315,12 @@
         },
         "141": {
             "connections": [
-                []
+                [
+                    [
+                        199,
+                        0
+                    ]
+                ]
             ],
             "do_onload": false,
             "gui_params": {
@@ -564,14 +328,14 @@
                 "height": 150,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
+                "max_value": 5.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
-                "position_x": 233.08013534545898,
-                "position_y": 110.07730102539062,
+                "position_x": 114.33013534545898,
+                "position_y": 107.07730102539062,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -581,7 +345,7 @@
             "initargs": "0.0",
             "midi_filters": null,
             "midi_mode": null,
-            "name": "fade_bus78",
+            "name": "fade_bus34",
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
@@ -601,10 +365,269 @@
                 "min_value": 0.0,
                 "no_export": false,
                 "orientation": 0,
-                "position_x": 262.6074676513672,
-                "position_y": 110.37796020507812,
+                "position_x": 143.8574676513672,
+                "position_y": 107.37796020507812,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
+                "scope": "__patch__",
+                "show_scale": false,
+                "update_required": true,
+                "value": 0.0,
+                "width": 10,
+                "zeropoint": null
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "level_bus34",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slidemeter",
+            "value": 0.0
+        },
+        "143": {
+            "connections": [
+                [
+                    [
+                        200,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "toggle",
+                "height": 27.0,
+                "is_export": false,
+                "label_text": "MUTE",
+                "layername": "Interface",
+                "no_export": false,
+                "off_message": false,
+                "on_message": true,
+                "position_x": 108.81436538696289,
+                "position_y": 261.3354797363281,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 52.0
+            },
+            "initargs": "False",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "mute_bus34_toggle",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": false
+        },
+        "144": {
+            "connections": [
+                [
+                    [
+                        201,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "toggle",
+                "height": 27.0,
+                "is_export": false,
+                "label_text": "3-4",
+                "layername": "Interface",
+                "no_export": false,
+                "off_message": false,
+                "on_message": true,
+                "position_x": 149.2974624633789,
+                "position_y": 358.5870666503906,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 52.0
+            },
+            "initargs": "False",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "assign_bus34_toggle",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": false
+        },
+        "145": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "slidemeter",
+                "height": 150,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 5.0,
+                "min_value": -1000.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 173.70513534545898,
+                "position_y": 107.07730102539062,
+                "scale": "audio",
+                "scale_position": 0,
+                "scope": "__patch__",
+                "show_scale": false,
+                "update_required": true,
+                "width": 25.0,
+                "zeropoint": null
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "fade_bus56",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slidemeter",
+            "value": 0.0
+        },
+        "146": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "slidemeter",
+                "height": 150,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 1.0,
+                "min_value": 0.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 203.2324676513672,
+                "position_y": 107.37796020507812,
+                "scale": "linear",
+                "scale_position": 0,
+                "scope": "__patch__",
+                "show_scale": false,
+                "update_required": true,
+                "width": 10,
+                "zeropoint": null
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "level_bus56",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slidemeter",
+            "value": 0.0
+        },
+        "147": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "toggle",
+                "height": 27.0,
+                "is_export": false,
+                "label_text": "MUTE",
+                "layername": "Interface",
+                "no_export": false,
+                "off_message": false,
+                "on_message": true,
+                "position_x": 168.1893653869629,
+                "position_y": 261.3354797363281,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 52.0
+            },
+            "initargs": "False",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "mute_bus56_toggle",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": false
+        },
+        "148": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "toggle",
+                "height": 27.0,
+                "is_export": false,
+                "label_text": "5-6",
+                "layername": "Interface",
+                "no_export": false,
+                "off_message": false,
+                "on_message": true,
+                "position_x": 149.67252349853516,
+                "position_y": 398.0775146484375,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 52.0
+            },
+            "initargs": "False",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "assign_bus56_toggle",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": false
+        },
+        "149": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "slidemeter",
+                "height": 150,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 5.0,
+                "min_value": -1000.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 233.08013534545898,
+                "position_y": 107.07730102539062,
+                "scale": "audio",
+                "scale_position": 0,
+                "scope": "__patch__",
+                "show_scale": false,
+                "update_required": true,
+                "width": 25.0,
+                "zeropoint": null
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "fade_bus78",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slidemeter",
+            "value": 0.0
+        },
+        "150": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "slidemeter",
+                "height": 150,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 1.0,
+                "min_value": 0.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 262.6074676513672,
+                "position_y": 107.37796020507812,
+                "scale": "linear",
+                "scale_position": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -620,7 +643,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "143": {
+        "151": {
             "connections": [
                 []
             ],
@@ -635,7 +658,7 @@
                 "off_message": false,
                 "on_message": true,
                 "position_x": 227.5643653869629,
-                "position_y": 264.3354797363281,
+                "position_y": 261.3354797363281,
                 "scope": "__patch__",
                 "update_required": true,
                 "width": 52.0
@@ -649,7 +672,7 @@
             "type": "var",
             "value": false
         },
-        "144": {
+        "152": {
             "connections": [
                 []
             ],
@@ -658,13 +681,13 @@
                 "display_type": "toggle",
                 "height": 27.0,
                 "is_export": false,
-                "label_text": "L-R",
+                "label_text": "7-8",
                 "layername": "Interface",
                 "no_export": false,
                 "off_message": false,
                 "on_message": true,
-                "position_x": 227.55951690673828,
-                "position_y": 294.15069580078125,
+                "position_x": 149.97711944580078,
+                "position_y": 437.03814697265625,
                 "scope": "__patch__",
                 "update_required": true,
                 "width": 52
@@ -678,11 +701,11 @@
             "type": "var",
             "value": false
         },
-        "145": {
+        "153": {
             "connections": [
                 [
                     [
-                        152,
+                        160,
                         0
                     ]
                 ]
@@ -693,18 +716,18 @@
                 "height": 200.0,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
+                "max_value": 10.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
-                "position_x": 52.90265655517578,
-                "position_y": 352.75548553466797,
+                "position_x": 36.90265655517578,
+                "position_y": 318.75548553466797,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
-                "show_scale": false,
+                "show_scale": true,
                 "update_required": true,
-                "width": 25.0,
+                "width": 55.0,
                 "zeropoint": null
             },
             "initargs": "0.0",
@@ -716,7 +739,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "146": {
+        "154": {
             "connections": [
                 []
             ],
@@ -731,9 +754,9 @@
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 101.89222717285156,
-                "position_y": 352.5107421875,
+                "position_y": 318.5107421875,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -750,7 +773,7 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "147": {
+        "155": {
             "connections": [
                 []
             ],
@@ -765,9 +788,9 @@
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 123.89222717285156,
-                "position_y": 352.5107421875,
+                "position_y": 318.5107421875,
+                "scale": "linear",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -784,30 +807,30 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "148": {
+        "156": {
             "connections": [
                 [
                     [
-                        305,
+                        313,
                         0
                     ]
                 ]
             ],
             "do_onload": false,
             "gui_params": {
-                "dial_radius": 24,
+                "dial_radius": 20,
                 "display_type": "dial",
                 "height": 50,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
+                "max_value": 5.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 49.94664764404297,
                 "position_y": 38.946651458740234,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
@@ -823,33 +846,34 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "149": {
+        "157": {
             "connections": [
                 [
                     [
-                        306,
+                        314,
                         0
                     ]
                 ]
             ],
             "do_onload": false,
             "gui_params": {
-                "dial_radius": 24,
+                "dial_radius": 20,
                 "display_type": "dial",
                 "height": 50,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
+                "max_value": 5.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 109.94664764404297,
                 "position_y": 38.946651458740234,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
+                "value": 4.999999999999998,
                 "width": 50,
                 "zeropoint": null
             },
@@ -860,35 +884,36 @@
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
-            "value": 0.0
+            "value": 4.999999999999998
         },
-        "150": {
+        "158": {
             "connections": [
                 [
                     [
-                        307,
+                        315,
                         0
                     ]
                 ]
             ],
             "do_onload": false,
             "gui_params": {
-                "dial_radius": 24,
+                "dial_radius": 20,
                 "display_type": "dial",
                 "height": 50,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
+                "max_value": 5.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 170.94664764404297,
                 "position_y": 38.946651458740234,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
+                "value": -8.309766981336777,
                 "width": 50,
                 "zeropoint": null
             },
@@ -899,35 +924,36 @@
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
-            "value": 0.0
+            "value": -8.309766981336777
         },
-        "151": {
+        "159": {
             "connections": [
                 [
                     [
-                        308,
+                        316,
                         0
                     ]
                 ]
             ],
             "do_onload": false,
             "gui_params": {
-                "dial_radius": 24,
+                "dial_radius": 20,
                 "display_type": "dial",
                 "height": 50,
                 "is_export": false,
                 "layername": "Interface",
-                "max_value": 1.0,
-                "min_value": 0.0,
+                "max_value": 5.0,
+                "min_value": -1000.0,
                 "no_export": false,
                 "orientation": 0,
                 "position_x": 229.94664764404297,
                 "position_y": 38.946651458740234,
+                "scale": "audio",
                 "scale_position": 0,
-                "scale_type": 0,
                 "scope": "__patch__",
                 "show_scale": false,
                 "update_required": true,
+                "value": 0,
                 "width": 50,
                 "zeropoint": null
             },
@@ -938,9 +964,9 @@
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
-            "value": 0.0
+            "value": 0
         },
-        "152": {
+        "160": {
             "connections": [
                 []
             ],
@@ -966,11 +992,11 @@
             "properties": {},
             "type": "send"
         },
-        "153": {
+        "161": {
             "connections": [
                 [
                     [
-                        156,
+                        164,
                         0
                     ]
                 ]
@@ -997,11 +1023,11 @@
             "properties": {},
             "type": "recv"
         },
-        "154": {
+        "162": {
             "connections": [
                 [
                     [
-                        158,
+                        166,
                         0
                     ]
                 ]
@@ -1028,11 +1054,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "155": {
+        "163": {
             "connections": [
                 [
                     [
-                        159,
+                        167,
                         0
                     ]
                 ]
@@ -1059,11 +1085,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "156": {
+        "164": {
             "connections": [
                 [
                     [
-                        157,
+                        165,
                         0
                     ]
                 ]
@@ -1090,15 +1116,15 @@
             "properties": {},
             "type": "db2a"
         },
-        "157": {
+        "165": {
             "connections": [
                 [
                     [
-                        158,
+                        166,
                         1
                     ],
                     [
-                        159,
+                        167,
                         1
                     ]
                 ]
@@ -1125,15 +1151,15 @@
             "properties": {},
             "type": "slew~"
         },
-        "158": {
+        "166": {
             "connections": [
                 [
                     [
-                        160,
+                        168,
                         0
                     ],
                     [
-                        189,
+                        197,
                         0
                     ]
                 ]
@@ -1160,15 +1186,15 @@
             "properties": {},
             "type": "*~"
         },
-        "159": {
+        "167": {
             "connections": [
                 [
                     [
-                        161,
+                        169,
                         0
                     ],
                     [
-                        190,
+                        198,
                         0
                     ]
                 ]
@@ -1195,11 +1221,11 @@
             "properties": {},
             "type": "*~"
         },
-        "160": {
+        "168": {
             "connections": [
                 [
                     [
-                        185,
+                        193,
                         0
                     ]
                 ],
@@ -1227,11 +1253,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "161": {
+        "169": {
             "connections": [
                 [
                     [
-                        187,
+                        195,
                         0
                     ]
                 ],
@@ -1259,7 +1285,7 @@
             "properties": {},
             "type": "ampl~"
         },
-        "162": {
+        "170": {
             "connections": [
                 []
             ],
@@ -1272,7 +1298,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 0,
-                "position_y": 250.6363525390625,
+                "position_y": 247.6363525390625,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -1285,11 +1311,11 @@
             "properties": {},
             "type": "send"
         },
-        "163": {
+        "171": {
             "connections": [
                 [
                     [
-                        172,
+                        180,
                         0
                     ]
                 ]
@@ -1316,11 +1342,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "164": {
+        "172": {
             "connections": [
                 [
                     [
-                        173,
+                        181,
                         0
                     ]
                 ]
@@ -1347,11 +1373,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "165": {
+        "173": {
             "connections": [
                 [
                     [
-                        166,
+                        174,
                         0
                     ]
                 ]
@@ -1378,11 +1404,11 @@
             "properties": {},
             "type": "recv"
         },
-        "166": {
+        "174": {
             "connections": [
                 [
                     [
-                        167,
+                        175,
                         0
                     ]
                 ]
@@ -1409,15 +1435,15 @@
             "properties": {},
             "type": "db2a"
         },
-        "167": {
+        "175": {
             "connections": [
                 [
                     [
-                        173,
+                        181,
                         1
                     ],
                     [
-                        172,
+                        180,
                         1
                     ]
                 ]
@@ -1444,11 +1470,11 @@
             "properties": {},
             "type": "slew~"
         },
-        "168": {
+        "176": {
             "connections": [
                 [
                     [
-                        221,
+                        229,
                         0
                     ]
                 ]
@@ -1475,7 +1501,7 @@
             "properties": {},
             "type": "recv"
         },
-        "169": {
+        "177": {
             "connections": [
                 []
             ],
@@ -1487,8 +1513,8 @@
                 "label_text": "assign_bus12",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 0,
-                "position_y": 312.64007568359375,
+                "position_x": 146.8710527420044,
+                "position_y": 484.571044921875,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -1501,7 +1527,7 @@
             "properties": {},
             "type": "send"
         },
-        "170": {
+        "178": {
             "connections": [
                 []
             ],
@@ -1514,7 +1540,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 0,
-                "position_y": 282.64007568359375,
+                "position_y": 279.64007568359375,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -1527,11 +1553,11 @@
             "properties": {},
             "type": "send"
         },
-        "171": {
+        "179": {
             "connections": [
                 [
                     [
-                        214,
+                        222,
                         0
                     ]
                 ]
@@ -1558,11 +1584,11 @@
             "properties": {},
             "type": "recv"
         },
-        "172": {
+        "180": {
             "connections": [
                 [
                     [
-                        174,
+                        182,
                         0
                     ]
                 ]
@@ -1589,11 +1615,11 @@
             "properties": {},
             "type": "*~"
         },
-        "173": {
+        "181": {
             "connections": [
                 [
                     [
-                        175,
+                        183,
                         0
                     ]
                 ]
@@ -1620,19 +1646,19 @@
             "properties": {},
             "type": "*~"
         },
-        "174": {
+        "182": {
             "connections": [
                 [
                     [
-                        176,
+                        184,
                         0
                     ],
                     [
-                        180,
+                        188,
                         0
                     ],
                     [
-                        183,
+                        191,
                         0
                     ]
                 ]
@@ -1659,19 +1685,19 @@
             "properties": {},
             "type": "*~"
         },
-        "175": {
+        "183": {
             "connections": [
                 [
                     [
-                        177,
+                        185,
                         0
                     ],
                     [
-                        180,
+                        188,
                         0
                     ],
                     [
-                        184,
+                        192,
                         0
                     ]
                 ]
@@ -1698,11 +1724,11 @@
             "properties": {},
             "type": "*~"
         },
-        "176": {
+        "184": {
             "connections": [
                 [
                     [
-                        178,
+                        186,
                         0
                     ]
                 ]
@@ -1729,11 +1755,11 @@
             "properties": {},
             "type": "*~"
         },
-        "177": {
+        "185": {
             "connections": [
                 [
                     [
-                        179,
+                        187,
                         0
                     ]
                 ]
@@ -1760,7 +1786,7 @@
             "properties": {},
             "type": "*~"
         },
-        "178": {
+        "186": {
             "connections": [
                 []
             ],
@@ -1786,7 +1812,7 @@
             "properties": {},
             "type": "send~"
         },
-        "179": {
+        "187": {
             "connections": [
                 []
             ],
@@ -1812,11 +1838,11 @@
             "properties": {},
             "type": "send~"
         },
-        "180": {
+        "188": {
             "connections": [
                 [
                     [
-                        181,
+                        189,
                         0
                     ]
                 ],
@@ -1844,11 +1870,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "181": {
+        "189": {
             "connections": [
                 [
                     [
-                        182,
+                        190,
                         0
                     ]
                 ]
@@ -1875,7 +1901,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "182": {
+        "190": {
             "connections": [
                 []
             ],
@@ -1901,7 +1927,7 @@
             "properties": {},
             "type": "send"
         },
-        "183": {
+        "191": {
             "connections": [
                 []
             ],
@@ -1927,7 +1953,7 @@
             "properties": {},
             "type": "send~"
         },
-        "184": {
+        "192": {
             "connections": [
                 []
             ],
@@ -1953,11 +1979,11 @@
             "properties": {},
             "type": "send~"
         },
-        "185": {
+        "193": {
             "connections": [
                 [
                     [
-                        186,
+                        194,
                         0
                     ]
                 ]
@@ -1984,7 +2010,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "186": {
+        "194": {
             "connections": [
                 []
             ],
@@ -2010,11 +2036,11 @@
             "properties": {},
             "type": "send"
         },
-        "187": {
+        "195": {
             "connections": [
                 [
                     [
-                        188,
+                        196,
                         0
                     ]
                 ]
@@ -2041,7 +2067,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "188": {
+        "196": {
             "connections": [
                 []
             ],
@@ -2067,7 +2093,7 @@
             "properties": {},
             "type": "send"
         },
-        "189": {
+        "197": {
             "connections": [
                 []
             ],
@@ -2093,7 +2119,7 @@
             "properties": {},
             "type": "send~"
         },
-        "190": {
+        "198": {
             "connections": [
                 []
             ],
@@ -2119,7 +2145,7 @@
             "properties": {},
             "type": "send~"
         },
-        "191": {
+        "199": {
             "connections": [
                 []
             ],
@@ -2132,7 +2158,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 0,
-                "position_y": 250.5391845703125,
+                "position_y": 247.5391845703125,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -2145,7 +2171,7 @@
             "properties": {},
             "type": "send"
         },
-        "192": {
+        "200": {
             "connections": [
                 []
             ],
@@ -2158,7 +2184,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 0,
-                "position_y": 282.53302001953125,
+                "position_y": 279.53302001953125,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -2171,7 +2197,7 @@
             "properties": {},
             "type": "send"
         },
-        "193": {
+        "201": {
             "connections": [
                 []
             ],
@@ -2183,8 +2209,8 @@
                 "label_text": "assign_bus34",
                 "layername": "Interface",
                 "no_export": false,
-                "position_x": 0,
-                "position_y": 312.54779052734375,
+                "position_x": 146.8710527420044,
+                "position_y": 484.9900817871094,
                 "scope": "__patch__",
                 "update_required": false,
                 "width": 20
@@ -2197,11 +2223,11 @@
             "properties": {},
             "type": "send"
         },
-        "194": {
+        "202": {
             "connections": [
                 [
                     [
-                        195,
+                        203,
                         0
                     ]
                 ]
@@ -2228,7 +2254,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "195": {
+        "203": {
             "connections": [
                 []
             ],
@@ -2254,11 +2280,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "196": {
+        "204": {
             "connections": [
                 [
                     [
-                        197,
+                        205,
                         0
                     ]
                 ]
@@ -2285,7 +2311,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "197": {
+        "205": {
             "connections": [
                 []
             ],
@@ -2311,11 +2337,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "198": {
+        "206": {
             "connections": [
                 [
                     [
-                        199,
+                        207,
                         0
                     ]
                 ]
@@ -2342,7 +2368,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "199": {
+        "207": {
             "connections": [
                 []
             ],
@@ -2368,11 +2394,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "200": {
+        "208": {
             "connections": [
                 [
                     [
-                        201,
+                        209,
                         0
                     ]
                 ]
@@ -2399,7 +2425,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "201": {
+        "209": {
             "connections": [
                 []
             ],
@@ -2425,11 +2451,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "202": {
+        "210": {
             "connections": [
                 [
                     [
-                        203,
+                        211,
                         0
                     ]
                 ]
@@ -2456,7 +2482,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "203": {
+        "211": {
             "connections": [
                 []
             ],
@@ -2482,11 +2508,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "204": {
+        "212": {
             "connections": [
                 [
                     [
-                        205,
+                        213,
                         0
                     ]
                 ]
@@ -2513,7 +2539,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "205": {
+        "213": {
             "connections": [
                 []
             ],
@@ -2539,11 +2565,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "206": {
+        "214": {
             "connections": [
                 [
                     [
-                        207,
+                        215,
                         0
                     ]
                 ]
@@ -2570,7 +2596,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "207": {
+        "215": {
             "connections": [
                 []
             ],
@@ -2596,11 +2622,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "208": {
+        "216": {
             "connections": [
                 [
                     [
-                        209,
+                        217,
                         0
                     ]
                 ]
@@ -2627,7 +2653,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "209": {
+        "217": {
             "connections": [
                 []
             ],
@@ -2653,11 +2679,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "210": {
+        "218": {
             "connections": [
                 [
                     [
-                        211,
+                        219,
                         0
                     ]
                 ]
@@ -2684,7 +2710,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "211": {
+        "219": {
             "connections": [
                 []
             ],
@@ -2710,11 +2736,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "212": {
+        "220": {
             "connections": [
                 [
                     [
-                        213,
+                        221,
                         0
                     ]
                 ]
@@ -2741,7 +2767,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "213": {
+        "221": {
             "connections": [
                 []
             ],
@@ -2767,15 +2793,15 @@
             "properties": {},
             "type": "outlet~"
         },
-        "214": {
+        "222": {
             "connections": [
                 [
                     [
-                        174,
+                        182,
                         1
                     ],
                     [
-                        175,
+                        183,
                         1
                     ]
                 ]
@@ -2802,15 +2828,15 @@
             "properties": {},
             "type": "mute~"
         },
-        "221": {
+        "229": {
             "connections": [
                 [
                     [
-                        176,
+                        184,
                         1
                     ],
                     [
-                        177,
+                        185,
                         1
                     ]
                 ]
@@ -2837,11 +2863,11 @@
             "properties": {},
             "type": "mute~"
         },
-        "228": {
+        "236": {
             "connections": [
                 [
                     [
-                        268,
+                        276,
                         0
                     ]
                 ]
@@ -2868,11 +2894,11 @@
             "properties": {},
             "type": "loadbang"
         },
-        "229": {
+        "237": {
             "connections": [
                 [
                     [
-                        230,
+                        238,
                         0
                     ]
                 ]
@@ -2899,7 +2925,7 @@
             "properties": {},
             "type": "inlet~"
         },
-        "230": {
+        "238": {
             "connections": [
                 []
             ],
@@ -2925,7 +2951,7 @@
             "properties": {},
             "type": "send~"
         },
-        "231": {
+        "239": {
             "connections": [
                 []
             ],
@@ -2951,7 +2977,7 @@
             "properties": {},
             "type": "send~"
         },
-        "232": {
+        "240": {
             "connections": [
                 []
             ],
@@ -2977,7 +3003,7 @@
             "properties": {},
             "type": "send~"
         },
-        "233": {
+        "241": {
             "connections": [
                 []
             ],
@@ -3003,7 +3029,7 @@
             "properties": {},
             "type": "send~"
         },
-        "234": {
+        "242": {
             "connections": [
                 []
             ],
@@ -3029,7 +3055,7 @@
             "properties": {},
             "type": "send~"
         },
-        "235": {
+        "243": {
             "connections": [
                 []
             ],
@@ -3055,7 +3081,7 @@
             "properties": {},
             "type": "send~"
         },
-        "236": {
+        "244": {
             "connections": [
                 []
             ],
@@ -3081,7 +3107,7 @@
             "properties": {},
             "type": "send~"
         },
-        "237": {
+        "245": {
             "connections": [
                 []
             ],
@@ -3107,7 +3133,7 @@
             "properties": {},
             "type": "send~"
         },
-        "238": {
+        "246": {
             "connections": [
                 []
             ],
@@ -3133,7 +3159,7 @@
             "properties": {},
             "type": "send~"
         },
-        "239": {
+        "247": {
             "connections": [
                 []
             ],
@@ -3159,7 +3185,7 @@
             "properties": {},
             "type": "send~"
         },
-        "240": {
+        "248": {
             "connections": [
                 []
             ],
@@ -3185,7 +3211,7 @@
             "properties": {},
             "type": "send~"
         },
-        "241": {
+        "249": {
             "connections": [
                 []
             ],
@@ -3211,7 +3237,7 @@
             "properties": {},
             "type": "send~"
         },
-        "242": {
+        "250": {
             "connections": [
                 []
             ],
@@ -3237,11 +3263,11 @@
             "properties": {},
             "type": "send~"
         },
-        "243": {
+        "251": {
             "connections": [
                 [
                     [
-                        244,
+                        252,
                         0
                     ]
                 ]
@@ -3268,7 +3294,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "244": {
+        "252": {
             "connections": [
                 []
             ],
@@ -3294,11 +3320,11 @@
             "properties": {},
             "type": "send~"
         },
-        "245": {
+        "253": {
             "connections": [
                 [
                     [
-                        246,
+                        254,
                         0
                     ]
                 ]
@@ -3325,7 +3351,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "246": {
+        "254": {
             "connections": [
                 []
             ],
@@ -3351,11 +3377,11 @@
             "properties": {},
             "type": "send~"
         },
-        "247": {
+        "255": {
             "connections": [
                 [
                     [
-                        248,
+                        256,
                         0
                     ]
                 ]
@@ -3382,7 +3408,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "248": {
+        "256": {
             "connections": [
                 []
             ],
@@ -3408,11 +3434,11 @@
             "properties": {},
             "type": "send~"
         },
-        "249": {
+        "257": {
             "connections": [
                 [
                     [
-                        250,
+                        258,
                         0
                     ]
                 ]
@@ -3439,7 +3465,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "250": {
+        "258": {
             "connections": [
                 []
             ],
@@ -3465,11 +3491,11 @@
             "properties": {},
             "type": "send~"
         },
-        "251": {
+        "259": {
             "connections": [
                 [
                     [
-                        252,
+                        260,
                         0
                     ]
                 ]
@@ -3496,7 +3522,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "252": {
+        "260": {
             "connections": [
                 []
             ],
@@ -3522,11 +3548,11 @@
             "properties": {},
             "type": "send~"
         },
-        "253": {
+        "261": {
             "connections": [
                 [
                     [
-                        254,
+                        262,
                         0
                     ]
                 ]
@@ -3553,7 +3579,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "254": {
+        "262": {
             "connections": [
                 []
             ],
@@ -3579,11 +3605,11 @@
             "properties": {},
             "type": "send~"
         },
-        "255": {
+        "263": {
             "connections": [
                 [
                     [
-                        256,
+                        264,
                         0
                     ]
                 ]
@@ -3610,7 +3636,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "256": {
+        "264": {
             "connections": [
                 []
             ],
@@ -3636,11 +3662,11 @@
             "properties": {},
             "type": "send~"
         },
-        "257": {
+        "265": {
             "connections": [
                 [
                     [
-                        258,
+                        266,
                         0
                     ]
                 ]
@@ -3667,7 +3693,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "258": {
+        "266": {
             "connections": [
                 []
             ],
@@ -3693,11 +3719,11 @@
             "properties": {},
             "type": "send~"
         },
-        "259": {
+        "267": {
             "connections": [
                 [
                     [
-                        260,
+                        268,
                         0
                     ]
                 ]
@@ -3724,7 +3750,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "260": {
+        "268": {
             "connections": [
                 []
             ],
@@ -3750,11 +3776,11 @@
             "properties": {},
             "type": "send~"
         },
-        "261": {
+        "269": {
             "connections": [
                 [
                     [
-                        262,
+                        270,
                         0
                     ]
                 ]
@@ -3781,7 +3807,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "262": {
+        "270": {
             "connections": [
                 []
             ],
@@ -3807,11 +3833,11 @@
             "properties": {},
             "type": "send~"
         },
-        "263": {
+        "271": {
             "connections": [
                 [
                     [
-                        264,
+                        272,
                         0
                     ]
                 ]
@@ -3838,7 +3864,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "264": {
+        "272": {
             "connections": [
                 []
             ],
@@ -3864,11 +3890,11 @@
             "properties": {},
             "type": "send~"
         },
-        "265": {
+        "273": {
             "connections": [
                 [
                     [
-                        266,
+                        274,
                         0
                     ]
                 ]
@@ -3895,7 +3921,7 @@
             "properties": {},
             "type": "recv~"
         },
-        "266": {
+        "274": {
             "connections": [
                 []
             ],
@@ -3921,7 +3947,7 @@
             "properties": {},
             "type": "send~"
         },
-        "267": {
+        "275": {
             "connections": [
                 []
             ],
@@ -3947,11 +3973,11 @@
             "properties": {},
             "type": "send"
         },
-        "268": {
+        "276": {
             "connections": [
                 [
                     [
-                        267,
+                        275,
                         0
                     ]
                 ]
@@ -3977,11 +4003,11 @@
             "properties": {},
             "type": "message"
         },
-        "269": {
+        "277": {
             "connections": [
                 [
                     [
-                        276,
+                        284,
                         0
                     ]
                 ]
@@ -4008,11 +4034,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "270": {
+        "278": {
             "connections": [
                 [
                     [
-                        277,
+                        285,
                         0
                     ]
                 ]
@@ -4039,11 +4065,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "271": {
+        "279": {
             "connections": [
                 [
                     [
-                        272,
+                        280,
                         0
                     ]
                 ]
@@ -4070,11 +4096,11 @@
             "properties": {},
             "type": "recv"
         },
-        "272": {
+        "280": {
             "connections": [
                 [
                     [
-                        273,
+                        281,
                         0
                     ]
                 ]
@@ -4101,15 +4127,15 @@
             "properties": {},
             "type": "db2a"
         },
-        "273": {
+        "281": {
             "connections": [
                 [
                     [
-                        277,
+                        285,
                         1
                     ],
                     [
-                        276,
+                        284,
                         1
                     ]
                 ]
@@ -4136,11 +4162,11 @@
             "properties": {},
             "type": "slew~"
         },
-        "274": {
+        "282": {
             "connections": [
                 [
                     [
-                        296,
+                        304,
                         0
                     ]
                 ]
@@ -4167,11 +4193,11 @@
             "properties": {},
             "type": "recv"
         },
-        "275": {
+        "283": {
             "connections": [
                 [
                     [
-                        289,
+                        297,
                         0
                     ]
                 ]
@@ -4198,11 +4224,11 @@
             "properties": {},
             "type": "recv"
         },
-        "276": {
+        "284": {
             "connections": [
                 [
                     [
-                        278,
+                        286,
                         0
                     ]
                 ]
@@ -4229,11 +4255,11 @@
             "properties": {},
             "type": "*~"
         },
-        "277": {
+        "285": {
             "connections": [
                 [
                     [
-                        279,
+                        287,
                         0
                     ]
                 ]
@@ -4260,19 +4286,19 @@
             "properties": {},
             "type": "*~"
         },
-        "278": {
+        "286": {
             "connections": [
                 [
                     [
-                        280,
+                        288,
                         0
                     ],
                     [
-                        284,
+                        292,
                         0
                     ],
                     [
-                        287,
+                        295,
                         0
                     ]
                 ]
@@ -4299,19 +4325,19 @@
             "properties": {},
             "type": "*~"
         },
-        "279": {
+        "287": {
             "connections": [
                 [
                     [
-                        281,
+                        289,
                         0
                     ],
                     [
-                        284,
+                        292,
                         0
                     ],
                     [
-                        288,
+                        296,
                         0
                     ]
                 ]
@@ -4338,11 +4364,11 @@
             "properties": {},
             "type": "*~"
         },
-        "280": {
+        "288": {
             "connections": [
                 [
                     [
-                        282,
+                        290,
                         0
                     ]
                 ]
@@ -4369,11 +4395,11 @@
             "properties": {},
             "type": "*~"
         },
-        "281": {
+        "289": {
             "connections": [
                 [
                     [
-                        283,
+                        291,
                         0
                     ]
                 ]
@@ -4400,7 +4426,7 @@
             "properties": {},
             "type": "*~"
         },
-        "282": {
+        "290": {
             "connections": [
                 []
             ],
@@ -4426,7 +4452,7 @@
             "properties": {},
             "type": "send~"
         },
-        "283": {
+        "291": {
             "connections": [
                 []
             ],
@@ -4452,11 +4478,11 @@
             "properties": {},
             "type": "send~"
         },
-        "284": {
+        "292": {
             "connections": [
                 [
                     [
-                        285,
+                        293,
                         0
                     ]
                 ],
@@ -4484,11 +4510,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "285": {
+        "293": {
             "connections": [
                 [
                     [
-                        286,
+                        294,
                         0
                     ]
                 ]
@@ -4515,7 +4541,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "286": {
+        "294": {
             "connections": [
                 []
             ],
@@ -4541,7 +4567,7 @@
             "properties": {},
             "type": "send"
         },
-        "287": {
+        "295": {
             "connections": [
                 []
             ],
@@ -4567,7 +4593,7 @@
             "properties": {},
             "type": "send~"
         },
-        "288": {
+        "296": {
             "connections": [
                 []
             ],
@@ -4593,15 +4619,15 @@
             "properties": {},
             "type": "send~"
         },
-        "289": {
+        "297": {
             "connections": [
                 [
                     [
-                        278,
+                        286,
                         1
                     ],
                     [
-                        279,
+                        287,
                         1
                     ]
                 ]
@@ -4628,15 +4654,15 @@
             "properties": {},
             "type": "mute~"
         },
-        "296": {
+        "304": {
             "connections": [
                 [
                     [
-                        280,
+                        288,
                         1
                     ],
                     [
-                        281,
+                        289,
                         1
                     ]
                 ]
@@ -4663,11 +4689,11 @@
             "properties": {},
             "type": "mute~"
         },
-        "303": {
+        "311": {
             "connections": [
                 [
                     [
-                        304,
+                        312,
                         0
                     ]
                 ]
@@ -4694,11 +4720,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "304": {
+        "312": {
             "connections": [
                 [
                     [
-                        312,
+                        320,
                         0
                     ]
                 ]
@@ -4725,7 +4751,7 @@
             "properties": {},
             "type": "*~"
         },
-        "305": {
+        "313": {
             "connections": [
                 []
             ],
@@ -4751,7 +4777,7 @@
             "properties": {},
             "type": "send"
         },
-        "306": {
+        "314": {
             "connections": [
                 []
             ],
@@ -4777,7 +4803,7 @@
             "properties": {},
             "type": "send"
         },
-        "307": {
+        "315": {
             "connections": [
                 []
             ],
@@ -4803,7 +4829,7 @@
             "properties": {},
             "type": "send"
         },
-        "308": {
+        "316": {
             "connections": [
                 []
             ],
@@ -4829,11 +4855,11 @@
             "properties": {},
             "type": "send"
         },
-        "309": {
+        "317": {
             "connections": [
                 [
                     [
-                        310,
+                        318,
                         0
                     ]
                 ]
@@ -4860,11 +4886,11 @@
             "properties": {},
             "type": "recv"
         },
-        "310": {
+        "318": {
             "connections": [
                 [
                     [
-                        311,
+                        319,
                         0
                     ]
                 ]
@@ -4891,11 +4917,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "311": {
+        "319": {
             "connections": [
                 [
                     [
-                        304,
+                        312,
                         1
                     ]
                 ]
@@ -4922,7 +4948,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "312": {
+        "320": {
             "connections": [
                 []
             ],
@@ -4948,11 +4974,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "313": {
+        "321": {
             "connections": [
                 [
                     [
-                        314,
+                        322,
                         0
                     ]
                 ]
@@ -4979,11 +5005,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "314": {
+        "322": {
             "connections": [
                 [
                     [
-                        318,
+                        326,
                         0
                     ]
                 ]
@@ -5010,11 +5036,11 @@
             "properties": {},
             "type": "*~"
         },
-        "315": {
+        "323": {
             "connections": [
                 [
                     [
-                        316,
+                        324,
                         0
                     ]
                 ]
@@ -5041,11 +5067,11 @@
             "properties": {},
             "type": "recv"
         },
-        "316": {
+        "324": {
             "connections": [
                 [
                     [
-                        317,
+                        325,
                         0
                     ]
                 ]
@@ -5072,11 +5098,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "317": {
+        "325": {
             "connections": [
                 [
                     [
-                        314,
+                        322,
                         1
                     ]
                 ]
@@ -5103,7 +5129,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "318": {
+        "326": {
             "connections": [
                 []
             ],
@@ -5129,11 +5155,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "319": {
+        "327": {
             "connections": [
                 [
                     [
-                        320,
+                        328,
                         0
                     ]
                 ]
@@ -5160,11 +5186,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "320": {
+        "328": {
             "connections": [
                 [
                     [
-                        324,
+                        332,
                         0
                     ]
                 ]
@@ -5191,11 +5217,11 @@
             "properties": {},
             "type": "*~"
         },
-        "321": {
+        "329": {
             "connections": [
                 [
                     [
-                        322,
+                        330,
                         0
                     ]
                 ]
@@ -5222,11 +5248,11 @@
             "properties": {},
             "type": "recv"
         },
-        "322": {
+        "330": {
             "connections": [
                 [
                     [
-                        323,
+                        331,
                         0
                     ]
                 ]
@@ -5253,11 +5279,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "323": {
+        "331": {
             "connections": [
                 [
                     [
-                        320,
+                        328,
                         1
                     ]
                 ]
@@ -5284,7 +5310,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "324": {
+        "332": {
             "connections": [
                 []
             ],
@@ -5310,11 +5336,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "325": {
+        "333": {
             "connections": [
                 [
                     [
-                        326,
+                        334,
                         0
                     ]
                 ]
@@ -5341,11 +5367,11 @@
             "properties": {},
             "type": "recv~"
         },
-        "326": {
+        "334": {
             "connections": [
                 [
                     [
-                        330,
+                        338,
                         0
                     ]
                 ]
@@ -5372,11 +5398,11 @@
             "properties": {},
             "type": "*~"
         },
-        "327": {
+        "335": {
             "connections": [
                 [
                     [
-                        328,
+                        336,
                         0
                     ]
                 ]
@@ -5403,11 +5429,11 @@
             "properties": {},
             "type": "recv"
         },
-        "328": {
+        "336": {
             "connections": [
                 [
                     [
-                        329,
+                        337,
                         0
                     ]
                 ]
@@ -5434,11 +5460,11 @@
             "properties": {},
             "type": "db2a"
         },
-        "329": {
+        "337": {
             "connections": [
                 [
                     [
-                        326,
+                        334,
                         1
                     ]
                 ]
@@ -5465,7 +5491,7 @@
             "properties": {},
             "type": "slew~"
         },
-        "330": {
+        "338": {
             "connections": [
                 []
             ],
@@ -5491,7 +5517,7 @@
             "properties": {},
             "type": "outlet~"
         },
-        "374": {
+        "339": {
             "connections": [
                 []
             ],
@@ -5505,7 +5531,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 57.03076934814453,
-                "position_y": 323.21624755859375,
+                "position_y": 289.21624755859375,
                 "scope": "__patch__",
                 "update_required": true,
                 "value": "1-2",
@@ -5520,7 +5546,7 @@
             "type": "text",
             "value": "1-2"
         },
-        "375": {
+        "340": {
             "connections": [
                 []
             ],
@@ -5534,7 +5560,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 117.0303955078125,
-                "position_y": 323.21624755859375,
+                "position_y": 289.21624755859375,
                 "scope": "__patch__",
                 "update_required": true,
                 "value": "3-4",
@@ -5549,7 +5575,7 @@
             "type": "text",
             "value": "3-4"
         },
-        "376": {
+        "341": {
             "connections": [
                 []
             ],
@@ -5563,7 +5589,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 175.03001403808594,
-                "position_y": 323.2162170410156,
+                "position_y": 289.2162170410156,
                 "scope": "__patch__",
                 "update_required": true,
                 "value": "5-6",
@@ -5578,7 +5604,7 @@
             "type": "text",
             "value": "5-6"
         },
-        "377": {
+        "342": {
             "connections": [
                 []
             ],
@@ -5592,7 +5618,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 237.02964782714844,
-                "position_y": 323.21551513671875,
+                "position_y": 289.21551513671875,
                 "scope": "__patch__",
                 "update_required": true,
                 "value": "7-8",
@@ -5606,198 +5632,318 @@
             "properties": {},
             "type": "text",
             "value": "7-8"
+        },
+        "386": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 22.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 56.9996452331543,
+                "position_y": 82.53498077392578,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "<span size=\"small\">AUX 1</span>",
+                "width": 44.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "<span size=\"small\">AUX 1</span>"
+        },
+        "387": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 22.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 118.91952896118164,
+                "position_y": 81.61177444458008,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "<span size=\"small\">AUX 2</span>",
+                "width": 44.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_007",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "<span size=\"small\">AUX 2</span>"
+        },
+        "388": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 22.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 180.5621452331543,
+                "position_y": 81.40998077392578,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "<span size=\"small\">AUX 3</span>",
+                "width": 44.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_008",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "<span size=\"small\">AUX 3</span>"
+        },
+        "389": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "height": 22.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 236.9996452331543,
+                "position_y": 81.97248077392578,
+                "scope": "__patch__",
+                "update_required": true,
+                "value": "<span size=\"small\">AUX 4</span>",
+                "width": 44.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_009",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "<span size=\"small\">AUX 4</span>"
         }
     },
     "scopes": {
         "__patch__": {
-            "assign_bus12_toggle": 132,
-            "assign_bus34_toggle": 136,
-            "assign_bus56_toggle": 140,
-            "assign_bus78_toggle": 144,
-            "fade_aux1": 148,
-            "fade_aux2": 149,
-            "fade_aux3": 150,
-            "fade_aux4": 151,
-            "fade_bus12": 129,
-            "fade_bus34": 133,
-            "fade_bus56": 137,
-            "fade_bus78": 141,
-            "fade_master": 145,
-            "level_bus12": 130,
-            "level_bus34": 134,
-            "level_bus56": 138,
-            "level_bus78": 142,
-            "level_master_l": 146,
-            "level_master_r": 147,
-            "message_002": 268,
-            "mute_bus12_toggle": 131,
-            "mute_bus34_toggle": 135,
-            "mute_bus56_toggle": 139,
-            "mute_bus78_toggle": 143,
+            "assign_bus12_toggle": 140,
+            "assign_bus34_toggle": 144,
+            "assign_bus56_toggle": 148,
+            "assign_bus78_toggle": 152,
+            "fade_aux1": 156,
+            "fade_aux2": 157,
+            "fade_aux3": 158,
+            "fade_aux4": 159,
+            "fade_bus12": 137,
+            "fade_bus34": 141,
+            "fade_bus56": 145,
+            "fade_bus78": 149,
+            "fade_master": 153,
+            "level_bus12": 138,
+            "level_bus34": 142,
+            "level_bus56": 146,
+            "level_bus78": 150,
+            "level_master_l": 154,
+            "level_master_r": 155,
+            "message_002": 276,
+            "mute_bus12_toggle": 139,
+            "mute_bus34_toggle": 143,
+            "mute_bus56_toggle": 147,
+            "mute_bus78_toggle": 151,
             "patch": 0,
-            "processor_002": 156,
-            "processor_003": 157,
-            "processor_004": 158,
-            "processor_005": 159,
-            "processor_006": 160,
-            "processor_007": 161,
-            "processor_008": 166,
-            "processor_009": 167,
-            "processor_010": 172,
-            "processor_011": 173,
-            "processor_012": 228,
-            "processor_013": 272,
-            "processor_014": 174,
-            "processor_015": 175,
-            "processor_016": 273,
-            "processor_017": 176,
-            "processor_018": 177,
-            "processor_019": 180,
-            "processor_020": 181,
-            "processor_021": 185,
-            "processor_022": 187,
-            "processor_023": 276,
-            "processor_024": 195,
-            "processor_025": 197,
-            "processor_026": 199,
-            "processor_027": 201,
-            "processor_028": 203,
-            "processor_029": 205,
-            "processor_030": 207,
-            "processor_031": 209,
-            "processor_032": 211,
-            "processor_033": 213,
-            "processor_034": 277,
-            "processor_035": 278,
-            "processor_036": 279,
-            "processor_037": 280,
-            "processor_038": 281,
-            "processor_039": 284,
-            "processor_040": 285,
-            "processor_041": 289,
-            "processor_042": 296,
-            "processor_043": 310,
-            "processor_044": 311,
-            "processor_045": 314,
-            "processor_046": 304,
-            "processor_047": 214,
-            "processor_048": 221,
-            "processor_049": 312,
-            "processor_050": 316,
-            "processor_051": 317,
-            "processor_052": 318,
-            "processor_053": 320,
-            "processor_054": 322,
-            "processor_055": 323,
-            "processor_056": 324,
-            "processor_057": 326,
-            "processor_058": 328,
-            "processor_059": 329,
-            "processor_060": 330,
-            "recvsignalvia_001": 154,
-            "recvsignalvia_002": 155,
-            "recvsignalvia_003": 163,
-            "recvsignalvia_004": 164,
-            "recvsignalvia_005": 194,
-            "recvsignalvia_006": 196,
-            "recvsignalvia_007": 198,
-            "recvsignalvia_008": 200,
-            "recvsignalvia_009": 202,
-            "recvsignalvia_010": 204,
-            "recvsignalvia_011": 206,
-            "recvsignalvia_012": 208,
-            "recvsignalvia_013": 210,
-            "recvsignalvia_014": 212,
-            "recvsignalvia_015": 269,
-            "recvsignalvia_016": 270,
-            "recvsignalvia_017": 313,
-            "recvsignalvia_018": 319,
-            "recvsignalvia_019": 325,
-            "recvsignalvia_029": 303,
-            "recvvia_001": 153,
-            "recvvia_002": 165,
-            "recvvia_003": 168,
-            "recvvia_004": 171,
-            "recvvia_005": 271,
-            "recvvia_006": 274,
-            "recvvia_007": 275,
-            "recvvia_008": 309,
-            "recvvia_009": 315,
-            "recvvia_010": 321,
-            "recvvia_011": 327,
+            "processor_002": 164,
+            "processor_003": 165,
+            "processor_004": 166,
+            "processor_005": 167,
+            "processor_006": 168,
+            "processor_007": 169,
+            "processor_008": 174,
+            "processor_009": 175,
+            "processor_010": 180,
+            "processor_011": 181,
+            "processor_012": 236,
+            "processor_013": 280,
+            "processor_014": 182,
+            "processor_015": 183,
+            "processor_016": 281,
+            "processor_017": 184,
+            "processor_018": 185,
+            "processor_019": 188,
+            "processor_020": 189,
+            "processor_021": 193,
+            "processor_022": 195,
+            "processor_023": 284,
+            "processor_024": 203,
+            "processor_025": 205,
+            "processor_026": 207,
+            "processor_027": 209,
+            "processor_028": 211,
+            "processor_029": 213,
+            "processor_030": 215,
+            "processor_031": 217,
+            "processor_032": 219,
+            "processor_033": 221,
+            "processor_034": 285,
+            "processor_035": 286,
+            "processor_036": 287,
+            "processor_037": 288,
+            "processor_038": 289,
+            "processor_039": 292,
+            "processor_040": 293,
+            "processor_041": 297,
+            "processor_042": 304,
+            "processor_043": 318,
+            "processor_044": 319,
+            "processor_045": 322,
+            "processor_046": 312,
+            "processor_047": 222,
+            "processor_048": 229,
+            "processor_049": 320,
+            "processor_050": 324,
+            "processor_051": 325,
+            "processor_052": 326,
+            "processor_053": 328,
+            "processor_054": 330,
+            "processor_055": 331,
+            "processor_056": 332,
+            "processor_057": 334,
+            "processor_058": 336,
+            "processor_059": 337,
+            "processor_060": 338,
+            "recvsignalvia_001": 162,
+            "recvsignalvia_002": 163,
+            "recvsignalvia_003": 171,
+            "recvsignalvia_004": 172,
+            "recvsignalvia_005": 202,
+            "recvsignalvia_006": 204,
+            "recvsignalvia_007": 206,
+            "recvsignalvia_008": 208,
+            "recvsignalvia_009": 210,
+            "recvsignalvia_010": 212,
+            "recvsignalvia_011": 214,
+            "recvsignalvia_012": 216,
+            "recvsignalvia_013": 218,
+            "recvsignalvia_014": 220,
+            "recvsignalvia_015": 277,
+            "recvsignalvia_016": 278,
+            "recvsignalvia_017": 321,
+            "recvsignalvia_018": 327,
+            "recvsignalvia_019": 333,
+            "recvsignalvia_029": 311,
+            "recvvia_001": 161,
+            "recvvia_002": 173,
+            "recvvia_003": 176,
+            "recvvia_004": 179,
+            "recvvia_005": 279,
+            "recvvia_006": 282,
+            "recvvia_007": 283,
+            "recvvia_008": 317,
+            "recvvia_009": 323,
+            "recvvia_010": 329,
+            "recvvia_011": 335,
             "self": 0,
-            "sendsignalvia_001": 178,
-            "sendsignalvia_002": 179,
-            "sendsignalvia_003": 183,
-            "sendsignalvia_004": 184,
-            "sendsignalvia_005": 189,
-            "sendsignalvia_006": 190,
-            "sendsignalvia_007": 282,
-            "sendsignalvia_008": 283,
-            "sendsignalvia_009": 287,
-            "sendsignalvia_010": 288,
-            "sendvia_001": 152,
-            "sendvia_002": 162,
-            "sendvia_003": 169,
-            "sendvia_004": 191,
-            "sendvia_005": 170,
-            "sendvia_006": 182,
-            "sendvia_007": 192,
-            "sendvia_008": 186,
-            "sendvia_009": 188,
-            "sendvia_010": 193,
-            "sendvia_011": 267,
-            "sendvia_012": 286,
-            "sendvia_013": 305,
-            "sendvia_014": 306,
-            "sendvia_015": 307,
-            "sendvia_016": 308,
-            "text_002": 374,
-            "text_003": 375,
-            "text_004": 376,
-            "text_005": 377
+            "sendsignalvia_001": 186,
+            "sendsignalvia_002": 187,
+            "sendsignalvia_003": 191,
+            "sendsignalvia_004": 192,
+            "sendsignalvia_005": 197,
+            "sendsignalvia_006": 198,
+            "sendsignalvia_007": 290,
+            "sendsignalvia_008": 291,
+            "sendsignalvia_009": 295,
+            "sendsignalvia_010": 296,
+            "sendvia_001": 160,
+            "sendvia_002": 170,
+            "sendvia_003": 177,
+            "sendvia_004": 199,
+            "sendvia_005": 178,
+            "sendvia_006": 190,
+            "sendvia_007": 200,
+            "sendvia_008": 194,
+            "sendvia_009": 196,
+            "sendvia_010": 201,
+            "sendvia_011": 275,
+            "sendvia_012": 294,
+            "sendvia_013": 313,
+            "sendvia_014": 314,
+            "sendvia_015": 315,
+            "sendvia_016": 316,
+            "text_002": 339,
+            "text_003": 340,
+            "text_004": 341,
+            "text_005": 342,
+            "text_006": 386,
+            "text_007": 387,
+            "text_008": 388,
+            "text_009": 389
         },
         "chan_001": {
             "channel_strip": 1,
-            "processor_033": 229,
-            "recvsignalvia_015": 243,
-            "recvsignalvia_016": 245,
-            "recvsignalvia_017": 247,
-            "recvsignalvia_018": 249,
-            "recvsignalvia_019": 251,
-            "recvsignalvia_020": 253,
-            "recvsignalvia_021": 255,
-            "recvsignalvia_022": 257,
-            "recvsignalvia_023": 259,
-            "recvsignalvia_024": 261,
-            "recvsignalvia_025": 263,
-            "recvsignalvia_026": 265,
-            "sendsignalvia_007": 230,
-            "sendsignalvia_008": 231,
-            "sendsignalvia_009": 232,
-            "sendsignalvia_010": 233,
-            "sendsignalvia_011": 234,
-            "sendsignalvia_012": 235,
-            "sendsignalvia_013": 236,
-            "sendsignalvia_014": 237,
-            "sendsignalvia_015": 238,
-            "sendsignalvia_016": 239,
-            "sendsignalvia_017": 240,
-            "sendsignalvia_018": 241,
-            "sendsignalvia_019": 242,
-            "sendsignalvia_020": 244,
-            "sendsignalvia_021": 246,
-            "sendsignalvia_022": 248,
-            "sendsignalvia_023": 250,
-            "sendsignalvia_024": 252,
-            "sendsignalvia_025": 254,
-            "sendsignalvia_026": 256,
-            "sendsignalvia_027": 258,
-            "sendsignalvia_028": 260,
-            "sendsignalvia_029": 262,
-            "sendsignalvia_030": 264,
-            "sendsignalvia_031": 266
+            "processor_033": 237,
+            "recvsignalvia_015": 251,
+            "recvsignalvia_016": 253,
+            "recvsignalvia_017": 255,
+            "recvsignalvia_018": 257,
+            "recvsignalvia_019": 259,
+            "recvsignalvia_020": 261,
+            "recvsignalvia_021": 263,
+            "recvsignalvia_022": 265,
+            "recvsignalvia_023": 267,
+            "recvsignalvia_024": 269,
+            "recvsignalvia_025": 271,
+            "recvsignalvia_026": 273,
+            "sendsignalvia_007": 238,
+            "sendsignalvia_008": 239,
+            "sendsignalvia_009": 240,
+            "sendsignalvia_010": 241,
+            "sendsignalvia_011": 242,
+            "sendsignalvia_012": 243,
+            "sendsignalvia_013": 244,
+            "sendsignalvia_014": 245,
+            "sendsignalvia_015": 246,
+            "sendsignalvia_016": 247,
+            "sendsignalvia_017": 248,
+            "sendsignalvia_018": 249,
+            "sendsignalvia_019": 250,
+            "sendsignalvia_020": 252,
+            "sendsignalvia_021": 254,
+            "sendsignalvia_022": 256,
+            "sendsignalvia_023": 258,
+            "sendsignalvia_024": 260,
+            "sendsignalvia_025": 262,
+            "sendsignalvia_026": 264,
+            "sendsignalvia_027": 266,
+            "sendsignalvia_028": 268,
+            "sendsignalvia_029": 270,
+            "sendsignalvia_030": 272,
+            "sendsignalvia_031": 274
         }
     },
-    "type": "mix8bus-1"
+    "type": "mix8bus"
 }
