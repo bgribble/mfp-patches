@@ -19,7 +19,8 @@ laptop from an external multichannel audio input.   It's set up
 with 4 stereo panned busses, 4 aux sends per channel, mutes, and
 master gain.  The number of channels is a creation parameter. 
 
-STATUS: sketched but not completed
+STATuS: still needs improvements (audio scaling on dials) but mostly
+working. 
 
 ### Step sequencer 
 
