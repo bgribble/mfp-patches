@@ -613,8 +613,8 @@
                         0
                     ],
                     [
-                        73,
-                        0
+                        70,
+                        1
                     ]
                 ]
             ],
@@ -703,6 +703,111 @@
             "properties": {},
             "type": "%"
         },
+        "67": {
+            "connections": [
+                [
+                    [
+                        72,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "button",
+                "height": 26.0,
+                "is_export": false,
+                "label_text": ">>",
+                "layername": "Interface",
+                "message": {
+                    "__BangType__": {}
+                },
+                "no_export": false,
+                "position_x": 221.35899353027344,
+                "position_y": 142.59701538085938,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 30.0
+            },
+            "initargs": "False",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "button_nextstep",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": false
+        },
+        "68": {
+            "connections": [
+                [
+                    [
+                        71,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "button",
+                "height": 26.0,
+                "is_export": false,
+                "label_text": "<<",
+                "layername": "Interface",
+                "message": {
+                    "__BangType__": {}
+                },
+                "no_export": false,
+                "position_x": 222.35899353027344,
+                "position_y": 173.74310302734375,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 30.0
+            },
+            "initargs": "False",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "button_prevstep",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": false
+        },
+        "69": {
+            "connections": [
+                [
+                    [
+                        73,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "button",
+                "height": 26.0,
+                "is_export": false,
+                "label_text": "RS",
+                "layername": "Interface",
+                "message": {
+                    "__BangType__": {}
+                },
+                "no_export": false,
+                "position_x": 217.19984436035156,
+                "position_y": 207.1623992919922,
+                "scope": "__patch__",
+                "update_required": true,
+                "width": 40.0
+            },
+            "initargs": "False",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "button_reset",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": false
+        },
         "7": {
             "connections": [
                 [
@@ -738,111 +843,6 @@
             "connections": [
                 [
                     [
-                        75,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "button",
-                "height": 26.0,
-                "is_export": false,
-                "label_text": ">>",
-                "layername": "Interface",
-                "message": {
-                    "__BangType__": {}
-                },
-                "no_export": false,
-                "position_x": 221.35899353027344,
-                "position_y": 142.59701538085938,
-                "scope": "__patch__",
-                "update_required": true,
-                "width": 30.0
-            },
-            "initargs": "False",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "button_nextstep",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": false
-        },
-        "71": {
-            "connections": [
-                [
-                    [
-                        74,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "button",
-                "height": 26.0,
-                "is_export": false,
-                "label_text": "<<",
-                "layername": "Interface",
-                "message": {
-                    "__BangType__": {}
-                },
-                "no_export": false,
-                "position_x": 222.35899353027344,
-                "position_y": 173.74310302734375,
-                "scope": "__patch__",
-                "update_required": true,
-                "width": 30.0
-            },
-            "initargs": "False",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "button_prevstep",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": false
-        },
-        "72": {
-            "connections": [
-                [
-                    [
-                        76,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "button",
-                "height": 26.0,
-                "is_export": false,
-                "label_text": "RS",
-                "layername": "Interface",
-                "message": {
-                    "__BangType__": {}
-                },
-                "no_export": false,
-                "position_x": 217.19984436035156,
-                "position_y": 207.1623992919922,
-                "scope": "__patch__",
-                "update_required": true,
-                "width": 40.0
-            },
-            "initargs": "False",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "button_reset",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": false
-        },
-        "73": {
-            "connections": [
-                [
-                    [
                         64,
                         0
                     ]
@@ -851,12 +851,12 @@
             "do_onload": false,
             "gui_params": {
                 "display_type": "processor",
-                "height": 25.0,
+                "height": 25,
                 "is_export": false,
                 "layername": "Main",
                 "no_export": false,
-                "position_x": 94.49361419677734,
-                "position_y": 228.09066772460938,
+                "position_x": 91.792236328125,
+                "position_y": 229.2824249267578,
                 "scope": "__patch__",
                 "show_label": true,
                 "update_required": false,
@@ -873,11 +873,11 @@
                 "__UninitType__": {}
             }
         },
-        "74": {
+        "71": {
             "connections": [
                 [
                     [
-                        73,
+                        70,
                         0
                     ]
                 ]
@@ -904,7 +904,7 @@
             "properties": {},
             "type": "recv"
         },
-        "75": {
+        "72": {
             "connections": [
                 [
                     [
@@ -935,11 +935,11 @@
             "properties": {},
             "type": "recv"
         },
-        "76": {
+        "73": {
             "connections": [
                 [
                     [
-                        77,
+                        74,
                         0
                     ]
                 ]
@@ -966,7 +966,7 @@
             "properties": {},
             "type": "recv"
         },
-        "77": {
+        "74": {
             "connections": [
                 [
                     [
@@ -1055,24 +1055,24 @@
     },
     "scopes": {
         "__patch__": {
-            "button_nextstep": 70,
-            "button_prevstep": 71,
-            "button_reset": 72,
+            "button_nextstep": 67,
+            "button_prevstep": 68,
+            "button_reset": 69,
             "message_002": 5,
             "message_003": 9,
-            "message_005": 77,
+            "message_005": 74,
             "patch": 0,
             "processor_003": 2,
             "processor_004": 4,
             "processor_006": 11,
-            "processor_013": 73,
+            "processor_013": 70,
             "processor_020": 64,
             "processor_021": 65,
             "processor_022": 66,
             "recvvia_002": 54,
-            "recvvia_005": 74,
-            "recvvia_006": 75,
-            "recvvia_007": 76,
+            "recvvia_005": 71,
+            "recvvia_006": 72,
+            "recvvia_007": 73,
             "self": 0,
             "sendvia_001": 3,
             "sendvia_002": 6
