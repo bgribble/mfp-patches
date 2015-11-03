@@ -5,6 +5,7 @@
         "export_w": 94.70653533935547,
         "export_x": 217.19984436035156,
         "export_y": 133.44983673095703,
+        "height": 137.609375,
         "layers": [
             [
                 "Interface",
@@ -25,9 +26,10 @@
         ],
         "name": "stepseq",
         "num_inlets": 2,
-        "num_outlets": 1,
+        "num_outlets": 2,
         "obj_id": 0,
-        "top_level": true
+        "top_level": true,
+        "width": 94.70653533935547
     },
     "hot_inlets": [
         0
@@ -63,32 +65,6 @@
             "osc_methods": [],
             "properties": {},
             "type": "inlet"
-        },
-        "10": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Output",
-                "no_export": false,
-                "position_x": 125.478515625,
-                "position_y": 190.58006286621094,
-                "scope": "output_001",
-                "show_label": true,
-                "update_required": false,
-                "width": 67.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_005",
-            "osc_methods": [],
-            "properties": {},
-            "type": "outlet"
         },
         "11": {
             "connections": [
@@ -511,7 +487,7 @@
             "connections": [
                 [
                     [
-                        10,
+                        78,
                         0
                     ]
                 ],
@@ -996,6 +972,32 @@
             "properties": {},
             "type": "message"
         },
+        "78": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Output",
+                "no_export": false,
+                "position_x": 125.478515625,
+                "position_y": 190.58006286621094,
+                "scope": "output_001",
+                "show_label": true,
+                "update_required": false,
+                "width": 67.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet"
+        },
         "8": {
             "connections": [
                 []
@@ -1078,7 +1080,7 @@
             "sendvia_002": 6
         },
         "output_001": {
-            "processor_005": 10,
+            "processor_005": 78,
             "processor_010": 61,
             "recvvia_004": 60
         },
