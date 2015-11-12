@@ -29,7 +29,10 @@ This is a MxN step sequencer, with M steps each outputting N
 values and a gate.  It operates in clocked or addressed mode and
 has several options for clocked step ordering. 
 
-STATUS: Prototypes done but this patch is not started 
+STATUS: Basic functionality is working.  Clocked (Bang to inlet 0)
+and addressed (number to inlet 0) modes, with a "stride" (number to 
+inlet 1) that can set the step increment to any positive or negative
+value.
 
 ### Delay 
 
