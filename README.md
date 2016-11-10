@@ -46,16 +46,20 @@ STATUS: Prototypes done but this patch is not started
 
 ### Mono reverb 
 
-Wrapper around a LADSPA reverb plugin I like.  Mono in, mono out. 
+`[plate~]`
 
-STATUS: Prototypes done but this patch is not started 
+Wrapper around a LADSPA reverb plugin I like ("plate" from Steve Harris' 
+swh-plugins).  Mono in, stereo out. 
+
+STATUS: Implemented
 
 ### Stereo reverb 
 
-Used in the master section for final bus reverb.  Wraps another
-LADSPA reverb plugin.  
+`[zreverb]` 
 
-STATUS: Prototypes done but this patch is not started 
+Wrapper around the lovely Zita reverb.
+
+STATUS: Implemented
 
 ### Looper 
 
