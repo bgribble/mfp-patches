@@ -4,10 +4,14 @@
         "dsp_inlets": [
             0
         ],
-        "export_h": 68.92671203613281,
-        "export_w": 109.48094177246094,
-        "export_x": 130.99609375,
-        "export_y": 172.11581420898438,
+        "dsp_outlets": [
+            0,
+            1
+        ],
+        "export_h": 74.05740356445312,
+        "export_w": 177.42595312646466,
+        "export_x": 68.0990331406252,
+        "export_y": 170.98512268066406,
         "height": 149.09355926513672,
         "layers": [
             [
@@ -22,17 +26,19 @@
         "name": "plate~",
         "num_inlets": 3,
         "num_outlets": 2,
-        "width": 122.71182250976562
+        "obj_id": 61,
+        "top_level": true,
+        "width": 177.42595312646466
     },
     "hot_inlets": [
         0
     ],
     "objects": {
-        "1": {
+        "62": {
             "connections": [
                 [
                     [
-                        5,
+                        66,
                         0
                     ]
                 ]
@@ -66,240 +72,13 @@
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
-            "value": 0.009
+            "value": 2
         },
-        "10": {
+        "63": {
             "connections": [
                 [
                     [
-                        11,
-                        1
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "recvvia",
-                "height": 37.5,
-                "is_export": false,
-                "label_text": "damp",
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 162.96746826171875,
-                "position_y": 117.83741760253906,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"damp\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "recvvia_002",
-            "osc_methods": [],
-            "properties": {},
-            "type": "recv"
-        },
-        "11": {
-            "connections": [
-                [
-                    [
-                        15,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        16,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 131.8611602783203,
-                "position_y": 227.87388610839844,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 114.0
-            },
-            "initargs": "\"plate\"",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_001",
-            "osc_methods": [],
-            "properties": {},
-            "type": "plugin~"
-        },
-        "12": {
-            "connections": [
-                [
-                    [
-                        13,
-                        0
-                    ],
-                    [
-                        86,
-                        0
-                    ],
-                    [
-                        87,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 335.53587341308594,
-                "position_y": 61.32548522949219,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 79.0
-            },
-            "initargs": null,
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_002",
-            "osc_methods": [],
-            "properties": {},
-            "type": "loadbang"
-        },
-        "13": {
-            "connections": [
-                [
-                    [
-                        11,
-                        2
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "height": 25,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 201.35626220703125,
-                "position_y": 134.2265396118164,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "width": 35
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_001",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
-        },
-        "14": {
-            "connections": [
-                [
-                    [
-                        11,
-                        3
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 260.6282958984375,
-                "position_y": 149.66439819335938,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 66.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_003",
-            "osc_methods": [],
-            "properties": {},
-            "type": "inlet~"
-        },
-        "15": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 131.8611602783203,
-                "position_y": 275.87388610839844,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 76.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_004",
-            "osc_methods": [],
-            "properties": {},
-            "type": "outlet~"
-        },
-        "16": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 235.8611602783203,
-                "position_y": 275.87388610839844,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 76.0
-            },
-            "initargs": "1",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_005",
-            "osc_methods": [],
-            "properties": {},
-            "type": "outlet~"
-        },
-        "2": {
-            "connections": [
-                [
-                    [
-                        7,
+                        67,
                         0
                     ]
                 ]
@@ -333,9 +112,9 @@
             "osc_methods": [],
             "properties": {},
             "type": "slidemeter",
-            "value": 0.0
+            "value": 0.5
         },
-        "3": {
+        "64": {
             "connections": [
                 []
             ],
@@ -344,7 +123,7 @@
                 "clickchange": false,
                 "default": "",
                 "display_type": "text",
-                "height": 22.0,
+                "height": 26.0,
                 "is_export": false,
                 "layername": "Interface",
                 "no_export": false,
@@ -354,7 +133,7 @@
                 "style": {},
                 "update_required": true,
                 "value": "<span size=\"small\">Decay</span>",
-                "width": 44.0
+                "width": 53.0
             },
             "initargs": null,
             "midi_filters": null,
@@ -365,39 +144,7 @@
             "type": "text",
             "value": "<span size=\"small\">Decay</span>"
         },
-        "39": {
-            "connections": [
-                [
-                    [
-                        41,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 336.1747817993164,
-                "position_y": 149.66146850585938,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 58.0
-            },
-            "initargs": "1",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_006",
-            "osc_methods": [],
-            "properties": {},
-            "type": "inlet"
-        },
-        "4": {
+        "65": {
             "connections": [
                 []
             ],
@@ -406,7 +153,7 @@
                 "clickchange": false,
                 "default": "",
                 "display_type": "text",
-                "height": 22.0,
+                "height": 26.0,
                 "is_export": false,
                 "layername": "Interface",
                 "no_export": false,
@@ -416,7 +163,7 @@
                 "style": {},
                 "update_required": true,
                 "value": "<span size=\"small\">Damp</span>",
-                "width": 43.0
+                "width": 51.0
             },
             "initargs": null,
             "midi_filters": null,
@@ -427,93 +174,7 @@
             "type": "text",
             "value": "<span size=\"small\">Damp</span>"
         },
-        "40": {
-            "connections": [
-                [
-                    [
-                        43,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 398.7608337402344,
-                "position_y": 150.0693130493164,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 58.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_007",
-            "osc_methods": [],
-            "properties": {},
-            "type": "inlet"
-        },
-        "41": {
-            "connections": [
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "sendvia",
-                "height": 35,
-                "is_export": false,
-                "label_text": "dial_001",
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 333.6747817993164,
-                "position_y": 197.66146850585938,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"dial_001\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "sendvia_003",
-            "osc_methods": [],
-            "properties": {},
-            "type": "send"
-        },
-        "43": {
-            "connections": [
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "sendvia",
-                "height": 35,
-                "is_export": false,
-                "label_text": "dial_002",
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 396.2608337402344,
-                "position_y": 198.0693130493164,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"dial_002\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "sendvia_004",
-            "osc_methods": [],
-            "properties": {},
-            "type": "send"
-        },
-        "5": {
+        "66": {
             "connections": [
                 []
             ],
@@ -540,7 +201,7 @@
             "properties": {},
             "type": "send"
         },
-        "7": {
+        "67": {
             "connections": [
                 []
             ],
@@ -567,73 +228,11 @@
             "properties": {},
             "type": "send"
         },
-        "86": {
+        "68": {
             "connections": [
                 [
                     [
-                        39,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "height": 25,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 335.6673889160156,
-                "position_y": 105.6447982788086,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "width": 35
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_004",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
-        },
-        "87": {
-            "connections": [
-                [
-                    [
-                        40,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Reverb",
-                "no_export": false,
-                "position_x": 399.63134765625,
-                "position_y": 105.10690307617188,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "width": 42.0
-            },
-            "initargs": "0.5",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_005",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
-        },
-        "9": {
-            "connections": [
-                [
-                    [
-                        11,
+                        70,
                         0
                     ]
                 ]
@@ -660,32 +259,647 @@
             "osc_methods": [],
             "properties": {},
             "type": "recv"
+        },
+        "69": {
+            "connections": [
+                [
+                    [
+                        70,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "recvvia",
+                "height": 37.5,
+                "is_export": false,
+                "label_text": "damp",
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 162.96746826171875,
+                "position_y": 117.83741760253906,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"damp\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "recvvia_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "recv"
+        },
+        "70": {
+            "connections": [
+                [
+                    [
+                        74,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        75,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 131.8611602783203,
+                "position_y": 227.87388610839844,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 114.0
+            },
+            "initargs": "\"plate\"",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "plugin~"
+        },
+        "71": {
+            "connections": [
+                [
+                    [
+                        72,
+                        0
+                    ],
+                    [
+                        80,
+                        0
+                    ],
+                    [
+                        81,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 335.53587341308594,
+                "position_y": 61.32548522949219,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 79.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "loadbang"
+        },
+        "72": {
+            "connections": [
+                [
+                    [
+                        70,
+                        2
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "height": 25,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 201.35626220703125,
+                "position_y": 134.2265396118164,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 35
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "73": {
+            "connections": [
+                [
+                    [
+                        70,
+                        3
+                    ],
+                    [
+                        85,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 260.6282958984375,
+                "position_y": 149.66439819335938,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 66.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet~"
+        },
+        "74": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 131.8611602783203,
+                "position_y": 275.87388610839844,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 76.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet~"
+        },
+        "75": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 235.8611602783203,
+                "position_y": 275.87388610839844,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 76.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet~"
+        },
+        "76": {
+            "connections": [
+                [
+                    [
+                        78,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 336.1747817993164,
+                "position_y": 149.66146850585938,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 58.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "77": {
+            "connections": [
+                [
+                    [
+                        79,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 398.7608337402344,
+                "position_y": 150.0693130493164,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 58.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_007",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "78": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "height": 35,
+                "is_export": false,
+                "label_text": "dial_001",
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 333.6747817993164,
+                "position_y": 197.66146850585938,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"dial_001\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "79": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "height": 35,
+                "is_export": false,
+                "label_text": "dial_002",
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 396.2608337402344,
+                "position_y": 198.0693130493164,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"dial_002\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "80": {
+            "connections": [
+                [
+                    [
+                        76,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "height": 25,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 335.6673889160156,
+                "position_y": 105.6447982788086,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 35
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "81": {
+            "connections": [
+                [
+                    [
+                        77,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 399.63134765625,
+                "position_y": 105.10690307617188,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 42.0
+            },
+            "initargs": "0.5",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "84": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "slidemeter",
+                "height": 65.0,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 10.0,
+                "min_value": -40.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 68.0990331406252,
+                "position_y": 170.98512268066406,
+                "scale": "linear",
+                "scale_position": 0,
+                "scope": "__patch__",
+                "show_scale": true,
+                "style": {},
+                "update_required": true,
+                "value": -1000,
+                "width": 55.0,
+                "zeropoint": null
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "slidemeter_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "slidemeter",
+            "value": -1000
+        },
+        "85": {
+            "connections": [
+                [],
+                [
+                    [
+                        86,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 361.6541442871094,
+                "position_y": 256.4863586425781,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 56.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_026",
+            "osc_methods": [],
+            "properties": {},
+            "type": "ampl~"
+        },
+        "86": {
+            "connections": [
+                [
+                    [
+                        88,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 361.6541442871094,
+                "position_y": 298.9071960449219,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 86.0
+            },
+            "initargs": "100",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_027",
+            "osc_methods": [],
+            "properties": {},
+            "type": "snap~"
+        },
+        "87": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "height": 35,
+                "is_export": false,
+                "label_text": "slidemeter_002",
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 359.15411376953125,
+                "position_y": 400.74163818359375,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"slidemeter_002\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_026",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "88": {
+            "connections": [
+                [
+                    [
+                        87,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Reverb",
+                "no_export": false,
+                "position_x": 361.6541442871094,
+                "position_y": 346.9071960449219,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 49.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_028",
+            "osc_methods": [],
+            "properties": {},
+            "type": "a2db"
         }
     },
     "scopes": {
         "__patch__": {
-            "dial_001": 1,
-            "dial_002": 2,
-            "message_001": 13,
-            "message_004": 86,
-            "message_005": 87,
-            "patch": 0,
-            "processor_001": 11,
-            "processor_002": 12,
-            "processor_003": 14,
-            "processor_004": 15,
-            "processor_005": 16,
-            "processor_006": 39,
-            "processor_007": 40,
-            "recvvia_001": 9,
-            "recvvia_002": 10,
-            "self": 0,
-            "sendvia_001": 5,
-            "sendvia_002": 7,
-            "sendvia_003": 41,
-            "sendvia_004": 43,
-            "text_001": 3,
-            "text_002": 4
+            "dial_001": 62,
+            "dial_002": 63,
+            "message_001": 72,
+            "message_004": 80,
+            "message_005": 81,
+            "patch": 61,
+            "processor_001": 70,
+            "processor_002": 71,
+            "processor_003": 73,
+            "processor_004": 74,
+            "processor_005": 75,
+            "processor_006": 76,
+            "processor_007": 77,
+            "processor_026": 85,
+            "processor_027": 86,
+            "processor_028": 88,
+            "recvvia_001": 68,
+            "recvvia_002": 69,
+            "self": 61,
+            "sendvia_001": 66,
+            "sendvia_002": 67,
+            "sendvia_003": 78,
+            "sendvia_004": 79,
+            "sendvia_026": 87,
+            "slidemeter_002": 84,
+            "text_001": 64,
+            "text_002": 65
         }
     },
     "type": "plate~"
