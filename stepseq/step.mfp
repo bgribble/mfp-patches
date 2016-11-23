@@ -23,7 +23,7 @@
         "name": "step",
         "num_inlets": 1,
         "num_outlets": 1,
-        "obj_id": 77,
+        "obj_id": 0,
         "top_level": true,
         "width": 42.0
     },
@@ -31,11 +31,573 @@
         0
     ],
     "objects": {
-        "100": {
+        "1": {
             "connections": [
                 [
                     [
-                        102,
+                        10,
+                        0
+                    ],
+                    [
+                        27,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 169.2607421875,
+                "position_y": 73.72628021240234,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 79.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_007",
+            "osc_methods": [],
+            "properties": {},
+            "type": "loadbang"
+        },
+        "10": {
+            "connections": [
+                [
+                    [
+                        2,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 169.15316772460938,
+                "position_y": 119.72853088378906,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 389.0
+            },
+            "initargs": "@clonescope('value_001', patch.args(0), grid=(0,1))",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "11": {
+            "connections": [
+                [
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        12,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Value",
+                "no_export": false,
+                "position_x": 266.62403869628906,
+                "position_y": 155.2838592529297,
+                "scope": "value_001",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_010",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "12": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 35,
+                "is_export": false,
+                "label_text": "value_dial",
+                "layername": "Value",
+                "no_export": false,
+                "position_x": 263.4837951660156,
+                "position_y": 203.2838592529297,
+                "scope": "value_001",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"value_dial\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "13": {
+            "connections": [
+                [
+                    [
+                        34,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        4,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 51.8243408203125,
+                "position_y": 118.0069808959961,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "14": {
+            "connections": [
+                [
+                    [
+                        16,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        15,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Value",
+                "no_export": false,
+                "position_x": 118.41629028320312,
+                "position_y": 230.16903686523438,
+                "scope": "value_001",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_012",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "15": {
+            "connections": [
+                [
+                    [
+                        17,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Value",
+                "no_export": false,
+                "position_x": 117.92086791992188,
+                "position_y": 301.19964599609375,
+                "scope": "value_001",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 60.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_013",
+            "osc_methods": [],
+            "properties": {},
+            "type": "pack"
+        },
+        "16": {
+            "connections": [
+                [
+                    [
+                        15,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Value",
+                "no_export": false,
+                "position_x": 118.41629028320312,
+                "position_y": 264.1690368652344,
+                "scope": "value_001",
+                "style": {},
+                "update_required": true,
+                "width": 133.0
+            },
+            "initargs": "scope.clonenum",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "17": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 35,
+                "is_export": false,
+                "label_text": "patch.value_out",
+                "layername": "Value",
+                "no_export": false,
+                "position_x": 115.78758239746094,
+                "position_y": 347.0681457519531,
+                "scope": "value_001",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"patch.value_out\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "18": {
+            "connections": [
+                [
+                    [
+                        20,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "recvvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 37.5,
+                "is_export": false,
+                "label_text": "value_out",
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 271.64320373535156,
+                "position_y": 142.43797302246094,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"value_out\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "recvvia_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "recv"
+        },
+        "19": {
+            "connections": [
+                [
+                    [
+                        23,
+                        1
+                    ],
+                    [
+                        26,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 280.16448974609375,
+                "position_y": 330.9399719238281,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 35
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_015",
+            "osc_methods": [],
+            "properties": {},
+            "type": "set"
+        },
+        "2": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 35,
+                "is_export": false,
+                "label_text": "patch",
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 166.7607421875,
+                "position_y": 156.72628021240234,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"patch\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "20": {
+            "connections": [
+                [
+                    [
+                        21,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        19,
+                        2
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 274.1088562011719,
+                "position_y": 180.7947235107422,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 77.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_016",
+            "osc_methods": [],
+            "properties": {},
+            "type": "unpack"
+        },
+        "21": {
+            "connections": [
+                [
+                    [
+                        22,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        19,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 233.07749938964844,
+                "position_y": 219.38258361816406,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_017",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "22": {
+            "connections": [
+                [
+                    [
+                        26,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 233.07749938964844,
+                "position_y": 251.40090942382812,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 56.0
+            },
+            "initargs": "Bang",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "23": {
+            "connections": [
+                [
+                    [
+                        25,
                         0
                     ]
                 ]
@@ -72,11 +634,11 @@
                 "__UninitType__": {}
             }
         },
-        "101": {
+        "24": {
             "connections": [
                 [
                     [
-                        100,
+                        23,
                         0
                     ]
                 ]
@@ -105,7 +667,7 @@
             "properties": {},
             "type": "message"
         },
-        "102": {
+        "25": {
             "connections": [
                 []
             ],
@@ -138,11 +700,11 @@
             "properties": {},
             "type": "outlet"
         },
-        "103": {
+        "26": {
             "connections": [
                 [
                     [
-                        96,
+                        19,
                         0
                     ]
                 ]
@@ -179,15 +741,15 @@
                 "__UninitType__": {}
             }
         },
-        "104": {
+        "27": {
             "connections": [
                 [
                     [
-                        103,
+                        26,
                         1
                     ],
                     [
-                        100,
+                        23,
                         1
                     ]
                 ]
@@ -216,7 +778,7 @@
             "properties": {},
             "type": "message"
         },
-        "105": {
+        "28": {
             "connections": [
                 []
             ],
@@ -246,11 +808,11 @@
             "type": "var",
             "value": false
         },
-        "106": {
+        "29": {
             "connections": [
                 [
                     [
-                        108,
+                        31,
                         0
                     ]
                 ]
@@ -283,15 +845,53 @@
             "type": "var",
             "value": true
         },
-        "107": {
+        "3": {
             "connections": [
                 [
                     [
-                        101,
+                        13,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Main",
+                "no_export": false,
+                "position_x": 51.8243408203125,
+                "position_y": 70.0069808959961,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 58.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_008",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "30": {
+            "connections": [
+                [
+                    [
+                        24,
                         0
                     ],
                     [
-                        109,
+                        32,
                         0
                     ]
                 ],
@@ -326,11 +926,11 @@
             "properties": {},
             "type": "case"
         },
-        "108": {
+        "31": {
             "connections": [
                 [
                     [
-                        110,
+                        33,
                         1
                     ]
                 ]
@@ -360,7 +960,7 @@
             "properties": {},
             "type": "recv"
         },
-        "109": {
+        "32": {
             "connections": [
                 []
             ],
@@ -389,11 +989,11 @@
             "properties": {},
             "type": "send"
         },
-        "110": {
+        "33": {
             "connections": [
                 [
                     [
-                        107,
+                        30,
                         0
                     ]
                 ]
@@ -428,23 +1028,23 @@
             "type": "var",
             "value": true
         },
-        "111": {
+        "34": {
             "connections": [
                 [
                     [
-                        110,
+                        33,
                         0
                     ]
                 ],
                 [
                     [
-                        112,
+                        35,
                         0
                     ]
                 ],
                 [
                     [
-                        109,
+                        32,
                         0
                     ]
                 ],
@@ -479,11 +1079,11 @@
             "properties": {},
             "type": "case"
         },
-        "112": {
+        "35": {
             "connections": [
                 [
                     [
-                        110,
+                        33,
                         0
                     ]
                 ]
@@ -512,24 +1112,24 @@
             "properties": {},
             "type": "message"
         },
-        "113": {
+        "36": {
             "connections": [
                 [
                     [
-                        83,
+                        6,
                         0
                     ]
                 ],
                 [
                     [
-                        114,
+                        37,
                         0
                     ]
                 ],
                 [],
                 [
                     [
-                        84,
+                        7,
                         0
                     ]
                 ]
@@ -563,11 +1163,11 @@
             "properties": {},
             "type": "case"
         },
-        "114": {
+        "37": {
             "connections": [
                 [
                     [
-                        83,
+                        6,
                         0
                     ]
                 ]
@@ -596,116 +1196,7 @@
             "properties": {},
             "type": "message"
         },
-        "78": {
-            "connections": [
-                [
-                    [
-                        87,
-                        0
-                    ],
-                    [
-                        104,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 169.2607421875,
-                "position_y": 73.72628021240234,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 79.0
-            },
-            "initargs": null,
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_007",
-            "osc_methods": [],
-            "properties": {},
-            "type": "loadbang"
-        },
-        "79": {
-            "connections": [
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "sendvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 35,
-                "is_export": false,
-                "label_text": "patch",
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 166.7607421875,
-                "position_y": 156.72628021240234,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"patch\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "sendvia_002",
-            "osc_methods": [],
-            "properties": {},
-            "type": "send"
-        },
-        "80": {
-            "connections": [
-                [
-                    [
-                        90,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 51.8243408203125,
-                "position_y": 70.0069808959961,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 58.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_008",
-            "osc_methods": [],
-            "properties": {},
-            "type": "inlet"
-        },
-        "81": {
+        "4": {
             "connections": [
                 []
             ],
@@ -734,11 +1225,11 @@
             "properties": {},
             "type": "send"
         },
-        "82": {
+        "5": {
             "connections": [
                 [
                     [
-                        113,
+                        36,
                         0
                     ]
                 ]
@@ -768,11 +1259,11 @@
             "properties": {},
             "type": "recv"
         },
-        "83": {
+        "6": {
             "connections": [
                 [
                     [
-                        91,
+                        14,
                         0
                     ]
                 ]
@@ -807,11 +1298,11 @@
             "type": "var",
             "value": 0
         },
-        "84": {
+        "7": {
             "connections": [
                 [
                     [
-                        88,
+                        11,
                         0
                     ]
                 ],
@@ -846,11 +1337,11 @@
             "properties": {},
             "type": "route"
         },
-        "85": {
+        "8": {
             "connections": [
                 [
                     [
-                        86,
+                        9,
                         0
                     ]
                 ]
@@ -888,11 +1379,11 @@
             "type": "slidemeter",
             "value": 0.0
         },
-        "86": {
+        "9": {
             "connections": [
                 [
                     [
-                        83,
+                        6,
                         1
                     ]
                 ]
@@ -921,542 +1412,51 @@
             "osc_methods": [],
             "properties": {},
             "type": "recv"
-        },
-        "87": {
-            "connections": [
-                [
-                    [
-                        79,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 169.15316772460938,
-                "position_y": 119.72853088378906,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "width": 389.0
-            },
-            "initargs": "@clonescope('value_001', patch.args(0), grid=(0,1))",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_001",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
-        },
-        "88": {
-            "connections": [
-                [
-                    [
-                        83,
-                        1
-                    ],
-                    [
-                        89,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Value",
-                "no_export": false,
-                "position_x": 266.62403869628906,
-                "position_y": 155.2838592529297,
-                "scope": "value_001",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 50.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_010",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "89": {
-            "connections": [
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "sendvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 35,
-                "is_export": false,
-                "label_text": "value_dial",
-                "layername": "Value",
-                "no_export": false,
-                "position_x": 263.4837951660156,
-                "position_y": 203.2838592529297,
-                "scope": "value_001",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"value_dial\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "sendvia_003",
-            "osc_methods": [],
-            "properties": {},
-            "type": "send"
-        },
-        "90": {
-            "connections": [
-                [
-                    [
-                        111,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        81,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 51.8243408203125,
-                "position_y": 118.0069808959961,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 75.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_002",
-            "osc_methods": [],
-            "properties": {},
-            "type": "trigger"
-        },
-        "91": {
-            "connections": [
-                [
-                    [
-                        93,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        92,
-                        1
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Value",
-                "no_export": false,
-                "position_x": 118.41629028320312,
-                "position_y": 230.16903686523438,
-                "scope": "value_001",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 75.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_012",
-            "osc_methods": [],
-            "properties": {},
-            "type": "trigger"
-        },
-        "92": {
-            "connections": [
-                [
-                    [
-                        94,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Value",
-                "no_export": false,
-                "position_x": 117.92086791992188,
-                "position_y": 301.19964599609375,
-                "scope": "value_001",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 60.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_013",
-            "osc_methods": [],
-            "properties": {},
-            "type": "pack"
-        },
-        "93": {
-            "connections": [
-                [
-                    [
-                        92,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Value",
-                "no_export": false,
-                "position_x": 118.41629028320312,
-                "position_y": 264.1690368652344,
-                "scope": "value_001",
-                "style": {},
-                "update_required": true,
-                "width": 133.0
-            },
-            "initargs": "scope.clonenum",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_004",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
-        },
-        "94": {
-            "connections": [
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "sendvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 35,
-                "is_export": false,
-                "label_text": "patch.value_out",
-                "layername": "Value",
-                "no_export": false,
-                "position_x": 115.78758239746094,
-                "position_y": 347.0681457519531,
-                "scope": "value_001",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"patch.value_out\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "sendvia_005",
-            "osc_methods": [],
-            "properties": {},
-            "type": "send"
-        },
-        "95": {
-            "connections": [
-                [
-                    [
-                        97,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "recvvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 37.5,
-                "is_export": false,
-                "label_text": "value_out",
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 271.64320373535156,
-                "position_y": 142.43797302246094,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"value_out\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "recvvia_004",
-            "osc_methods": [],
-            "properties": {},
-            "type": "recv"
-        },
-        "96": {
-            "connections": [
-                [
-                    [
-                        100,
-                        1
-                    ],
-                    [
-                        103,
-                        1
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 280.16448974609375,
-                "position_y": 330.9399719238281,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 35
-            },
-            "initargs": null,
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_015",
-            "osc_methods": [],
-            "properties": {},
-            "type": "set"
-        },
-        "97": {
-            "connections": [
-                [
-                    [
-                        98,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        96,
-                        2
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 274.1088562011719,
-                "position_y": 180.7947235107422,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 77.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_016",
-            "osc_methods": [],
-            "properties": {},
-            "type": "unpack"
-        },
-        "98": {
-            "connections": [
-                [
-                    [
-                        99,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        96,
-                        1
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 233.07749938964844,
-                "position_y": 219.38258361816406,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 75.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_017",
-            "osc_methods": [],
-            "properties": {},
-            "type": "trigger"
-        },
-        "99": {
-            "connections": [
-                [
-                    [
-                        103,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "Main",
-                "no_export": false,
-                "position_x": 233.07749938964844,
-                "position_y": 251.40090942382812,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "width": 56.0
-            },
-            "initargs": "Bang",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_005",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
         }
     },
     "scopes": {
         "__patch__": {
-            "active": 105,
-            "gate_toggle": 106,
-            "message_001": 87,
-            "message_002": 112,
-            "message_005": 99,
-            "message_007": 101,
-            "message_008": 104,
-            "patch": 77,
-            "processor_002": 90,
-            "processor_003": 111,
-            "processor_004": 110,
-            "processor_007": 78,
-            "processor_008": 80,
-            "processor_014": 103,
-            "processor_015": 96,
-            "processor_016": 97,
-            "processor_017": 98,
-            "processor_018": 107,
-            "processor_021": 100,
-            "processor_022": 102,
-            "recvvia_002": 108,
-            "recvvia_004": 95,
-            "self": 77,
-            "sendvia_002": 79,
-            "sendvia_003": 81,
-            "sendvia_006": 109
+            "active": 28,
+            "gate_toggle": 29,
+            "message_001": 10,
+            "message_002": 35,
+            "message_005": 22,
+            "message_007": 24,
+            "message_008": 27,
+            "patch": 0,
+            "processor_002": 13,
+            "processor_003": 34,
+            "processor_004": 33,
+            "processor_007": 1,
+            "processor_008": 3,
+            "processor_014": 26,
+            "processor_015": 19,
+            "processor_016": 20,
+            "processor_017": 21,
+            "processor_018": 30,
+            "processor_021": 23,
+            "processor_022": 25,
+            "recvvia_002": 31,
+            "recvvia_004": 18,
+            "self": 0,
+            "sendvia_002": 2,
+            "sendvia_003": 4,
+            "sendvia_006": 32
         },
         "value_001": {
-            "message_004": 93,
-            "message_015": 114,
-            "processor_004": 113,
-            "processor_005": 83,
-            "processor_006": 84,
-            "processor_010": 88,
-            "processor_012": 91,
-            "processor_013": 92,
-            "recvvia_001": 82,
-            "recvvia_002": 86,
-            "sendvia_003": 89,
-            "sendvia_005": 94,
-            "value_dial": 85
+            "message_004": 16,
+            "message_015": 37,
+            "processor_004": 36,
+            "processor_005": 6,
+            "processor_006": 7,
+            "processor_010": 11,
+            "processor_012": 14,
+            "processor_013": 15,
+            "recvvia_001": 5,
+            "recvvia_002": 9,
+            "sendvia_003": 12,
+            "sendvia_005": 17,
+            "value_dial": 8
         }
     },
     "type": "step"
