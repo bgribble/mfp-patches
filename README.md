@@ -36,13 +36,10 @@ value.
 
 ### Delay 
 
-`[tdelay]` 
+`[monodelay~]` 
 
-This is a simple delay patch.  It's set up with up to 4
-seconds of delay and a panner for ping-pong effects.  It will
-do tap-tempo or numeric delay times.  
-
-STATUS: Prototypes done but this patch is not started 
+This is a simple mono delay patch using the builtin `[delblk~]` object. 
+It's set up with up to 5 seconds of delay, feedback, and wet/dry mix. 
 
 ### Mono reverb 
 
