@@ -13,832 +13,25 @@
             ]
         ],
         "name": "qunexus",
+        "num_inlets": 3,
+        "num_outlets": 4,
+        "obj_id": 0,
+        "top_level": true,
         "width": 0
     },
     "hot_inlets": [
         0
     ],
     "objects": {
-        "10": {
+        "1": {
             "connections": [
                 [
                     [
-                        9,
+                        24,
                         0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 302.1679453607124,
-                "position_y": 243.95482808396122,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "width": 83.0
-            },
-            "initargs": "MidiCC()",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_006",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
-        },
-        "11": {
-            "connections": [
-                [
+                    ],
                     [
-                        8,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 301.0546741327926,
-                "position_y": 149.44480695554483,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 35
-            },
-            "initargs": null,
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_037",
-            "osc_methods": [],
-            "properties": {},
-            "type": "int"
-        },
-        "12": {
-            "connections": [
-                [
-                    [
-                        17,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        13,
-                        2
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 460.66289858422925,
-                "position_y": 195.95482808396122,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 75.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_002",
-            "osc_methods": [],
-            "properties": {},
-            "type": "trigger"
-        },
-        "120": {
-            "connections": [
-                [
-                    [
-                        25,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 272.2644997108293,
-                "position_y": 322.65570915670054,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 50.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_006",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "121": {
-            "connections": [
-                [
-                    [
-                        125,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 447.7143989998569,
-                "position_y": 187.72259243626246,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 50.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_007",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "122": {
-            "connections": [
-                [
-                    [
-                        20,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        20,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        21,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        25,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 163.38978576660156,
-                "position_y": 142.7566146850586,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 229.0
-            },
-            "initargs": "NoteOn, NoteOff, MidiCC",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_044",
-            "osc_methods": [],
-            "properties": {},
-            "type": "case"
-        },
-        "123": {
-            "connections": [
-                [
-                    [
-                        126,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 447.7143989998569,
-                "position_y": 274.882308473456,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 116.0
-            },
-            "initargs": "'controller'",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_008",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "125": {
-            "connections": [
-                [
-                    [
-                        123,
-                        0
-                    ]
-                ],
-                [
-                    [
-                        126,
-                        1
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 447.7143989998569,
-                "position_y": 235.72259243626246,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 75.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_052",
-            "osc_methods": [],
-            "properties": {},
-            "type": "trigger"
-        },
-        "126": {
-            "connections": [
-                [
-                    [
-                        295,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 447.78383200043777,
-                "position_y": 313.3724670410156,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 60.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_053",
-            "osc_methods": [],
-            "properties": {},
-            "type": "pack"
-        },
-        "128": {
-            "connections": [
-                [
-                    [
-                        132,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 447.7143989998569,
-                "position_y": 384.7905560089406,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 50.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_054",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "129": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 447.7143989998569,
-                "position_y": 460.60705107990975,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 68.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_055",
-            "osc_methods": [],
-            "properties": {},
-            "type": "outlet"
-        },
-        "13": {
-            "connections": [
-                [
-                    [
-                        14,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 461.02993349633863,
-                "position_y": 290.82225961175186,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 81.0
-            },
-            "initargs": "'value'",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_003",
-            "osc_methods": [],
-            "properties": {},
-            "type": "set"
-        },
-        "130": {
-            "connections": [
-                [
-                    [
-                        133,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 535.177024181774,
-                "position_y": 386.56294294457166,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 50.0
-            },
-            "initargs": "0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_056",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "131": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 535.177024181774,
-                "position_y": 462.3794380155408,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 68.0
-            },
-            "initargs": "3",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_057",
-            "osc_methods": [],
-            "properties": {},
-            "type": "outlet"
-        },
-        "132": {
-            "connections": [
-                [
-                    [
-                        129,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 447.7143989998569,
-                "position_y": 422.3221018291521,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 83.0
-            },
-            "initargs": "'value'",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_058",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "133": {
-            "connections": [
-                [
-                    [
-                        131,
-                        0
-                    ]
-                ],
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 535.4928052611122,
-                "position_y": 422.62033358912817,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 83.0
-            },
-            "initargs": "'value'",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_059",
-            "osc_methods": [],
-            "properties": {},
-            "type": "get"
-        },
-        "14": {
-            "connections": [
-                [
-                    [
-                        88,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 461.02993349633863,
-                "position_y": 338.8222443529628,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 149.0
-            },
-            "initargs": "'controller', 131",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_004",
-            "osc_methods": [],
-            "properties": {},
-            "type": "set"
-        },
-        "15": {
-            "connections": [
-                [
-                    [
-                        12,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 459.5496273563095,
-                "position_y": 149.44480695554483,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 35
-            },
-            "initargs": null,
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_005",
-            "osc_methods": [],
-            "properties": {},
-            "type": "int"
-        },
-        "16": {
-            "connections": [
-                [
-                    [
-                        88,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 303.52557373046875,
-                "position_y": 338.8222443529628,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 131.0
-            },
-            "initargs": "'controller', 1",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_036",
-            "osc_methods": [],
-            "properties": {},
-            "type": "set"
-        },
-        "17": {
-            "connections": [
-                [
-                    [
-                        13,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "message",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 460.66289858422925,
-                "position_y": 243.95482808396122,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "width": 71.0
-            },
-            "initargs": "MidiCC",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "message_002",
-            "osc_methods": [],
-            "properties": {},
-            "type": "message"
-        },
-        "18": {
-            "connections": [
-                [
-                    [
-                        122,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "From QuNexus",
-                "no_export": false,
-                "position_x": 163.38978576660156,
-                "position_y": 94.7566146850586,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 179.0
-            },
-            "initargs": "channels=[0, 1]",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_042",
-            "osc_methods": [],
-            "properties": {},
-            "type": "midi_in"
-        },
-        "2": {
-            "connections": [
-                [
-                    [
-                        88,
+                        38,
                         0
                     ]
                 ]
@@ -872,7 +65,312 @@
             "properties": {},
             "type": "inlet"
         },
-        "20": {
+        "10": {
+            "connections": [
+                [
+                    [
+                        7,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 301.0546741327926,
+                "position_y": 149.44480695554483,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 35
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_037",
+            "osc_methods": [],
+            "properties": {},
+            "type": "int"
+        },
+        "11": {
+            "connections": [
+                [
+                    [
+                        16,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        12,
+                        2
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 460.66289858422925,
+                "position_y": 195.95482808396122,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "12": {
+            "connections": [
+                [
+                    [
+                        13,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 461.02993349633863,
+                "position_y": 290.82225961175186,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 81.0
+            },
+            "initargs": "'value'",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_003",
+            "osc_methods": [],
+            "properties": {},
+            "type": "set"
+        },
+        "13": {
+            "connections": [
+                [
+                    [
+                        24,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 461.02993349633863,
+                "position_y": 338.8222443529628,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 149.0
+            },
+            "initargs": "'controller', 131",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "set"
+        },
+        "14": {
+            "connections": [
+                [
+                    [
+                        11,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 459.5496273563095,
+                "position_y": 149.44480695554483,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 35
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "int"
+        },
+        "15": {
+            "connections": [
+                [
+                    [
+                        24,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 303.52557373046875,
+                "position_y": 338.8222443529628,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 131.0
+            },
+            "initargs": "'controller', 1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_036",
+            "osc_methods": [],
+            "properties": {},
+            "type": "set"
+        },
+        "16": {
+            "connections": [
+                [
+                    [
+                        12,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 460.66289858422925,
+                "position_y": 243.95482808396122,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 71.0
+            },
+            "initargs": "MidiCC",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
+        },
+        "17": {
+            "connections": [
+                [
+                    [
+                        27,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 163.38978576660156,
+                "position_y": 94.7566146850586,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 179.0
+            },
+            "initargs": "channels=[0, 1]",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_042",
+            "osc_methods": [],
+            "properties": {},
+            "type": "midi_in"
+        },
+        "18": {
             "connections": [
                 []
             ],
@@ -905,17 +403,17 @@
             "properties": {},
             "type": "outlet"
         },
-        "21": {
+        "19": {
             "connections": [
                 [
                     [
-                        22,
+                        20,
                         0
                     ]
                 ],
                 [
                     [
-                        23,
+                        21,
                         1
                     ]
                 ]
@@ -949,11 +447,49 @@
             "properties": {},
             "type": "trigger"
         },
-        "22": {
+        "2": {
             "connections": [
                 [
                     [
-                        23,
+                        10,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 301.0546741327926,
+                "position_y": 101.44480695554483,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 58.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_029",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "20": {
+            "connections": [
+                [
+                    [
+                        21,
                         0
                     ]
                 ],
@@ -988,11 +524,11 @@
             "properties": {},
             "type": "get"
         },
-        "23": {
+        "21": {
             "connections": [
                 [
                     [
-                        24,
+                        22,
                         0
                     ]
                 ]
@@ -1026,17 +562,17 @@
             "properties": {},
             "type": "pack"
         },
-        "24": {
+        "22": {
             "connections": [
                 [
                     [
-                        120,
+                        25,
                         0
                     ]
                 ],
                 [
                     [
-                        121,
+                        26,
                         0
                     ]
                 ],
@@ -1071,7 +607,7 @@
             "properties": {},
             "type": "route"
         },
-        "25": {
+        "23": {
             "connections": [
                 []
             ],
@@ -1104,17 +640,563 @@
             "properties": {},
             "type": "outlet"
         },
-        "295": {
+        "24": {
+            "connections": [],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 304.3066009747153,
+                "position_y": 423.52819623777145,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 89.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_033",
+            "osc_methods": [],
+            "properties": {},
+            "type": "midi_out"
+        },
+        "25": {
             "connections": [
                 [
                     [
-                        128,
+                        23,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 272.2644997108293,
+                "position_y": 322.65570915670054,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "26": {
+            "connections": [
+                [
+                    [
+                        29,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 447.7143989998569,
+                "position_y": 187.72259243626246,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_007",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "27": {
+            "connections": [
+                [
+                    [
+                        18,
                         0
                     ]
                 ],
                 [
                     [
-                        130,
+                        18,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        19,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        23,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 163.38978576660156,
+                "position_y": 142.7566146850586,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 229.0
+            },
+            "initargs": "NoteOn, NoteOff, MidiCC",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_044",
+            "osc_methods": [],
+            "properties": {},
+            "type": "case"
+        },
+        "28": {
+            "connections": [
+                [
+                    [
+                        30,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 447.7143989998569,
+                "position_y": 274.882308473456,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 116.0
+            },
+            "initargs": "'controller'",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_008",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "29": {
+            "connections": [
+                [
+                    [
+                        28,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        30,
+                        1
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 447.7143989998569,
+                "position_y": 235.72259243626246,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 75.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_052",
+            "osc_methods": [],
+            "properties": {},
+            "type": "trigger"
+        },
+        "3": {
+            "connections": [
+                [
+                    [
+                        14,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 445.2533587123411,
+                "position_y": 102.70481059508738,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 58.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_030",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "30": {
+            "connections": [
+                [
+                    [
+                        37,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 447.78383200043777,
+                "position_y": 313.3724670410156,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 60.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_053",
+            "osc_methods": [],
+            "properties": {},
+            "type": "pack"
+        },
+        "31": {
+            "connections": [
+                [
+                    [
+                        35,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 447.7143989998569,
+                "position_y": 384.7905560089406,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_054",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "32": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 447.7143989998569,
+                "position_y": 460.60705107990975,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 68.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_055",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet"
+        },
+        "33": {
+            "connections": [
+                [
+                    [
+                        36,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 535.177024181774,
+                "position_y": 386.56294294457166,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 50.0
+            },
+            "initargs": "0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_056",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "34": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 535.177024181774,
+                "position_y": 462.3794380155408,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 68.0
+            },
+            "initargs": "3",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_057",
+            "osc_methods": [],
+            "properties": {},
+            "type": "outlet"
+        },
+        "35": {
+            "connections": [
+                [
+                    [
+                        32,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 447.7143989998569,
+                "position_y": 422.3221018291521,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 83.0
+            },
+            "initargs": "'value'",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_058",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "36": {
+            "connections": [
+                [
+                    [
+                        34,
+                        0
+                    ]
+                ],
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "From QuNexus",
+                "no_export": false,
+                "position_x": 535.4928052611122,
+                "position_y": 422.62033358912817,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 83.0
+            },
+            "initargs": "'value'",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_059",
+            "osc_methods": [],
+            "properties": {},
+            "type": "get"
+        },
+        "37": {
+            "connections": [
+                [
+                    [
+                        31,
+                        0
+                    ]
+                ],
+                [
+                    [
+                        33,
                         0
                     ]
                 ],
@@ -1149,16 +1231,9 @@
             "properties": {},
             "type": "route"
         },
-        "3": {
-            "connections": [
-                [
-                    [
-                        11,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
+        "38": {
+            "connections": [],
+            "do_onload": true,
             "gui_params": {
                 "display_type": "processor",
                 "export_h": null,
@@ -1171,61 +1246,55 @@
                 "is_export": false,
                 "layername": "To QuNexus",
                 "no_export": false,
-                "position_x": 301.0546741327926,
-                "position_y": 101.44480695554483,
+                "position_x": 97.7882080078125,
+                "position_y": 424.56964111328125,
                 "scope": "__patch__",
                 "show_label": true,
                 "style": {},
                 "update_required": false,
-                "width": 58.0
+                "width": 89.0
             },
-            "initargs": "1",
+            "initargs": "0",
             "midi_filters": null,
             "midi_mode": null,
-            "name": "processor_029",
+            "name": "processor_009",
             "osc_methods": [],
             "properties": {},
-            "type": "inlet"
+            "type": "midi_out"
+        },
+        "39": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 26.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 95.15916442871094,
+                "position_y": 454.28411865234375,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Out to key LEDs",
+                "width": 122.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_004",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Out to key LEDs"
         },
         "4": {
-            "connections": [
-                [
-                    [
-                        15,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 445.2533587123411,
-                "position_y": 102.70481059508738,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 58.0
-            },
-            "initargs": "2",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_030",
-            "osc_methods": [],
-            "properties": {},
-            "type": "inlet"
-        },
-        "5": {
             "connections": [
                 []
             ],
@@ -1257,7 +1326,39 @@
             "type": "text",
             "value": "Notes for CV1/Gate"
         },
-        "6": {
+        "40": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 26.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 303.9632263183594,
+                "position_y": 456.13177490234375,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Out to CV",
+                "width": 79.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_005",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Out to CV"
+        },
+        "5": {
             "connections": [
                 []
             ],
@@ -1289,7 +1390,7 @@
             "type": "text",
             "value": "CV2"
         },
-        "7": {
+        "6": {
             "connections": [
                 []
             ],
@@ -1321,17 +1422,17 @@
             "type": "text",
             "value": "CV3"
         },
-        "8": {
+        "7": {
             "connections": [
                 [
                     [
-                        10,
+                        9,
                         0
                     ]
                 ],
                 [
                     [
-                        9,
+                        8,
                         2
                     ]
                 ]
@@ -1365,42 +1466,11 @@
             "properties": {},
             "type": "trigger"
         },
-        "88": {
-            "connections": [],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "processor",
-                "export_h": null,
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "export_w": null,
-                "export_x": null,
-                "export_y": null,
-                "height": 25.0,
-                "is_export": false,
-                "layername": "To QuNexus",
-                "no_export": false,
-                "position_x": 304.3066009747153,
-                "position_y": 423.52819623777145,
-                "scope": "__patch__",
-                "show_label": true,
-                "style": {},
-                "update_required": false,
-                "width": 89.0
-            },
-            "initargs": "1",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "processor_033",
-            "osc_methods": [],
-            "properties": {},
-            "type": "midi_out"
-        },
-        "9": {
+        "8": {
             "connections": [
                 [
                     [
-                        16,
+                        15,
                         0
                     ]
                 ]
@@ -1433,49 +1503,85 @@
             "osc_methods": [],
             "properties": {},
             "type": "set"
+        },
+        "9": {
+            "connections": [
+                [
+                    [
+                        8,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "message",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "To QuNexus",
+                "no_export": false,
+                "position_x": 302.1679453607124,
+                "position_y": 243.95482808396122,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "width": 83.0
+            },
+            "initargs": "MidiCC()",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "message_006",
+            "osc_methods": [],
+            "properties": {},
+            "type": "message"
         }
     },
     "scopes": {
         "__patch__": {
-            "message_002": 17,
-            "message_006": 10,
-            "patch": 1,
-            "processor_002": 12,
-            "processor_003": 13,
-            "processor_004": 14,
-            "processor_005": 15,
-            "processor_006": 120,
-            "processor_007": 121,
-            "processor_008": 123,
-            "processor_026": 2,
-            "processor_029": 3,
-            "processor_030": 4,
-            "processor_033": 88,
-            "processor_034": 8,
-            "processor_035": 9,
-            "processor_036": 16,
-            "processor_037": 11,
-            "processor_042": 18,
-            "processor_044": 122,
-            "processor_045": 20,
-            "processor_046": 21,
-            "processor_047": 22,
-            "processor_048": 23,
-            "processor_049": 24,
-            "processor_050": 25,
-            "processor_051": 295,
-            "processor_052": 125,
-            "processor_053": 126,
-            "processor_054": 128,
-            "processor_055": 129,
-            "processor_056": 130,
-            "processor_057": 131,
-            "processor_058": 132,
-            "processor_059": 133,
-            "self": 1,
-            "text_001": 5,
-            "text_002": 6,
-            "text_003": 7
+            "message_002": 16,
+            "message_006": 9,
+            "patch": 0,
+            "processor_002": 11,
+            "processor_003": 12,
+            "processor_004": 13,
+            "processor_005": 14,
+            "processor_006": 25,
+            "processor_007": 26,
+            "processor_008": 28,
+            "processor_009": 38,
+            "processor_026": 1,
+            "processor_029": 2,
+            "processor_030": 3,
+            "processor_033": 24,
+            "processor_034": 7,
+            "processor_035": 8,
+            "processor_036": 15,
+            "processor_037": 10,
+            "processor_042": 17,
+            "processor_044": 27,
+            "processor_045": 18,
+            "processor_046": 19,
+            "processor_047": 20,
+            "processor_048": 21,
+            "processor_049": 22,
+            "processor_050": 23,
+            "processor_051": 37,
+            "processor_052": 29,
+            "processor_053": 30,
+            "processor_054": 31,
+            "processor_055": 32,
+            "processor_056": 33,
+            "processor_057": 34,
+            "processor_058": 35,
+            "processor_059": 36,
+            "self": 0,
+            "text_001": 4,
+            "text_002": 5,
+            "text_003": 6,
+            "text_004": 39,
+            "text_005": 40
         }
     },
     "type": "qunexus"
