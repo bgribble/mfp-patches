@@ -1,17 +1,11 @@
 {
     "gui_params": {
         "display_type": "patch",
-        "dsp_inlets": [
-            0
-        ],
-        "dsp_outlets": [
-            0
-        ],
-        "export_h": 105.8707991283178,
+        "export_h": 105.87079912831749,
         "export_w": 231.50067633124172,
         "export_x": 48.19053348894931,
-        "export_y": 68.85297960990272,
-        "height": 125.8707991283178,
+        "export_y": 92.26098157563436,
+        "height": 156.10283859579755,
         "layers": [
             [
                 "Interface",
@@ -28,24 +22,186 @@
             [
                 "Indicators",
                 "__patch__"
+            ],
+            [
+                "Inlets",
+                "__patch__"
             ]
         ],
         "name": "looper",
-        "num_inlets": 1,
+        "num_inlets": 3,
         "num_outlets": 1,
-        "obj_id": 1,
-        "top_level": true,
         "width": 231.50067633124172
     },
     "hot_inlets": [
-        0
+        0,
+        1,
+        2
     ],
     "objects": {
-        "10": {
+        "100": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 26.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 165.1168909208377,
+                "position_y": 170.10944613507382,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Record",
+                "width": 59.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_5",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Record"
+        },
+        "101": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 35,
+                "is_export": false,
+                "label_text": "play",
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 106.57665585794052,
+                "position_y": 204.33441312439237,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"play\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "send_8",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "102": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 35,
+                "is_export": false,
+                "label_text": "rec",
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 166.12226717172075,
+                "position_y": 205.28650955276686,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"rec\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "send_9",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "103": {
             "connections": [
                 [
                     [
-                        35,
+                        123,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "recvvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 37.5,
+                "is_export": false,
+                "label_text": "play",
+                "layername": "Buffer control",
+                "no_export": false,
+                "position_x": 65.01738739013672,
+                "position_y": 40.970497131347656,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"play\"",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "recvvia_001",
+            "osc_methods": [],
+            "properties": {},
+            "type": "recv"
+        },
+        "104": {
+            "connections": [
+                [
+                    [
+                        127,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "recvvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 37.5,
+                "is_export": false,
+                "label_text": "rec",
+                "layername": "Buffer control",
+                "no_export": false,
+                "position_x": 209.64645385742188,
+                "position_y": 43.222476959228516,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"rec\"",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "recvvia_002",
+            "osc_methods": [],
+            "properties": {},
+            "type": "recv"
+        },
+        "105": {
+            "connections": [
+                [
+                    [
+                        130,
                         1
                     ]
                 ]
@@ -79,11 +235,11 @@
             "properties": {},
             "type": "+~"
         },
-        "11": {
+        "106": {
             "connections": [
                 [
                     [
-                        10,
+                        105,
                         1
                     ]
                 ]
@@ -117,15 +273,15 @@
             "properties": {},
             "type": "*~"
         },
-        "12": {
+        "107": {
             "connections": [
                 [
                     [
-                        18,
+                        113,
                         0
                     ],
                     [
-                        85,
+                        180,
                         0
                     ]
                 ]
@@ -159,11 +315,11 @@
             "properties": {},
             "type": "+~"
         },
-        "13": {
+        "108": {
             "connections": [
                 [
                     [
-                        35,
+                        130,
                         0
                     ]
                 ]
@@ -193,11 +349,11 @@
             "properties": {},
             "type": "recv"
         },
-        "14": {
+        "109": {
             "connections": [
                 [
                     [
-                        11,
+                        106,
                         1
                     ]
                 ]
@@ -227,11 +383,11 @@
             "properties": {},
             "type": "recv"
         },
-        "15": {
+        "110": {
             "connections": [
                 [
                     [
-                        16,
+                        111,
                         0
                     ]
                 ],
@@ -266,11 +422,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "16": {
+        "111": {
             "connections": [
                 [
                     [
-                        24,
+                        119,
                         0
                     ]
                 ]
@@ -304,7 +460,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "17": {
+        "112": {
             "connections": [
                 []
             ],
@@ -333,11 +489,11 @@
             "properties": {},
             "type": "send"
         },
-        "18": {
+        "113": {
             "connections": [
                 [
                     [
-                        19,
+                        114,
                         0
                     ]
                 ],
@@ -372,11 +528,11 @@
             "properties": {},
             "type": "ampl~"
         },
-        "19": {
+        "114": {
             "connections": [
                 [
                     [
-                        23,
+                        118,
                         0
                     ]
                 ]
@@ -410,44 +566,7 @@
             "properties": {},
             "type": "snap~"
         },
-        "2": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "slidemeter",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 99.99998474121094,
-                "is_export": false,
-                "layername": "Interface",
-                "max_value": 0.0,
-                "min_value": -60.0,
-                "no_export": false,
-                "orientation": 0,
-                "position_x": 48.19053348894931,
-                "position_y": 68.85297960990272,
-                "scale": "linear",
-                "scale_position": 0,
-                "scope": "__patch__",
-                "show_scale": true,
-                "style": {},
-                "update_required": true,
-                "value": -1000,
-                "width": 55.0,
-                "zeropoint": null
-            },
-            "initargs": "0.0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "inputdb",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": -1000
-        },
-        "20": {
+        "115": {
             "connections": [
                 []
             ],
@@ -476,7 +595,7 @@
             "properties": {},
             "type": "send"
         },
-        "21": {
+        "116": {
             "connections": [
                 []
             ],
@@ -505,7 +624,7 @@
             "properties": {},
             "type": "send"
         },
-        "22": {
+        "117": {
             "connections": [
                 []
             ],
@@ -534,11 +653,11 @@
             "properties": {},
             "type": "send"
         },
-        "23": {
+        "118": {
             "connections": [
                 [
                     [
-                        20,
+                        115,
                         0
                     ]
                 ]
@@ -572,11 +691,11 @@
             "properties": {},
             "type": "a2db"
         },
-        "24": {
+        "119": {
             "connections": [
                 [
                     [
-                        17,
+                        112,
                         0
                     ]
                 ]
@@ -610,11 +729,11 @@
             "properties": {},
             "type": "a2db"
         },
-        "25": {
+        "120": {
             "connections": [
                 [
                     [
-                        26,
+                        121,
                         0
                     ]
                 ]
@@ -644,23 +763,23 @@
             "properties": {},
             "type": "recv"
         },
-        "26": {
+        "121": {
             "connections": [
                 [
                     [
-                        50,
+                        145,
                         1
                     ],
                     [
-                        51,
+                        146,
                         1
                     ],
                     [
-                        52,
+                        147,
                         0
                     ],
                     [
-                        60,
+                        155,
                         0
                     ]
                 ]
@@ -695,7 +814,7 @@
             "type": "var",
             "value": 6
         },
-        "27": {
+        "122": {
             "connections": [
                 []
             ],
@@ -727,11 +846,11 @@
             "type": "text",
             "value": "States: \n0 -- Pause in base\n1 -- Initial record\n2 -- Play looping base \n3 -- Overdub\n4 -- Play looping overdubbed\n5 -- Reject overdub\n6 -- Pause in overdub"
         },
-        "28": {
+        "123": {
             "connections": [
                 [
                     [
-                        50,
+                        145,
                         0
                     ]
                 ]
@@ -760,11 +879,11 @@
             "properties": {},
             "type": "message"
         },
-        "29": {
+        "124": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -793,44 +912,7 @@
             "properties": {},
             "type": "message"
         },
-        "3": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "display_type": "slidemeter",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 100.0,
-                "is_export": false,
-                "layername": "Interface",
-                "max_value": 0.0,
-                "min_value": -60.0,
-                "no_export": false,
-                "orientation": 0,
-                "position_x": 222.69120982019103,
-                "position_y": 70.1768798828125,
-                "scale": "linear",
-                "scale_position": 1,
-                "scope": "__patch__",
-                "show_scale": true,
-                "style": {},
-                "update_required": true,
-                "value": -1000,
-                "width": 55.0,
-                "zeropoint": null
-            },
-            "initargs": "0.0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "outputdb",
-            "osc_methods": [],
-            "properties": {},
-            "type": "var",
-            "value": -1000
-        },
-        "30": {
+        "125": {
             "connections": [
                 []
             ],
@@ -859,11 +941,11 @@
             "properties": {},
             "type": "send"
         },
-        "31": {
+        "126": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -892,11 +974,11 @@
             "properties": {},
             "type": "message"
         },
-        "32": {
+        "127": {
             "connections": [
                 [
                     [
-                        51,
+                        146,
                         0
                     ]
                 ]
@@ -925,11 +1007,11 @@
             "properties": {},
             "type": "message"
         },
-        "33": {
+        "128": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -958,11 +1040,11 @@
             "properties": {},
             "type": "message"
         },
-        "34": {
+        "129": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -991,21 +1073,21 @@
             "properties": {},
             "type": "message"
         },
-        "35": {
+        "130": {
             "connections": [
                 [
                     [
-                        12,
+                        107,
                         0
                     ]
                 ],
                 [
                     [
-                        12,
+                        107,
                         0
                     ],
                     [
-                        94,
+                        182,
                         0
                     ]
                 ],
@@ -1041,7 +1123,7 @@
             "properties": {},
             "type": "buffer~"
         },
-        "36": {
+        "131": {
             "connections": [
                 []
             ],
@@ -1073,11 +1155,11 @@
             "type": "text",
             "value": "Channel 0 of buffer is the original loop\nChannel 1 is the overdub scratchpad "
         },
-        "37": {
+        "132": {
             "connections": [
                 [
                     [
-                        22,
+                        117,
                         0
                     ]
                 ]
@@ -1106,11 +1188,11 @@
             "properties": {},
             "type": "message"
         },
-        "38": {
+        "133": {
             "connections": [
                 [
                     [
-                        22,
+                        117,
                         0
                     ]
                 ]
@@ -1139,11 +1221,11 @@
             "properties": {},
             "type": "message"
         },
-        "39": {
+        "134": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1172,43 +1254,11 @@
             "properties": {},
             "type": "message"
         },
-        "4": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "clickchange": false,
-                "default": "",
-                "display_type": "text",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 26.0,
-                "is_export": false,
-                "layername": "Interface",
-                "no_export": false,
-                "position_x": 114.50233459472656,
-                "position_y": 146.72377873822052,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "value": "Play",
-                "width": 39.0
-            },
-            "initargs": null,
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "text_4",
-            "osc_methods": [],
-            "properties": {},
-            "type": "text",
-            "value": "Play"
-        },
-        "40": {
+        "135": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1237,11 +1287,11 @@
             "properties": {},
             "type": "message"
         },
-        "41": {
+        "136": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1270,11 +1320,11 @@
             "properties": {},
             "type": "message"
         },
-        "42": {
+        "137": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1303,17 +1353,17 @@
             "properties": {},
             "type": "message"
         },
-        "43": {
+        "138": {
             "connections": [
                 [
                     [
-                        44,
+                        139,
                         0
                     ]
                 ],
                 [
                     [
-                        83,
+                        178,
                         0
                     ]
                 ]
@@ -1347,11 +1397,11 @@
             "properties": {},
             "type": "trigger"
         },
-        "44": {
+        "139": {
             "connections": [
                 [
                     [
-                        45,
+                        140,
                         0
                     ]
                 ]
@@ -1380,7 +1430,7 @@
             "properties": {},
             "type": "message"
         },
-        "45": {
+        "140": {
             "connections": [
                 []
             ],
@@ -1409,11 +1459,11 @@
             "properties": {},
             "type": "send"
         },
-        "46": {
+        "141": {
             "connections": [
                 [
                     [
-                        6,
+                        101,
                         0
                     ]
                 ]
@@ -1430,7 +1480,7 @@
                 "message": 127,
                 "no_export": false,
                 "position_x": 107.53659057617188,
-                "position_y": 96.63310241699219,
+                "position_y": 120.04110438272383,
                 "scope": "__patch__",
                 "style": {},
                 "update_required": true,
@@ -1455,17 +1505,17 @@
                 ]
             },
             "midi_mode": "note_vel",
-            "name": "var_51",
+            "name": "play_button",
             "osc_methods": [],
             "properties": {},
             "type": "var",
             "value": 127
         },
-        "47": {
+        "142": {
             "connections": [
                 [
                     [
-                        7,
+                        102,
                         0
                     ]
                 ]
@@ -1482,7 +1532,7 @@
                 "message": 127,
                 "no_export": false,
                 "position_x": 167.3931884765625,
-                "position_y": 96.61750793457031,
+                "position_y": 120.02550990030196,
                 "scope": "__patch__",
                 "style": {},
                 "update_required": true,
@@ -1507,47 +1557,47 @@
                 ]
             },
             "midi_mode": "note_vel",
-            "name": "var_52",
+            "name": "rec_button",
             "osc_methods": [],
             "properties": {},
             "type": "var",
             "value": 127
         },
-        "48": {
+        "143": {
             "connections": [
                 [
                     [
-                        53,
+                        148,
                         0
                     ]
                 ],
                 [
                     [
-                        29,
+                        124,
                         0
                     ]
                 ],
                 [
                     [
-                        31,
+                        126,
                         0
                     ]
                 ],
                 [
                     [
-                        39,
+                        134,
                         0
                     ]
                 ],
                 [
                     [
-                        54,
+                        149,
                         0
                     ]
                 ],
                 [
                     [
-                        55,
+                        150,
                         0
                     ]
                 ],
@@ -1582,41 +1632,41 @@
             "properties": {},
             "type": "case"
         },
-        "49": {
+        "144": {
             "connections": [
                 [
                     [
-                        33,
+                        128,
                         0
                     ]
                 ],
                 [
                     [
-                        40,
+                        135,
                         0
                     ]
                 ],
                 [
                     [
-                        34,
+                        129,
                         0
                     ]
                 ],
                 [
                     [
-                        41,
+                        136,
                         0
                     ]
                 ],
                 [
                     [
-                        42,
+                        137,
                         0
                     ]
                 ],
                 [
                     [
-                        56,
+                        151,
                         0
                     ]
                 ],
@@ -1651,43 +1701,11 @@
             "properties": {},
             "type": "case"
         },
-        "5": {
-            "connections": [
-                []
-            ],
-            "do_onload": false,
-            "gui_params": {
-                "clickchange": false,
-                "default": "",
-                "display_type": "text",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 26.0,
-                "is_export": false,
-                "layername": "Interface",
-                "no_export": false,
-                "position_x": 165.1168909208377,
-                "position_y": 146.7014441693425,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": true,
-                "value": "Record",
-                "width": 59.0
-            },
-            "initargs": null,
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "text_5",
-            "osc_methods": [],
-            "properties": {},
-            "type": "text",
-            "value": "Record"
-        },
-        "50": {
+        "145": {
             "connections": [
                 [
                     [
-                        48,
+                        143,
                         0
                     ]
                 ]
@@ -1722,11 +1740,11 @@
             "type": "var",
             "value": 4
         },
-        "51": {
+        "146": {
             "connections": [
                 [
                     [
-                        49,
+                        144,
                         0
                     ]
                 ]
@@ -1761,59 +1779,59 @@
             "type": "var",
             "value": 4
         },
-        "52": {
+        "147": {
             "connections": [
                 [
                     [
-                        37,
+                        132,
                         0
                     ],
                     [
-                        75,
+                        170,
                         0
                     ]
                 ],
                 [
                     [
-                        37,
+                        132,
                         0
                     ],
                     [
-                        80,
+                        175,
                         0
                     ]
                 ],
                 [
                     [
-                        79,
+                        174,
                         0
                     ]
                 ],
                 [
                     [
-                        38,
+                        133,
                         0
                     ],
                     [
-                        81,
+                        176,
                         0
                     ]
                 ],
                 [
                     [
-                        82,
+                        177,
                         0
                     ]
                 ],
                 [
                     [
-                        43,
+                        138,
                         0
                     ]
                 ],
                 [
                     [
-                        76,
+                        171,
                         0
                     ]
                 ],
@@ -1848,11 +1866,11 @@
             "properties": {},
             "type": "case"
         },
-        "53": {
+        "148": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1881,11 +1899,11 @@
             "properties": {},
             "type": "message"
         },
-        "54": {
+        "149": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1914,11 +1932,11 @@
             "properties": {},
             "type": "message"
         },
-        "55": {
+        "150": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1947,11 +1965,11 @@
             "properties": {},
             "type": "message"
         },
-        "56": {
+        "151": {
             "connections": [
                 [
                     [
-                        30,
+                        125,
                         0
                     ]
                 ]
@@ -1980,11 +1998,11 @@
             "properties": {},
             "type": "message"
         },
-        "57": {
+        "152": {
             "connections": [
                 [
                     [
-                        26,
+                        121,
                         0
                     ]
                 ]
@@ -2018,7 +2036,7 @@
             "properties": {},
             "type": "loadbang"
         },
-        "58": {
+        "153": {
             "connections": [
                 []
             ],
@@ -2033,7 +2051,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 121.50437927246094,
-                "position_y": 70.22596740722656,
+                "position_y": 93.6339693729582,
                 "scope": "__patch__",
                 "style": {},
                 "update_required": true,
@@ -2048,7 +2066,7 @@
             "type": "var",
             "value": 0
         },
-        "59": {
+        "154": {
             "connections": [
                 []
             ],
@@ -2063,7 +2081,7 @@
                 "layername": "Interface",
                 "no_export": false,
                 "position_x": 182.37786865234375,
-                "position_y": 71.22578430175781,
+                "position_y": 94.63378626748946,
                 "scope": "__patch__",
                 "style": {},
                 "update_required": true,
@@ -2078,36 +2096,7 @@
             "type": "var",
             "value": 0
         },
-        "6": {
-            "connections": [
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "sendvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 35,
-                "is_export": false,
-                "label_text": "play",
-                "layername": "Interface",
-                "no_export": false,
-                "position_x": 106.57665585794052,
-                "position_y": 180.92641115866104,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"play\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "send_8",
-            "osc_methods": [],
-            "properties": {},
-            "type": "send"
-        },
-        "60": {
+        "155": {
             "connections": [
                 []
             ],
@@ -2136,11 +2125,11 @@
             "properties": {},
             "type": "send"
         },
-        "61": {
+        "156": {
             "connections": [
                 [
                     [
-                        62,
+                        157,
                         0
                     ]
                 ]
@@ -2170,47 +2159,47 @@
             "properties": {},
             "type": "recv"
         },
-        "62": {
+        "157": {
             "connections": [
                 [
                     [
-                        63,
+                        158,
                         0
                     ]
                 ],
                 [
                     [
-                        64,
+                        159,
                         0
                     ]
                 ],
                 [
                     [
-                        65,
+                        160,
                         0
                     ]
                 ],
                 [
                     [
-                        66,
+                        161,
                         0
                     ]
                 ],
                 [
                     [
-                        67,
+                        162,
                         0
                     ]
                 ],
                 [
                     [
-                        68,
+                        163,
                         0
                     ]
                 ],
                 [
                     [
-                        69,
+                        164,
                         0
                     ]
                 ],
@@ -2245,11 +2234,11 @@
             "properties": {},
             "type": "case"
         },
-        "63": {
+        "158": {
             "connections": [
                 [
                     [
-                        70,
+                        165,
                         0
                     ]
                 ]
@@ -2278,11 +2267,11 @@
             "properties": {},
             "type": "message"
         },
-        "64": {
+        "159": {
             "connections": [
                 [
                     [
-                        70,
+                        165,
                         0
                     ]
                 ]
@@ -2311,11 +2300,11 @@
             "properties": {},
             "type": "message"
         },
-        "65": {
+        "160": {
             "connections": [
                 [
                     [
-                        70,
+                        165,
                         0
                     ]
                 ]
@@ -2344,11 +2333,11 @@
             "properties": {},
             "type": "message"
         },
-        "66": {
+        "161": {
             "connections": [
                 [
                     [
-                        70,
+                        165,
                         0
                     ]
                 ]
@@ -2377,11 +2366,11 @@
             "properties": {},
             "type": "message"
         },
-        "67": {
+        "162": {
             "connections": [
                 [
                     [
-                        70,
+                        165,
                         0
                     ]
                 ]
@@ -2410,11 +2399,11 @@
             "properties": {},
             "type": "message"
         },
-        "68": {
+        "163": {
             "connections": [
                 [
                     [
-                        70,
+                        165,
                         0
                     ]
                 ]
@@ -2443,11 +2432,11 @@
             "properties": {},
             "type": "message"
         },
-        "69": {
+        "164": {
             "connections": [
                 [
                     [
-                        70,
+                        165,
                         0
                     ]
                 ]
@@ -2476,46 +2465,17 @@
             "properties": {},
             "type": "message"
         },
-        "7": {
-            "connections": [
-                []
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "sendvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 35,
-                "is_export": false,
-                "label_text": "rec",
-                "layername": "Interface",
-                "no_export": false,
-                "position_x": 166.12226717172075,
-                "position_y": 181.87850758703553,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"rec\",0",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "send_9",
-            "osc_methods": [],
-            "properties": {},
-            "type": "send"
-        },
-        "70": {
+        "165": {
             "connections": [
                 [
                     [
-                        71,
+                        166,
                         0
                     ]
                 ],
                 [
                     [
-                        72,
+                        167,
                         0
                     ]
                 ],
@@ -2550,7 +2510,7 @@
             "properties": {},
             "type": "unpack"
         },
-        "71": {
+        "166": {
             "connections": [
                 []
             ],
@@ -2579,7 +2539,7 @@
             "properties": {},
             "type": "send"
         },
-        "72": {
+        "167": {
             "connections": [
                 []
             ],
@@ -2608,17 +2568,17 @@
             "properties": {},
             "type": "send"
         },
-        "73": {
+        "168": {
             "connections": [
                 [
                     [
-                        74,
+                        169,
                         0
                     ]
                 ],
                 [
                     [
-                        74,
+                        169,
                         1
                     ]
                 ]
@@ -2652,11 +2612,11 @@
             "properties": {},
             "type": "latency"
         },
-        "74": {
+        "169": {
             "connections": [
                 [
                     [
-                        94,
+                        182,
                         1
                     ]
                 ]
@@ -2690,11 +2650,11 @@
             "properties": {},
             "type": "+"
         },
-        "75": {
+        "170": {
             "connections": [
                 [
                     [
-                        21,
+                        116,
                         0
                     ]
                 ]
@@ -2723,11 +2683,11 @@
             "properties": {},
             "type": "message"
         },
-        "76": {
+        "171": {
             "connections": [
                 [
                     [
-                        21,
+                        116,
                         0
                     ]
                 ]
@@ -2756,7 +2716,7 @@
             "properties": {},
             "type": "message"
         },
-        "77": {
+        "172": {
             "connections": [
                 []
             ],
@@ -2788,7 +2748,7 @@
             "type": "text",
             "value": "Input metering"
         },
-        "78": {
+        "173": {
             "connections": [
                 []
             ],
@@ -2820,11 +2780,11 @@
             "type": "text",
             "value": "Output metering"
         },
-        "79": {
+        "174": {
             "connections": [
                 [
                     [
-                        21,
+                        116,
                         0
                     ]
                 ]
@@ -2853,45 +2813,11 @@
             "properties": {},
             "type": "message"
         },
-        "8": {
+        "175": {
             "connections": [
                 [
                     [
-                        28,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "recvvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 37.5,
-                "is_export": false,
-                "label_text": "play",
-                "layername": "Buffer control",
-                "no_export": false,
-                "position_x": 65.01738739013672,
-                "position_y": 40.970497131347656,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"play\"",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "recvvia_001",
-            "osc_methods": [],
-            "properties": {},
-            "type": "recv"
-        },
-        "80": {
-            "connections": [
-                [
-                    [
-                        21,
+                        116,
                         0
                     ]
                 ]
@@ -2920,11 +2846,11 @@
             "properties": {},
             "type": "message"
         },
-        "81": {
+        "176": {
             "connections": [
                 [
                     [
-                        21,
+                        116,
                         0
                     ]
                 ]
@@ -2953,11 +2879,11 @@
             "properties": {},
             "type": "message"
         },
-        "82": {
+        "177": {
             "connections": [
                 [
                     [
-                        21,
+                        116,
                         0
                     ]
                 ]
@@ -2986,11 +2912,11 @@
             "properties": {},
             "type": "message"
         },
-        "83": {
+        "178": {
             "connections": [
                 [
                     [
-                        21,
+                        116,
                         0
                     ]
                 ]
@@ -3019,23 +2945,23 @@
             "properties": {},
             "type": "message"
         },
-        "84": {
+        "179": {
             "connections": [
                 [
                     [
-                        10,
+                        105,
                         0
                     ],
                     [
-                        12,
+                        107,
                         1
                     ],
                     [
-                        15,
+                        110,
                         0
                     ],
                     [
-                        35,
+                        130,
                         0
                     ]
                 ]
@@ -3069,7 +2995,7 @@
             "properties": {},
             "type": "inlet~"
         },
-        "85": {
+        "180": {
             "connections": [
                 []
             ],
@@ -3102,11 +3028,11 @@
             "properties": {},
             "type": "outlet~"
         },
-        "86": {
+        "181": {
             "connections": [
                 [
                     [
-                        73,
+                        168,
                         0
                     ]
                 ]
@@ -3140,45 +3066,11 @@
             "properties": {},
             "type": "loadbang"
         },
-        "9": {
+        "182": {
             "connections": [
                 [
                     [
-                        32,
-                        0
-                    ]
-                ]
-            ],
-            "do_onload": true,
-            "gui_params": {
-                "display_type": "recvvia",
-                "export_offset_x": 0,
-                "export_offset_y": 0,
-                "height": 37.5,
-                "is_export": false,
-                "label_text": "rec",
-                "layername": "Buffer control",
-                "no_export": false,
-                "position_x": 209.64645385742188,
-                "position_y": 43.222476959228516,
-                "scope": "__patch__",
-                "style": {},
-                "update_required": false,
-                "width": 20
-            },
-            "initargs": "\"rec\"",
-            "midi_filters": null,
-            "midi_mode": null,
-            "name": "recvvia_002",
-            "osc_methods": [],
-            "properties": {},
-            "type": "recv"
-        },
-        "94": {
-            "connections": [
-                [
-                    [
-                        11,
+                        106,
                         0
                     ]
                 ]
@@ -3211,98 +3103,344 @@
             "osc_methods": [],
             "properties": {},
             "type": "delblk~"
+        },
+        "191": {
+            "connections": [
+                [
+                    [
+                        193,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Inlets",
+                "no_export": false,
+                "position_x": 99.49363525830884,
+                "position_y": 100.23158264160156,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 58.0
+            },
+            "initargs": "1",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_056",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "192": {
+            "connections": [
+                [
+                    [
+                        194,
+                        0
+                    ]
+                ]
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "processor",
+                "export_h": null,
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "export_w": null,
+                "export_x": null,
+                "export_y": null,
+                "height": 25.0,
+                "is_export": false,
+                "layername": "Inlets",
+                "no_export": false,
+                "position_x": 159.2185711934079,
+                "position_y": 100.07693099975586,
+                "scope": "__patch__",
+                "show_label": true,
+                "style": {},
+                "update_required": false,
+                "width": 58.0
+            },
+            "initargs": "2",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "processor_057",
+            "osc_methods": [],
+            "properties": {},
+            "type": "inlet"
+        },
+        "193": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 35,
+                "is_export": false,
+                "label_text": "play_button",
+                "layername": "Inlets",
+                "no_export": false,
+                "position_x": 96.99363525830884,
+                "position_y": 148.23158264160156,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"play_button\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_012",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "194": {
+            "connections": [
+                []
+            ],
+            "do_onload": true,
+            "gui_params": {
+                "display_type": "sendvia",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 35,
+                "is_export": false,
+                "label_text": "rec_button",
+                "layername": "Inlets",
+                "no_export": false,
+                "position_x": 156.71855593461885,
+                "position_y": 169.51267623901367,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": false,
+                "width": 20
+            },
+            "initargs": "\"rec_button\",0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "sendvia_013",
+            "osc_methods": [],
+            "properties": {},
+            "type": "send"
+        },
+        "97": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "slidemeter",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 99.99998474121094,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 0.0,
+                "min_value": -60.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 48.19053348894931,
+                "position_y": 92.26098157563436,
+                "scale": "linear",
+                "scale_position": 0,
+                "scope": "__patch__",
+                "show_scale": true,
+                "style": {},
+                "update_required": true,
+                "value": -1000,
+                "width": 55.0,
+                "zeropoint": null
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "inputdb",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": -1000
+        },
+        "98": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "display_type": "slidemeter",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 100.0,
+                "is_export": false,
+                "layername": "Interface",
+                "max_value": 0.0,
+                "min_value": -60.0,
+                "no_export": false,
+                "orientation": 0,
+                "position_x": 222.69120982019103,
+                "position_y": 93.58488184854414,
+                "scale": "linear",
+                "scale_position": 1,
+                "scope": "__patch__",
+                "show_scale": true,
+                "style": {},
+                "update_required": true,
+                "value": -1000,
+                "width": 55.0,
+                "zeropoint": null
+            },
+            "initargs": "0.0",
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "outputdb",
+            "osc_methods": [],
+            "properties": {},
+            "type": "var",
+            "value": -1000
+        },
+        "99": {
+            "connections": [
+                []
+            ],
+            "do_onload": false,
+            "gui_params": {
+                "clickchange": false,
+                "default": "",
+                "display_type": "text",
+                "export_offset_x": 0,
+                "export_offset_y": 0,
+                "height": 26.0,
+                "is_export": false,
+                "layername": "Interface",
+                "no_export": false,
+                "position_x": 114.50233459472656,
+                "position_y": 170.13178070395185,
+                "scope": "__patch__",
+                "style": {},
+                "update_required": true,
+                "value": "Play",
+                "width": 39.0
+            },
+            "initargs": null,
+            "midi_filters": null,
+            "midi_mode": null,
+            "name": "text_4",
+            "osc_methods": [],
+            "properties": {},
+            "type": "text",
+            "value": "Play"
         }
     },
     "scopes": {
         "__patch__": {
-            "buffer~_15": 35,
-            "button_001": 46,
-            "button_002": 47,
-            "case_47": 48,
-            "case_49": 49,
-            "case_53": 52,
-            "inputdb": 2,
-            "in~_12": 84,
-            "message_004": 28,
-            "message_005": 29,
-            "message_006": 31,
-            "message_007": 39,
-            "message_008": 32,
-            "message_009": 33,
-            "message_010": 40,
-            "message_011": 34,
-            "message_012": 41,
-            "message_016": 38,
-            "message_018": 42,
-            "message_021": 53,
-            "message_022": 55,
-            "message_023": 56,
-            "message_025": 63,
-            "message_026": 64,
-            "message_027": 65,
-            "message_028": 66,
-            "message_029": 67,
-            "message_030": 68,
-            "message_031": 69,
-            "message_42": 37,
-            "message_48": 54,
-            "message_49": 44,
-            "message_53": 75,
-            "message_54": 80,
-            "message_55": 81,
-            "message_56": 82,
-            "message_57": 83,
-            "message_58": 79,
-            "message_69": 76,
-            "outputdb": 3,
-            "out~_16": 85,
-            "patch": 1,
-            "processor_002": 73,
-            "processor_003": 74,
-            "processor_004": 10,
-            "processor_007": 11,
-            "processor_009": 12,
-            "processor_011": 15,
-            "processor_012": 16,
-            "processor_013": 18,
-            "processor_014": 19,
-            "processor_015": 23,
-            "processor_016": 24,
-            "processor_023": 57,
-            "processor_025": 62,
-            "processor_026": 94,
-            "processor_027": 70,
-            "processor_033": 86,
-            "recvvia_001": 8,
-            "recvvia_002": 9,
-            "recvvia_003": 13,
-            "recvvia_004": 14,
-            "recvvia_005": 25,
-            "recvvia_006": 61,
-            "self": 1,
-            "send_35": 30,
-            "send_50": 45,
-            "sendvia_001": 6,
-            "sendvia_002": 7,
-            "sendvia_004": 17,
-            "sendvia_005": 20,
-            "sendvia_006": 21,
-            "sendvia_007": 22,
-            "sendvia_009": 60,
-            "sendvia_010": 71,
-            "sendvia_011": 72,
-            "text_003": 4,
-            "text_004": 5,
-            "text_010": 77,
-            "text_011": 78,
-            "text_012": 36,
-            "text_32": 27,
-            "toggle_001": 58,
-            "toggle_002": 59,
-            "trigger_48": 43,
-            "var_31": 26,
-            "var_33": 50,
-            "var_39": 51
+            "buffer~_15": 130,
+            "button_001": 141,
+            "button_002": 142,
+            "case_47": 143,
+            "case_49": 144,
+            "case_53": 147,
+            "inputdb": 97,
+            "in~_12": 179,
+            "message_004": 123,
+            "message_005": 124,
+            "message_006": 126,
+            "message_007": 134,
+            "message_008": 127,
+            "message_009": 128,
+            "message_010": 135,
+            "message_011": 129,
+            "message_012": 136,
+            "message_016": 133,
+            "message_018": 137,
+            "message_021": 148,
+            "message_022": 150,
+            "message_023": 151,
+            "message_025": 158,
+            "message_026": 159,
+            "message_027": 160,
+            "message_028": 161,
+            "message_029": 162,
+            "message_030": 163,
+            "message_031": 164,
+            "message_42": 132,
+            "message_48": 149,
+            "message_49": 139,
+            "message_53": 170,
+            "message_54": 175,
+            "message_55": 176,
+            "message_56": 177,
+            "message_57": 178,
+            "message_58": 174,
+            "message_69": 171,
+            "outputdb": 98,
+            "out~_16": 180,
+            "patch": 96,
+            "play_button": 141,
+            "processor_002": 168,
+            "processor_003": 169,
+            "processor_004": 105,
+            "processor_007": 106,
+            "processor_009": 107,
+            "processor_011": 110,
+            "processor_012": 111,
+            "processor_013": 113,
+            "processor_014": 114,
+            "processor_015": 118,
+            "processor_016": 119,
+            "processor_023": 152,
+            "processor_025": 157,
+            "processor_026": 182,
+            "processor_027": 165,
+            "processor_033": 181,
+            "processor_056": 191,
+            "processor_057": 192,
+            "rec_button": 142,
+            "recvvia_001": 103,
+            "recvvia_002": 104,
+            "recvvia_003": 108,
+            "recvvia_004": 109,
+            "recvvia_005": 120,
+            "recvvia_006": 156,
+            "self": 96,
+            "send_35": 125,
+            "send_50": 140,
+            "sendvia_001": 101,
+            "sendvia_002": 102,
+            "sendvia_004": 112,
+            "sendvia_005": 115,
+            "sendvia_006": 116,
+            "sendvia_007": 117,
+            "sendvia_009": 155,
+            "sendvia_010": 166,
+            "sendvia_011": 167,
+            "sendvia_012": 193,
+            "sendvia_013": 194,
+            "text_003": 99,
+            "text_004": 100,
+            "text_010": 172,
+            "text_011": 173,
+            "text_012": 131,
+            "text_32": 122,
+            "toggle_001": 153,
+            "toggle_002": 154,
+            "trigger_48": 138,
+            "var_31": 121,
+            "var_33": 145,
+            "var_39": 146
         }
     },
     "type": "looper"
