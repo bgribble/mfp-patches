@@ -49,3 +49,19 @@ I use a Keith McMillen QuNexus as a flexible control surface and
 interface between MIDI and CV.  This patch routes note events and 
 CV data to and from the qunexus.
 
+Likewise, I use a SoftStep for foot control and you can see how it
+works in the performance/ patch(es).
+
+### Performance
+
+`[bobtronix]` 
+
+This is the main patch that pulls together all the above.  I launch MFP like so 
+(from the mfp-patches directory): 
+
+`mfp -v -i 8 -p delay -p looper -p mixer -p qunexus -p reverb -p stepseq performance/bobtronix.mfp`
+
+the `-i 8` is because my audio interface has 8 inputs and I want
+to connect them all to MFP.
+
+
